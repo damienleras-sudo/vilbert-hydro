@@ -157,18 +157,51 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="hidden lg:grid grid-cols-2 gap-4">
-              {[
-                { val: "+30 ans", label: "d'expérience" },
-                { val: "+2 000", label: "clients" },
-                { val: "24h/24", label: "urgences 7j/7" },
-                { val: "Somme 80", label: "zone prioritaire" },
-              ].map((s) => (
-                <div key={s.label} className="bg-white/10 rounded-2xl p-6 text-center backdrop-blur-sm">
-                  <div className="text-3xl font-black text-[#f5b800]">{s.val}</div>
-                  <div className="text-blue-200 text-sm mt-1">{s.label}</div>
+            {/* PHOTO HÉRO — intégrée au graphisme */}
+            <div className="hidden lg:block relative">
+              {/* Barre jaune décorative verticale droite */}
+              <div className="absolute -right-4 top-6 bottom-6 w-2 bg-[#f5b800] rounded-full z-10" />
+              {/* Barre jaune décorative horizontale bas */}
+              <div className="absolute -bottom-4 left-6 right-10 h-2 bg-[#f5b800]/50 rounded-full z-10" />
+
+              <div className="relative rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.5)]">
+                <Image
+                  src="/15403663_1320018538019104_2463712989386103737_o.jpg"
+                  alt="Flotte de véhicules Vilbert Hydro — camions hydrocureurs Somme"
+                  width={620}
+                  height={430}
+                  className="object-cover w-full h-[380px]"
+                  priority
+                />
+                {/* Gradient bas pour lisibilité des stats */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0d2a50] via-[#1b4f8c]/20 to-transparent" />
+
+                {/* Badge urgence flottant */}
+                <div className="absolute top-4 right-4 bg-red-600 text-white font-black text-xs px-3 py-2 rounded-full shadow-lg animate-pulse">
+                  🚨 24h/24 · 7j/7
                 </div>
-              ))}
+
+                {/* Certif badge haut gauche */}
+                <div className="absolute top-4 left-4 bg-white/90 text-gray-900 text-xs font-bold px-3 py-1.5 rounded-full shadow">
+                  ✓ Agréé vidangeur · CATEC
+                </div>
+
+                {/* Stats en bas de la photo */}
+                <div className="absolute bottom-0 left-0 right-0 p-5">
+                  <div className="grid grid-cols-3 gap-3">
+                    {[
+                      { val: "+30 ans", label: "d'expérience" },
+                      { val: "+2 000", label: "clients" },
+                      { val: "6 dép.", label: "couverts" },
+                    ].map((s) => (
+                      <div key={s.label} className="text-center">
+                        <div className="text-2xl font-black text-[#f5b800] drop-shadow">{s.val}</div>
+                        <div className="text-blue-200 text-xs mt-0.5">{s.label}</div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
