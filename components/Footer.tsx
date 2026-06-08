@@ -41,29 +41,57 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* COL 1 — Logo + description */}
         <div>
-          <div className="mb-4">
+          {/* Logo sur fond blanc pour lisibilité */}
+          <div className="mb-4 inline-block bg-white rounded-lg px-3 py-2">
             <Image
               src="/logo.png"
               alt="Vilbert Hydro"
-              width={200}
-              height={72}
-              className="h-12 w-auto object-contain brightness-0 invert"
+              width={180}
+              height={65}
+              className="h-10 w-auto object-contain"
             />
           </div>
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
             Filiale du Groupe Vilbert, spécialiste du débouchage, curage et assainissement
             en Somme et Hauts-de-France depuis plus de 30 ans.
           </p>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 mb-4">
             {["Agréé vidangeur", "CATEC", "N1/N2", "Habilitation élec."].map((c) => (
               <span key={c} className="text-xs bg-[#f5b800]/20 text-[#f5b800] border border-[#f5b800]/30 px-2 py-0.5 rounded">
                 {c}
               </span>
             ))}
           </div>
+          {/* Réseaux sociaux */}
+          <div className="flex items-center gap-3">
+            <a
+              href="https://www.facebook.com/p/Vilbert-Hydro-100092874391446/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-[#1877F2] text-white text-xs font-bold px-3 py-1.5 rounded hover:bg-[#1565d8] transition-colors"
+              aria-label="Page Facebook Vilbert Hydro"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              Facebook
+            </a>
+            <a
+              href="https://share.google/PQU1deHsGCgaHebS9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 bg-white/10 text-white text-xs font-bold px-3 py-1.5 rounded hover:bg-white/20 transition-colors"
+              aria-label="Avis Google Vilbert Hydro"
+            >
+              <span className="text-yellow-400">★</span>
+              Google
+            </a>
+          </div>
         </div>
 
+        {/* COL 2 — Services */}
         <div>
           <h3 className="font-bold text-[#f5b800] mb-4 uppercase text-sm tracking-wide">
             Nos Services
@@ -76,9 +104,11 @@ export default function Footer() {
             <li><Link href="/services#relevage" className="hover:text-white transition-colors">Maintenance poste de relevage</Link></li>
             <li><Link href="/services#electromecanique" className="hover:text-white transition-colors">Électromécanique</Link></li>
             <li><Link href="/services#restauration" className="hover:text-white transition-colors">Bacs à graisses restaurants</Link></li>
+            <li><Link href="/services#industriel" className="hover:text-white transition-colors">Assainissement industriel</Link></li>
           </ul>
         </div>
 
+        {/* COL 3 — Zones */}
         <div>
           <h3 className="font-bold text-[#f5b800] mb-4 uppercase text-sm tracking-wide">
             Zones Somme (80)
@@ -117,12 +147,17 @@ export default function Footer() {
           </ul>
         </div>
 
+        {/* COL 4 — Contact */}
         <div>
           <h3 className="font-bold text-[#f5b800] mb-4 uppercase text-sm tracking-wide">
             Contact
           </h3>
-          <address className="not-italic text-gray-400 text-sm space-y-3">
-            <p>📍 Somme (80) & Hauts-de-France</p>
+          <address className="not-italic text-gray-400 text-sm space-y-2.5">
+            <div>
+              <p className="text-white font-semibold text-xs mb-0.5">📍 Siège social</p>
+              <p>620 Rue Stéphane Hessel</p>
+              <p>80450 Camon (Somme)</p>
+            </div>
             <p className="text-2xl font-black">
               <a href="tel:0322917201" className="text-white hover:text-[#f5b800] transition-colors">
                 03 22 91 72 01
@@ -133,9 +168,10 @@ export default function Footer() {
                 hydro@groupe-vilbert.fr
               </a>
             </p>
-            <div className="border-t border-gray-700 pt-3 mt-3 space-y-1">
+            <div className="border-t border-gray-700 pt-2.5 space-y-1">
               <p className="text-red-400 font-black">🚨 Urgences 24h/24 — 7j/7</p>
               <p className="text-gray-500 text-xs">WE et jours fériés inclus</p>
+              <p className="text-gray-500 text-xs">Zone d&apos;intervention : 100 km autour de Camon</p>
             </div>
           </address>
           <div className="mt-4">
@@ -153,7 +189,7 @@ export default function Footer() {
 
       <div className="border-t border-gray-800 py-4">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-500">
-          <p>© {currentYear} Vilbert Hydro – Tous droits réservés</p>
+          <p>© {currentYear} Vilbert Hydro – 620 Rue Stéphane Hessel, 80450 Camon – Tous droits réservés</p>
           <p>
             Agréé vidangeur · CATEC · Habilitation électrique · Somme (80) · Hauts-de-France
           </p>

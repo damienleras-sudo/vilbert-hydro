@@ -4,6 +4,7 @@ import { blogPosts } from "@/lib/blog-posts";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import TrustBanner from "@/components/TrustBanner";
+import ZoneMapWrapper from "@/components/ZoneMapWrapper";
 
 const services = [
   {
@@ -373,52 +374,72 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ZONE + CONTACT */}
+      {/* ZONE + CARTE + CONTACT */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-black text-[#1b4f8c] mb-3">
+              Zone d&apos;intervention
+            </h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto mb-4" />
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Basés à <strong>Camon (Somme)</strong>, nous intervenons dans un rayon de{" "}
+              <strong>100 km</strong> — couvrant l&apos;ensemble de la Somme, le Pas-de-Calais,
+              l&apos;Oise, l&apos;Aisne et le Nord.
+            </p>
+          </div>
+
+          {/* CARTE LEAFLET */}
+          <div className="mb-8">
+            <ZoneMapWrapper />
+          </div>
+
+          {/* Villes + Contact */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div>
-              <h2 className="text-3xl font-black text-[#1b4f8c] mb-3">Zone d&apos;intervention</h2>
-              <div className="w-16 h-1 bg-[#f5b800] mb-5" />
-              <p className="text-gray-600 mb-3">
-                Vilbert Hydro intervient principalement dans la{" "}
-                <strong>Somme (80)</strong> et dans toute la région{" "}
-                <strong>Hauts-de-France</strong>.
-              </p>
-              <p className="text-gray-600 mb-5 text-sm">
-                Nos équipes mobiles couvrent Amiens et toutes les communes de la Somme — zones urbaines et rurales.
-              </p>
+              <h3 className="font-bold text-gray-900 mb-3">Principales communes desservies</h3>
               <div className="flex flex-wrap gap-2">
                 {zoneVilles.map((v) => (
                   <Link key={v.slug} href={`/debouchage-${v.slug}`} className="bg-[#1b4f8c] text-white text-xs px-3 py-1.5 rounded-full hover:bg-[#0f2942] transition-colors">
                     {v.label}
                   </Link>
                 ))}
-                <span className="text-xs text-gray-400 self-center">+ toute la région</span>
+                <span className="text-xs text-gray-400 self-center">+ toutes communes dans 100 km</span>
+              </div>
+              <div className="mt-4 text-sm text-gray-500 flex items-start gap-2">
+                <span className="text-[#1b4f8c] mt-0.5">📍</span>
+                <p>Siège : 620 Rue Stéphane Hessel, 80450 Camon (Somme)</p>
               </div>
             </div>
-            <div className="bg-[#1b4f8c] rounded-2xl p-8 text-white">
-              <h3 className="text-xl font-black mb-2">Contactez Vilbert Hydro</h3>
-              <div className="w-12 h-1 bg-[#f5b800] mb-5" />
-              <div className="space-y-4">
-                <a href="tel:0322917201" className="flex items-center gap-4 bg-[#f5b800] text-gray-900 rounded-xl p-4 hover:bg-[#ffd44d] transition-colors">
-                  <span className="text-3xl">📞</span>
+            <div className="bg-[#1b4f8c] rounded-2xl p-6 text-white">
+              <h3 className="text-lg font-black mb-2">Contactez Vilbert Hydro</h3>
+              <div className="w-10 h-1 bg-[#f5b800] mb-4" />
+              <div className="space-y-3">
+                <a href="tel:0322917201" className="flex items-center gap-3 bg-[#f5b800] text-gray-900 rounded-xl p-4 hover:bg-[#ffd44d] transition-colors">
+                  <span className="text-2xl">📞</span>
                   <div>
-                    <p className="font-black text-xl">03 22 91 72 01</p>
+                    <p className="font-black text-lg">03 22 91 72 01</p>
                     <p className="text-xs font-semibold text-gray-700">🚨 Urgences 24h/24 · 7j/7</p>
                   </div>
                 </a>
-                <a href="mailto:hydro@groupe-vilbert.fr" className="flex items-center gap-4 bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
-                  <span className="text-3xl">✉️</span>
+                <a href="mailto:hydro@groupe-vilbert.fr" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
+                  <span className="text-2xl">✉️</span>
                   <div>
                     <p className="font-bold text-white text-sm">hydro@groupe-vilbert.fr</p>
                     <p className="text-blue-300 text-xs">Devis, contrats, questions</p>
                   </div>
                 </a>
-                <div className="bg-white/10 rounded-xl p-4 text-sm text-blue-100">
-                  <p className="font-bold text-[#f5b800] mb-1">Devis 100% gratuit et sans engagement</p>
-                  <p>Tarif fixé avant intervention · Pas de supplément week-end</p>
-                </div>
+                <a
+                  href="https://www.facebook.com/p/Vilbert-Hydro-100092874391446/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-[#1877F2] rounded-xl p-3 hover:bg-[#1565d8] transition-colors"
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  </svg>
+                  <p className="font-bold text-white text-sm">Suivez-nous sur Facebook</p>
+                </a>
               </div>
             </div>
           </div>

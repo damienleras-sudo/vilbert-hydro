@@ -21,12 +21,22 @@ export default function SchemaOrg() {
         email: "hydro@groupe-vilbert.fr",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "Hauts-de-France",
-          addressLocality: "Amiens",
-          postalCode: "80000",
+          streetAddress: "620 Rue Stéphane Hessel",
+          addressLocality: "Camon",
+          postalCode: "80450",
           addressRegion: "Somme",
           addressCountry: "FR",
         },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 49.867,
+          longitude: 2.342,
+        },
+        hasMap: "https://www.facebook.com/p/Vilbert-Hydro-100092874391446/",
+        sameAs: [
+          "https://www.groupe-vilbert.com",
+          "https://www.facebook.com/p/Vilbert-Hydro-100092874391446/",
+        ],
         openingHoursSpecification: [
           {
             "@type": "OpeningHoursSpecification",
@@ -36,7 +46,6 @@ export default function SchemaOrg() {
             description: "Urgences 24h/24 7j/7 — Interventions y compris week-ends et jours fériés",
           },
         ],
-        sameAs: ["https://www.groupe-vilbert.com"],
         priceRange: "€€",
         currenciesAccepted: "EUR",
         paymentAccepted: "Virement, Chèque, Carte bancaire",
