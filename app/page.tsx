@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import { blogPosts } from "@/lib/blog-posts";
 import Testimonials from "@/components/Testimonials";
@@ -112,7 +112,7 @@ export default function Home() {
               <h1 className="text-4xl md:text-5xl font-black leading-tight mb-5">
                 Débouchage, Curage &{" "}
                 <span className="text-[#f5b800]">Assainissement</span>
-                <br />en Somme
+                <br />dans la Somme
               </h1>
               <p className="text-lg text-blue-100 mb-6 max-w-xl leading-relaxed">
                 Vilbert Hydro intervient pour le{" "}
@@ -479,7 +479,7 @@ export default function Home() {
       <section className="bg-[#f5b800] py-14">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-2">
-            Besoin d&apos;une intervention en Somme ?
+            Besoin d&apos;une intervention dans la Somme ?
           </h2>
           <p className="text-gray-700 mb-6">
             Vilbert Hydro intervient rapidement dans toute la Somme (80) et les Hauts-de-France. Devis gratuit — disponible 24h/24.

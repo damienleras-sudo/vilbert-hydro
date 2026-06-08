@@ -1,4 +1,4 @@
-export default function SchemaOrg() {
+﻿export default function SchemaOrg() {
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -180,7 +180,7 @@ export default function SchemaOrg() {
         "@id": "https://vilbert-hydro.vercel.app/#website",
         url: "https://vilbert-hydro.vercel.app",
         name: "Vilbert Hydro",
-        description: "Débouchage, curage, vidange fosse septique, maintenance poste de relevage en Somme et Hauts-de-France",
+        description: "Débouchage, curage, vidange fosse septique, maintenance poste de relevage dans la Somme et Hauts-de-France",
         inLanguage: "fr-FR",
         publisher: { "@id": "https://vilbert-hydro.vercel.app/#org" },
         potentialAction: {

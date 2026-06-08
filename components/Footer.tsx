@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 export default function Footer() {
@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
             Filiale du Groupe Vilbert, spécialiste du débouchage, curage et assainissement
-            en Somme et Hauts-de-France depuis plus de 30 ans.
+            dans la Somme et Hauts-de-France depuis plus de 30 ans.
           </p>
           <div className="flex flex-wrap gap-2 mb-4">
             {["Agréé vidangeur", "CATEC", "N1/N2", "Habilitation élec."].map((c) => (
@@ -171,7 +171,7 @@ export default function Footer() {
             <div className="border-t border-gray-700 pt-2.5 space-y-1">
               <p className="text-red-400 font-black">🚨 Urgences 24h/24 — 7j/7</p>
               <p className="text-gray-500 text-xs">WE et jours fériés inclus</p>
-              <p className="text-gray-500 text-xs">Zone d&apos;intervention : 100 km autour de Camon</p>
+              <p className="text-gray-500 text-xs">Zone d&apos;intervention : 80 km autour de Camon</p>
             </div>
           </address>
           <div className="mt-4">

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -196,7 +196,7 @@ export default function ContactPage() {
             Une urgence ? N&apos;attendez pas.
           </h2>
           <p className="text-gray-700 mb-6">
-            Nos techniciens interviennent en Somme et en Hauts-de-France 24h sur 24.
+            Nos techniciens interviennent dans la Somme et en Hauts-de-France 24h sur 24.
           </p>
           <a
             href="tel:0322917201"

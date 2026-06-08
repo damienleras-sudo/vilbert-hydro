@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 // Camon 80450 — siège Vilbert Hydro
 const CAMON_LAT = 49.867;
 const CAMON_LNG = 2.342;
-const RADIUS_KM = 100;
+const RADIUS_KM = 80;
 
 export default function ZoneMap() {
   const mapRef = useRef<HTMLDivElement>(null);
@@ -121,7 +121,7 @@ export default function ZoneMap() {
       <div
         ref={mapRef}
         className="w-full rounded-2xl overflow-hidden shadow-lg"
-        style={{ height: "420px", zIndex: 0 }}
+        style={{ height: "320px", zIndex: 0 }}
       />
       {/* Légende */}
       <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur rounded-xl px-4 py-3 shadow-md text-sm z-[400]">

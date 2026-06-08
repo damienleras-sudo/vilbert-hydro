@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -15,7 +15,7 @@ const services = [
     icon: "🚿",
     titre: "Débouchage de canalisations",
     sousTitre: "Intervention rapide — Urgences 24h/24 7j/7",
-    desc: "Nos techniciens interviennent pour déboucher vos canalisations, que vous soyez particulier, professionnel ou syndic de copropriété. Évier, lavabo, douche, WC, canalisation principale — nous traitons tous les types de bouchons en Somme et Hauts-de-France.",
+    desc: "Nos techniciens interviennent pour déboucher vos canalisations, que vous soyez particulier, professionnel ou syndic de copropriété. Évier, lavabo, douche, WC, canalisation principale — nous traitons tous les types de bouchons dans la Somme et Hauts-de-France.",
     details: [
       "Débouchage d'évier, lavabo, baignoire, douche",
       "Débouchage de WC et toilettes",
@@ -172,7 +172,7 @@ export default function ServicesPage() {
           <div className="w-16 h-1 bg-[#f5b800] mx-auto mb-6" />
           <p className="text-blue-100 max-w-2xl mx-auto text-lg mb-4">
             Du débouchage d&apos;urgence à la maintenance électromécanique — Vilbert Hydro,
-            entreprise agréée et certifiée en Somme et Hauts-de-France.
+            entreprise agréée et certifiée dans la Somme et Hauts-de-France.
           </p>
           <div className="flex flex-wrap justify-center gap-3 text-sm mb-8">
             {["Agréé vidangeur", "CATEC habilité", "Habilitation N1/N2", "Habilitation électrique"].map((c) => (
@@ -294,7 +294,7 @@ export default function ServicesPage() {
             Besoin d&apos;un de nos services ?
           </h2>
           <p className="text-gray-700 mb-8">
-            Appelez-nous directement ou écrivez-nous. Devis gratuit. Intervention rapide en Somme et Hauts-de-France.
+            Appelez-nous directement ou écrivez-nous. Devis gratuit. Intervention rapide dans la Somme et Hauts-de-France.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
