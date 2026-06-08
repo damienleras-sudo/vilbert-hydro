@@ -9,6 +9,7 @@ export interface Ville {
 }
 
 export const villes: Ville[] = [
+  // SOMME (80) — priorité SEO
   {
     slug: "amiens",
     nom: "Amiens",
@@ -28,6 +29,43 @@ export const villes: Ville[] = [
     lng: 1.8328,
   },
   {
+    slug: "peronne",
+    nom: "Péronne",
+    departement: "Somme",
+    codePostal: "80200",
+    description: "Péronne et le Santerre — Somme (80)",
+    lat: 49.9286,
+    lng: 2.9338,
+  },
+  {
+    slug: "albert",
+    nom: "Albert",
+    departement: "Somme",
+    codePostal: "80300",
+    description: "Albert et le Pays du Coquelicot — Somme (80)",
+    lat: 50.0025,
+    lng: 2.6511,
+  },
+  {
+    slug: "montdidier",
+    nom: "Montdidier",
+    departement: "Somme",
+    codePostal: "80500",
+    description: "Montdidier et la Haute-Somme — Somme (80)",
+    lat: 49.6486,
+    lng: 2.5697,
+  },
+  {
+    slug: "doullens",
+    nom: "Doullens",
+    departement: "Somme",
+    codePostal: "80600",
+    description: "Doullens et l'Authie — Somme (80)",
+    lat: 50.1592,
+    lng: 2.3433,
+  },
+  // PAS-DE-CALAIS (62)
+  {
     slug: "arras",
     nom: "Arras",
     departement: "Pas-de-Calais",
@@ -45,6 +83,7 @@ export const villes: Ville[] = [
     lat: 50.4328,
     lng: 2.8314,
   },
+  // AISNE (02)
   {
     slug: "saint-quentin",
     nom: "Saint-Quentin",
@@ -54,6 +93,7 @@ export const villes: Ville[] = [
     lat: 49.8467,
     lng: 3.2878,
   },
+  // OISE (60)
   {
     slug: "compiegne",
     nom: "Compiègne",
@@ -63,6 +103,7 @@ export const villes: Ville[] = [
     lat: 49.4183,
     lng: 2.8258,
   },
+  // NORD (59)
   {
     slug: "douai",
     nom: "Douai",
