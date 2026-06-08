@@ -1,65 +1,443 @@
-import Image from "next/image";
+import Link from "next/link";
+import { blogPosts } from "@/lib/blog-posts";
+import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
+import TrustBanner from "@/components/TrustBanner";
+
+const services = [
+  {
+    icon: "🚿",
+    title: "Débouchage canalisations",
+    desc: "Intervention rapide pour déboucher vos canalisations bouchées. Particuliers et professionnels. Urgences 24h/24.",
+    href: "/services#debouchage",
+  },
+  {
+    icon: "💧",
+    title: "Curage & Hydrocurage",
+    desc: "Nettoyage haute pression de vos réseaux d'assainissement. Dépôts, graisses, racines éliminés.",
+    href: "/services#curage",
+  },
+  {
+    icon: "📷",
+    title: "Inspection télévisée",
+    desc: "Diagnostic précis par caméra robotisée. Rapport complet avec images et recommandations.",
+    href: "/services#inspection",
+  },
+  {
+    icon: "🏠",
+    title: "Vidange fosse septique",
+    desc: "Vidange et entretien de fosses septiques, fosses toutes eaux. Respect des obligations légales.",
+    href: "/services#vidange",
+  },
+];
+
+const clientTypes = [
+  {
+    icon: "🏘️",
+    title: "Particuliers",
+    desc: "Canalisation bouchée, fosse à vidanger, douche qui refoule — nous intervenons rapidement chez vous.",
+    cta: "Je suis particulier",
+  },
+  {
+    icon: "🍽️",
+    title: "Restaurants & Métiers de bouche",
+    desc: "Entretien bacs à graisses, débouchage, contrats de maintenance. Conformité réglementaire garantie.",
+    cta: "Je suis restaurateur",
+  },
+  {
+    icon: "🏭",
+    title: "Professionnels & Industries",
+    desc: "Curage de réseaux industriels, vidange de bacs, interventions sur sites. Devis sur mesure.",
+    cta: "Je suis professionnel",
+  },
+];
+
+const avantages = [
+  { titre: "Urgences 24h/24", desc: "Disponible 7j/7, y compris week-ends et jours fériés. Intervention rapide garantie." },
+  { titre: "Devis gratuit", desc: "Estimation gratuite et sans engagement. Tarif fixé avant intervention, sans mauvaise surprise." },
+  { titre: "+30 ans d'expérience", desc: "Filiale du Groupe Vilbert, expert en assainissement depuis plus de 30 ans en Hauts-de-France." },
+  { titre: "Certifié & agréé", desc: "Bordereaux de suivi fournis. Conformité totale avec la réglementation en vigueur." },
+];
+
+const zoneVilles = [
+  { label: "Amiens", slug: "amiens" },
+  { label: "Abbeville", slug: "abbeville" },
+  { label: "Arras", slug: "arras" },
+  { label: "Lens", slug: "lens" },
+  { label: "Saint-Quentin", slug: "saint-quentin" },
+  { label: "Compiègne", slug: "compiegne" },
+  { label: "Douai", slug: "douai" },
+  { label: "Valenciennes", slug: "valenciennes" },
+];
 
 export default function Home() {
+  const latestPosts = blogPosts.slice(0, 3);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      {/* HERO */}
+      <section className="relative bg-[#1b4f8c] text-white overflow-hidden">
+        <div
+          className="absolute inset-0 opacity-5"
+          style={{
+            backgroundImage:
+              "repeating-linear-gradient(45deg, #fff 0, #fff 1px, transparent 0, transparent 50%)",
+            backgroundSize: "20px 20px",
+          }}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+        <div className="max-w-7xl mx-auto px-4 py-20 md:py-28 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="inline-block bg-[#f5b800] text-gray-900 text-xs font-bold uppercase px-3 py-1 rounded mb-6 tracking-widest">
+                🚨 Urgences 24h/24 — 7j/7 — Hauts-de-France
+              </div>
+              <h1 className="text-4xl md:text-5xl font-black leading-tight mb-6">
+                Débouchage,<br />
+                Curage &{" "}
+                <span className="text-[#f5b800]">Assainissement</span>
+              </h1>
+              <p className="text-lg text-blue-100 mb-8 max-w-xl">
+                Vilbert Hydro intervient pour le{" "}
+                <strong>débouchage de canalisations</strong>, le curage, la vidange de fosses
+                septiques et l'inspection télévisée.{" "}
+                <strong>Particuliers, restaurants et industries</strong> — devis gratuit.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="tel:0322917201"
+                  className="bg-[#f5b800] text-gray-900 font-black px-8 py-4 rounded text-lg hover:bg-[#ffd44d] transition-colors shadow-lg"
+                >
+                  📞 03 22 91 72 01
+                </a>
+                <Link
+                  href="/contact"
+                  className="border-2 border-white text-white font-bold px-8 py-4 rounded text-lg hover:bg-white hover:text-[#1b4f8c] transition-colors"
+                >
+                  Devis gratuit →
+                </Link>
+              </div>
+              <p className="text-blue-300 text-sm mt-4">
+                ⚡ Intervention rapide · 📋 Devis gratuit · ✅ Certifié & Agréé
+              </p>
+            </div>
+            <div className="hidden lg:grid grid-cols-2 gap-4">
+              {[
+                { val: "+30 ans", label: "d'expérience" },
+                { val: "+2 000", label: "clients" },
+                { val: "24h/24", label: "urgences" },
+                { val: "6", label: "départements" },
+              ].map((s) => (
+                <div
+                  key={s.label}
+                  className="bg-white/10 rounded-2xl p-6 text-center backdrop-blur-sm"
+                >
+                  <div className="text-4xl font-black text-[#f5b800]">{s.val}</div>
+                  <div className="text-blue-200 text-sm mt-1">{s.label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-[#f5b800]" />
+      </section>
+
+      {/* CLIENTS TYPES */}
+      <section className="py-12 bg-gray-900 text-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <p className="text-center text-gray-400 text-sm uppercase tracking-widest mb-6">
+            Nous intervenons pour
           </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {clientTypes.map((c) => (
+              <Link
+                key={c.title}
+                href="/contact"
+                className="group border border-gray-700 rounded-xl p-6 hover:border-[#f5b800] transition-colors"
+              >
+                <div className="text-3xl mb-3">{c.icon}</div>
+                <h3 className="font-black text-lg text-white mb-2 group-hover:text-[#f5b800] transition-colors">
+                  {c.title}
+                </h3>
+                <p className="text-gray-400 text-sm mb-4">{c.desc}</p>
+                <span className="text-[#f5b800] text-sm font-bold">{c.cta} →</span>
+              </Link>
+            ))}
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* TRUST */}
+      <TrustBanner />
+
+      {/* SERVICES */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-black text-[#1b4f8c] mb-3">
+              Nos prestations
+            </h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto mb-4" />
+            <p className="text-gray-600 max-w-xl mx-auto">
+              Du débouchage d'urgence à l'entretien régulier de vos réseaux — une solution complète.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {services.map((s) => (
+              <Link
+                key={s.title}
+                href={s.href}
+                className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-100 group"
+              >
+                <div className="text-4xl mb-4">{s.icon}</div>
+                <h3 className="text-lg font-bold text-[#1b4f8c] mb-2 group-hover:text-[#0f2942]">
+                  {s.title}
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{s.desc}</p>
+                <span className="inline-block mt-4 text-[#f5b800] font-bold text-sm">
+                  En savoir plus →
+                </span>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link
+              href="/services"
+              className="inline-block bg-[#1b4f8c] text-white font-bold px-8 py-3 rounded hover:bg-[#0f2942] transition-colors"
+            >
+              Voir tous nos services →
+            </Link>
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* PROS SECTION */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="inline-block bg-[#f5b800] text-gray-900 text-xs font-bold uppercase px-3 py-1 rounded mb-4 tracking-widest">
+                Offre professionnelle
+              </div>
+              <h2 className="text-3xl font-black text-[#1b4f8c] mb-3">
+                Restaurants, industries : une offre dédiée
+              </h2>
+              <div className="w-16 h-1 bg-[#f5b800] mb-6" />
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                Les établissements de restauration et les sites industriels ont des contraintes
+                spécifiques en matière d'assainissement. Vilbert Hydro propose des{" "}
+                <strong>contrats de maintenance</strong> sur mesure pour garantir votre conformité
+                réglementaire.
+              </p>
+              <ul className="space-y-3 mb-6">
+                {[
+                  "Entretien et vidange des bacs à graisses",
+                  "Curage préventif des réseaux",
+                  "Interventions d'urgence prioritaires",
+                  "Rapports d'intervention pour vos archives",
+                  "Conformité aux normes en vigueur",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-gray-700 text-sm">
+                    <span className="text-[#f5b800] font-black mt-0.5">✓</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/contact"
+                className="inline-block bg-[#1b4f8c] text-white font-bold px-8 py-3 rounded hover:bg-[#0f2942] transition-colors"
+              >
+                Demander un contrat de maintenance
+              </Link>
+            </div>
+            <div className="space-y-4">
+              {[
+                {
+                  icon: "🍽️",
+                  titre: "Restaurants & Métiers de bouche",
+                  desc: "Bouchers, traiteurs, boulangeries, cantines : entretien régulier de vos bacs à graisses et réseaux.",
+                },
+                {
+                  icon: "🏭",
+                  titre: "Sites industriels",
+                  desc: "Curage de réseaux industriels, vidange de bacs et cuves, interventions sur mesure selon vos contraintes.",
+                },
+                {
+                  icon: "🏢",
+                  titre: "Copropriétés & Collectivités",
+                  desc: "Entretien des réseaux collectifs, curage préventif, gestion des urgences pour les syndics et communes.",
+                },
+              ].map((item) => (
+                <div
+                  key={item.titre}
+                  className="flex gap-4 bg-gray-50 rounded-xl p-5 border border-gray-100"
+                >
+                  <div className="text-3xl flex-shrink-0">{item.icon}</div>
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1">{item.titre}</h3>
+                    <p className="text-gray-600 text-sm">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* AVANTAGES */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-black text-[#1b4f8c] mb-3">
+              Pourquoi choisir Vilbert Hydro ?
+            </h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto" />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {avantages.map((a) => (
+              <div
+                key={a.titre}
+                className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+              >
+                <div className="w-10 h-10 rounded-full bg-[#1b4f8c] flex items-center justify-center mb-4">
+                  <div className="w-4 h-4 bg-[#f5b800] rounded-full" />
+                </div>
+                <h3 className="font-bold text-lg text-gray-900 mb-2">{a.titre}</h3>
+                <p className="text-gray-600 text-sm">{a.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ZONE + CONTACT CARD */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div>
+              <h2 className="text-3xl font-black text-[#1b4f8c] mb-3">Zone d&apos;intervention</h2>
+              <div className="w-16 h-1 bg-[#f5b800] mb-6" />
+              <p className="text-gray-600 mb-6">
+                Vilbert Hydro intervient dans toute la région{" "}
+                <strong>Hauts-de-France</strong> : Somme, Pas-de-Calais, Oise, Aisne, Nord et
+                Seine-Maritime. Nos équipes sont mobiles et réactives.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-6">
+                {zoneVilles.map((v) => (
+                  <Link
+                    key={v.slug}
+                    href={`/debouchage-${v.slug}`}
+                    className="bg-[#1b4f8c] text-white text-xs px-3 py-1.5 rounded-full hover:bg-[#0f2942] transition-colors"
+                  >
+                    {v.label}
+                  </Link>
+                ))}
+                <span className="text-xs text-gray-400 self-center">+ toute la région</span>
+              </div>
+            </div>
+            <div className="bg-[#1b4f8c] rounded-2xl p-8 text-white">
+              <h3 className="text-xl font-black mb-2">Contactez Vilbert Hydro</h3>
+              <div className="w-12 h-1 bg-[#f5b800] mb-5" />
+              <address className="not-italic space-y-3 text-blue-100 text-sm">
+                <p className="text-lg font-black text-white">
+                  📞{" "}
+                  <a href="tel:0322917201" className="hover:text-[#f5b800] transition-colors">
+                    03 22 91 72 01
+                  </a>
+                </p>
+                <p>
+                  ✉️{" "}
+                  <a
+                    href="mailto:hydro@groupe-vilbert.fr"
+                    className="hover:text-white transition-colors"
+                  >
+                    hydro@groupe-vilbert.fr
+                  </a>
+                </p>
+                <div className="border-t border-blue-700 pt-3 mt-3">
+                  <p className="font-bold text-[#f5b800]">🚨 Urgences 24h/24 · 7j/7</p>
+                  <p className="text-blue-200 text-xs mt-1">
+                    Devis gratuit — Intervention rapide
+                  </p>
+                </div>
+              </address>
+              <Link
+                href="/contact"
+                className="mt-5 block text-center bg-[#f5b800] text-gray-900 font-bold px-6 py-3 rounded hover:bg-[#ffd44d] transition-colors"
+              >
+                Demander un devis gratuit
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* TESTIMONIALS */}
+      <Testimonials />
+
+      {/* FAQ */}
+      <FAQ />
+
+      {/* BLOG PREVIEW */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10">
+            <div>
+              <h2 className="text-3xl font-black text-[#1b4f8c] mb-2">Conseils & Actualités</h2>
+              <div className="w-16 h-1 bg-[#f5b800]" />
+            </div>
+            <Link href="/blog" className="mt-4 md:mt-0 text-[#1b4f8c] font-bold hover:underline">
+              Voir tous les articles →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {latestPosts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="bg-white rounded-xl overflow-hidden border border-gray-100 hover:shadow-md transition-all hover:-translate-y-0.5 group"
+              >
+                <div className="bg-[#1b4f8c] h-2" />
+                <div className="p-6">
+                  <span className="text-xs text-[#1b4f8c] font-bold uppercase tracking-wide">
+                    {post.category}
+                  </span>
+                  <h3 className="text-gray-900 font-bold mt-2 mb-3 group-hover:text-[#1b4f8c] transition-colors">
+                    {post.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm line-clamp-3">{post.excerpt}</p>
+                  <p className="text-xs text-gray-400 mt-4">{post.date}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA FINAL */}
+      <section className="bg-[#f5b800] py-14">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-4">
+            Une canalisation bouchée ? Une fosse à vidanger ?
+          </h2>
+          <p className="text-gray-700 mb-8">
+            Vilbert Hydro intervient rapidement en Hauts-de-France. Devis gratuit.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a
+              href="tel:0322917201"
+              className="bg-gray-900 text-white font-bold px-8 py-4 rounded text-lg hover:bg-gray-800 transition-colors"
+            >
+              📞 03 22 91 72 01
+            </a>
+            <Link
+              href="/contact"
+              className="bg-white text-gray-900 font-bold px-8 py-4 rounded text-lg hover:bg-gray-100 transition-colors border border-gray-200"
+            >
+              Formulaire de contact
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
