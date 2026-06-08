@@ -78,8 +78,8 @@ const services = [
       "Secteur agricole : fosses et lagunes",
     ],
     clienteles: "Particuliers, agriculteurs, campings, zones rurales, industries",
-    img: "/poste-relevage-maintenance.jpg",
-    imgAlt: "Poste de relevage après entretien de maintenance — Vilbert Hydro",
+    img: "/20220701_090902.jpg",
+    imgAlt: "Camion vidangeur Vilbert Hydro — vidange fosse septique Somme",
   },
   {
     id: "relevage",
@@ -98,7 +98,7 @@ const services = [
     ],
     clienteles: "Syndicats de copropriété, collectivités, zones pavillonnaires, industries, agriculteurs",
     img: "/poste-relevage-maintenance.jpg",
-    imgAlt: "Maintenance poste de relevage eaux usées — Vilbert Hydro",
+    imgAlt: "Intérieur poste de relevage après maintenance — Vilbert Hydro",
   },
   {
     id: "electromecanique",
@@ -116,8 +116,8 @@ const services = [
       "Interventions en espaces confinés",
     ],
     clienteles: "Collectivités, syndicats de copropriété, industries, zones industrielles",
-    img: "/poste-relevage-maintenance.jpg",
-    imgAlt: "Électromécanique assainissement — maintenance pompe relevage Vilbert Hydro",
+    img: "/circuit-electrique.jpg",
+    imgAlt: "Électromécanique — maintenance armoire de commande et équipements Vilbert Hydro",
   },
   {
     id: "restauration",

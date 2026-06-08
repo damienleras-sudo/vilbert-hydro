@@ -32,7 +32,7 @@ const services = [
     title: "Vidange fosse septique",
     desc: "Vidange et entretien agréés. Bordereau de suivi fourni. Conformité SPANC garantie.",
     href: "/services#vidange",
-    img: "/poste-relevage-maintenance.jpg",
+    img: "/20220701_090902.jpg",
   },
   {
     icon: "⚙️",
@@ -46,7 +46,7 @@ const services = [
     title: "Électromécanique",
     desc: "Pompes, armoires de commande, variateurs. Agents CATEC habilités N1/N2 et électrique.",
     href: "/services#electromecanique",
-    img: "/poste-relevage-maintenance.jpg",
+    img: "/circuit-electrique.jpg",
   },
 ];
 
