@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "Quelles zones géographiques couvrez-vous ?",
-    a: "Vilbert Hydro intervient dans toute la région Hauts-de-France : Somme, Pas-de-Calais, Oise, Aisne, Nord et Seine-Maritime. Nos équipes se déplacent rapidement sur Amiens, Abbeville, Arras, Lens, Saint-Quentin, Compiègne et toutes les communes environnantes.",
+    a: "Vilbert Hydro intervient dans toute la Picardie : Somme (80), Oise (60), Aisne (02), ainsi que dans le Pas-de-Calais, le Nord et les départements limitrophes. Nos équipes se déplacent rapidement sur Amiens, Abbeville, Compiègne, Beauvais, Saint-Quentin, Soissons, Laon et toutes les communes environnantes.",
   },
   {
     q: "Comment se déroule une inspection télévisée ?",

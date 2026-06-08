@@ -16,6 +16,7 @@ const zonesSomme = [
 
 const autresZones = [
   "Arras (62)", "Lens (62)", "Saint-Quentin (02)", "Compiègne (60)",
+  "Beauvais (60)", "Noyon (60)", "Soissons (02)", "Laon (02)",
   "Douai (59)", "Valenciennes (59)",
 ];
 
@@ -196,7 +197,7 @@ export default function ContactPage() {
             Une urgence ? N&apos;attendez pas.
           </h2>
           <p className="text-gray-700 mb-6">
-            Nos techniciens interviennent dans la Somme et en Hauts-de-France 24h sur 24.
+            Nos techniciens interviennent en Picardie (Somme, Oise, Aisne) et dans toute la région 24h sur 24.
           </p>
           <a
             href="tel:0322917201"

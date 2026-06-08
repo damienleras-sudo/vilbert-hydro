@@ -20,7 +20,7 @@ export default function Footer() {
               Canalisation bouchée ? Fosse à vidanger ?
             </h2>
             <p className="text-blue-200 mt-1">
-              Intervention rapide — Devis gratuit — Somme & Hauts-de-France
+              Intervention rapide — Devis gratuit — Picardie (80 · 60 · 02)
             </p>
           </div>
           <div className="flex gap-4 flex-wrap">
@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
             Filiale du Groupe Vilbert, spécialiste du débouchage, curage et assainissement
-            dans la Somme et Hauts-de-France depuis plus de 30 ans.
+            en Picardie (Somme, Oise, Aisne) depuis plus de 30 ans.
           </p>
           <div className="flex flex-wrap gap-2 mb-4">
             {["Agréé vidangeur", "CATEC", "N1/N2", "Habilitation élec."].map((c) => (
@@ -111,7 +111,7 @@ export default function Footer() {
         {/* COL 3 — Zones */}
         <div>
           <h3 className="font-bold text-[#f5b800] mb-4 uppercase text-sm tracking-wide">
-            Zones Somme (80)
+            Zones Picardie
           </h3>
           <ul className="space-y-1 text-gray-400 text-xs">
             {[
@@ -121,6 +121,9 @@ export default function Footer() {
               { label: "Albert", slug: "albert" },
               { label: "Montdidier", slug: "montdidier" },
               { label: "Doullens", slug: "doullens" },
+              { label: "Compiègne", slug: "compiegne" },
+              { label: "Beauvais", slug: "beauvais" },
+              { label: "Soissons", slug: "soissons" },
             ].map((v) => (
               <li key={v.slug}>
                 <Link href={`/debouchage-${v.slug}`} className="hover:text-white transition-colors">
@@ -137,6 +140,7 @@ export default function Footer() {
               { label: "Arras", slug: "arras" },
               { label: "Lens", slug: "lens" },
               { label: "Saint-Quentin", slug: "saint-quentin" },
+              { label: "Laon", slug: "laon" },
             ].map((v) => (
               <li key={v.slug}>
                 <Link href={`/debouchage-${v.slug}`} className="hover:text-white transition-colors">
@@ -191,7 +195,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-500">
           <p>© {currentYear} Vilbert Hydro – 620 Rue Stéphane Hessel, 80450 Camon – Tous droits réservés</p>
           <p>
-            Agréé vidangeur · CATEC · Habilitation électrique · Somme (80) · Hauts-de-France
+            Agréé vidangeur · CATEC · Habilitation électrique · Picardie (80·60·02)
           </p>
         </div>
       </div>

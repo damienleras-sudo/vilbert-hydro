@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Nos Services — Débouchage, Curage, Vidange, Poste de Relevage — Somme (80)",
+  title: "Vidange Fosse Septique · Débouchage · Assainissement Picardie — Agréé Vidangeur",
   description:
-    "Vilbert Hydro : débouchage canalisations, curage et hydrocurage, inspection télévisée, vidange fosse septique, entretien bacs à graisses, maintenance postes de relevage, électromécanique. Somme (80), Hauts-de-France. Agréé vidangeur · CATEC · Habilitation électrique.",
+    "Vilbert Hydro : vidange fosse septique agréée en Picardie (Somme, Oise, Aisne), débouchage canalisations, curage et hydrocurage, inspection télévisée, entretien bacs à graisses, maintenance postes de relevage, électromécanique. Agréé vidangeur · CATEC · Habilitation électrique.",
   alternates: { canonical: "https://vilbert-hydro.vercel.app/services" },
 };
 
@@ -15,7 +15,7 @@ const services = [
     icon: "🚿",
     titre: "Débouchage de canalisations",
     sousTitre: "Intervention rapide — Urgences 24h/24 7j/7",
-    desc: "Nos techniciens interviennent pour déboucher vos canalisations, que vous soyez particulier, professionnel ou syndic de copropriété. Évier, lavabo, douche, WC, canalisation principale — nous traitons tous les types de bouchons dans la Somme et Hauts-de-France.",
+    desc: "Nos techniciens interviennent pour déboucher vos canalisations, que vous soyez particulier, professionnel ou syndic de copropriété. Évier, lavabo, douche, WC, canalisation principale — nous traitons tous les types de bouchons en Picardie (Somme, Oise, Aisne).",
     details: [
       "Débouchage d'évier, lavabo, baignoire, douche",
       "Débouchage de WC et toilettes",
@@ -68,13 +68,14 @@ const services = [
     icon: "🏠",
     titre: "Vidange fosse septique & fosses toutes eaux",
     sousTitre: "Agréé vidangeur — Conformité réglementaire garantie",
-    desc: "La vidange régulière de votre fosse septique est une obligation légale (tous les 4 ans). Nos camions vidangeurs agréés aspirent intégralement les boues et les acheminent vers des filières de traitement agréées. Bordereau de suivi des matières de vidange (BSMD) remis à chaque intervention.",
+    desc: "La vidange de votre fosse septique est une obligation légale (arrêté du 7 septembre 2009) : tous les 4 ans minimum selon les contrôles SPANC. Nos camions vidangeurs agréés aspirent intégralement les boues et les acheminent vers des filières de traitement agréées. Bordereau de suivi des matières de vidange (BSMD) remis à chaque intervention. Intervention en Picardie : Somme (80), Oise (60), Aisne (02).",
     details: [
       "Vidange de fosses septiques et fosses toutes eaux",
       "Vidange de débourbeurs et bacs de décantation",
       "Bordereau de suivi des matières de vidange (BSMD)",
       "Transport vers filières de traitement agréées",
-      "Conformité SPANC — vérification optionnelle",
+      "Conformité SPANC garantie",
+      "Fosse septique, toutes eaux, micro-station",
       "Secteur agricole : fosses et lagunes",
     ],
     clienteles: "Particuliers, agriculteurs, campings, zones rurales, industries",
@@ -172,7 +173,7 @@ export default function ServicesPage() {
           <div className="w-16 h-1 bg-[#f5b800] mx-auto mb-6" />
           <p className="text-blue-100 max-w-2xl mx-auto text-lg mb-4">
             Du débouchage d&apos;urgence à la maintenance électromécanique — Vilbert Hydro,
-            entreprise agréée et certifiée dans la Somme et Hauts-de-France.
+            entreprise agréée et certifiée en Picardie (Somme, Oise, Aisne).
           </p>
           <div className="flex flex-wrap justify-center gap-3 text-sm mb-8">
             {["Agréé vidangeur", "CATEC habilité", "Habilitation N1/N2", "Habilitation électrique"].map((c) => (
@@ -294,7 +295,7 @@ export default function ServicesPage() {
             Besoin d&apos;un de nos services ?
           </h2>
           <p className="text-gray-700 mb-8">
-            Appelez-nous directement ou écrivez-nous. Devis gratuit. Intervention rapide dans la Somme et Hauts-de-France.
+            Appelez-nous directement ou écrivez-nous. Devis gratuit. Intervention rapide en Picardie (Somme, Oise, Aisne).
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a

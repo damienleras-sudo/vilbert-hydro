@@ -81,7 +81,9 @@ export default function ZoneMap() {
         { nom: "Arras", lat: 50.292, lng: 2.779 },
         { nom: "Compiègne", lat: 49.418, lng: 2.826 },
         { nom: "Saint-Quentin", lat: 49.847, lng: 3.288 },
-        { nom: "Lens", lat: 50.433, lng: 2.831 },
+        { nom: "Beauvais", lat: 49.4295, lng: 2.0808 },
+        { nom: "Soissons", lat: 49.3815, lng: 3.3233 },
+        { nom: "Laon", lat: 49.5635, lng: 3.6239 },
       ];
 
       villes.forEach((v) => {
@@ -131,7 +133,7 @@ export default function ZoneMap() {
         </div>
         <div className="flex items-center gap-2 mb-1.5">
           <div className="w-8 h-px border-t-2 border-dashed border-[#1b4f8c]" />
-          <span className="text-gray-600 text-xs">Zone d&apos;intervention : 100 km</span>
+          <span className="text-gray-600 text-xs">Zone d&apos;intervention : 80 km</span>
         </div>
         <div className="flex items-center gap-2">
           <div className="w-3 h-3 rounded-full bg-[#f5b800] border-2 border-[#1b4f8c]" />

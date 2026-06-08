@@ -8,7 +8,7 @@
         name: "Vilbert Hydro",
         legalName: "Vilbert Hydro",
         description:
-          "Vilbert Hydro — spécialiste du débouchage de canalisations, curage et hydrocurage haute pression, inspection télévisée, vidange de fosses septiques, maintenance de postes de relevage et électromécanique en Hauts-de-France. Agréé vidangeur. Agents CATEC habilités N1/N2. Habilitation électrique. Intervention 24h/24 7j/7 pour particuliers, professionnels, syndicats de copropriété, agriculteurs et industries.",
+          "Vilbert Hydro — spécialiste du débouchage de canalisations, curage et hydrocurage haute pression, inspection télévisée, vidange de fosses septiques, maintenance de postes de relevage et électromécanique en Picardie (Somme, Oise, Aisne) et Hauts-de-France. Agréé vidangeur. Agents CATEC habilités N1/N2. Habilitation électrique. Intervention 24h/24 7j/7 pour particuliers, professionnels, syndicats de copropriété, agriculteurs et industries.",
         url: "https://vilbert-hydro.vercel.app",
         logo: {
           "@type": "ImageObject",
@@ -84,6 +84,11 @@
           { "@type": "City", name: "Albert" },
           { "@type": "City", name: "Montdidier" },
           { "@type": "City", name: "Doullens" },
+          { "@type": "City", name: "Compiègne" },
+          { "@type": "City", name: "Beauvais" },
+          { "@type": "City", name: "Soissons" },
+          { "@type": "City", name: "Laon" },
+          { "@type": "City", name: "Noyon" },
         ],
         makesOffer: [
           {
@@ -104,7 +109,7 @@
           {
             "@type": "Offer",
             name: "Vidange fosse septique",
-            description: "Vidange et entretien de fosses septiques et fosses toutes eaux. Bordereau de suivi. Agrément vidangeur.",
+            description: "Vidange de fosses septiques et fosses toutes eaux agréée. Obligation légale tous les 4 ans (arrêté du 7 sept. 2009). Bordereau BSMD remis systématiquement. Agréé vidangeur préfectoral. Picardie : Somme (80), Oise (60), Aisne (02). Urgences 24h/24.",
           },
           {
             "@type": "Offer",
@@ -173,14 +178,14 @@
         },
         foundingDate: "1990",
         numberOfEmployees: { "@type": "QuantitativeValue", value: 70 },
-        areaServed: "Hauts-de-France",
+        areaServed: "Picardie — Somme, Oise, Aisne",
       },
       {
         "@type": "WebSite",
         "@id": "https://vilbert-hydro.vercel.app/#website",
         url: "https://vilbert-hydro.vercel.app",
         name: "Vilbert Hydro",
-        description: "Débouchage, curage, vidange fosse septique, maintenance poste de relevage dans la Somme et Hauts-de-France",
+        description: "Débouchage, curage, vidange fosse septique, maintenance poste de relevage en Picardie (Somme, Oise, Aisne) et Hauts-de-France",
         inLanguage: "fr-FR",
         publisher: { "@id": "https://vilbert-hydro.vercel.app/#org" },
         potentialAction: {

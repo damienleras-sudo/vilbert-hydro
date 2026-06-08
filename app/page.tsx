@@ -78,6 +78,7 @@ const zoneVilles = [
   { label: "Lens", slug: "lens" },
   { label: "Saint-Quentin", slug: "saint-quentin" },
   { label: "Compiègne", slug: "compiegne" },
+  { label: "Beauvais", slug: "beauvais" },
 ];
 
 export default function Home() {
@@ -107,12 +108,12 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block bg-[#f5b800] text-gray-900 text-xs font-bold uppercase px-3 py-1 rounded mb-4 tracking-widest">
-                Somme (80) · Hauts-de-France
+                Picardie · Somme · Oise · Aisne
               </div>
               <h1 className="text-4xl md:text-5xl font-black leading-tight mb-5">
                 Débouchage, Curage &{" "}
                 <span className="text-[#f5b800]">Assainissement</span>
-                <br />dans la Somme
+                <br />en Picardie
               </h1>
               <p className="text-lg text-blue-100 mb-6 max-w-xl leading-relaxed">
                 Vilbert Hydro intervient pour le{" "}
@@ -384,8 +385,8 @@ export default function Home() {
             <div className="w-16 h-1 bg-[#f5b800] mx-auto mb-4" />
             <p className="text-gray-600 max-w-2xl mx-auto">
               Basés à <strong>Camon (Somme)</strong>, nous intervenons dans un rayon de{" "}
-              <strong>100 km</strong> — couvrant l&apos;ensemble de la Somme, le Pas-de-Calais,
-              l&apos;Oise, l&apos;Aisne et le Nord.
+              <strong>80 km</strong> — couvrant toute la Picardie (Somme, Oise, Aisne), le Pas-de-Calais,
+              et les départements limitrophes.
             </p>
           </div>
 
@@ -404,7 +405,7 @@ export default function Home() {
                     {v.label}
                   </Link>
                 ))}
-                <span className="text-xs text-gray-400 self-center">+ toutes communes dans 100 km</span>
+                <span className="text-xs text-gray-400 self-center">+ toutes communes dans 80 km</span>
               </div>
               <div className="mt-4 text-sm text-gray-500 flex items-start gap-2">
                 <span className="text-[#1b4f8c] mt-0.5">📍</span>
@@ -479,10 +480,10 @@ export default function Home() {
       <section className="bg-[#f5b800] py-14">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-2">
-            Besoin d&apos;une intervention dans la Somme ?
+            Besoin d&apos;une intervention en Picardie ?
           </h2>
           <p className="text-gray-700 mb-6">
-            Vilbert Hydro intervient rapidement dans toute la Somme (80) et les Hauts-de-France. Devis gratuit — disponible 24h/24.
+            Vilbert Hydro intervient rapidement dans toute la Picardie : Somme (80), Oise (60), Aisne (02) et au-delà. Devis gratuit — disponible 24h/24.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="tel:0322917201" className="bg-gray-900 text-white font-black px-8 py-4 rounded text-xl hover:bg-gray-800 transition-colors">
@@ -499,7 +500,7 @@ export default function Home() {
       <section className="py-8 bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4">
           <p className="text-center text-xs text-gray-400 uppercase tracking-widest mb-4">
-            Débouchage et assainissement — Communes de la Somme et Hauts-de-France
+            Débouchage et assainissement — Communes de Picardie — Somme · Oise · Aisne
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {zoneVilles.map((v) => (

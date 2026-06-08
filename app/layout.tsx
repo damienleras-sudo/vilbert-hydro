@@ -10,11 +10,11 @@ const BASE_URL = "https://vilbert-hydro.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Vilbert Hydro | Débouchage Curage Assainissement — Somme 80 & Hauts-de-France",
+    default: "Vilbert Hydro | Débouchage · Vidange Fosse Septique · Assainissement — Picardie (80·60·02)",
     template: "%s | Vilbert Hydro",
   },
   description:
-    "Vilbert Hydro — débouchage canalisation, curage, hydrocurage, vidange fosse septique, inspection télévisée, maintenance poste de relevage. Somme (80), Hauts-de-France. Urgences 24h/24 7j/7. Agréé vidangeur. Agents CATEC habilités N1/N2. ☎ 03 22 91 72 01.",
+    "Vilbert Hydro — agréé vidangeur préfectoral : débouchage canalisation, curage, vidange fosse septique agréé, inspection télévisée, maintenance poste de relevage en Picardie (Somme, Oise, Aisne). Urgences 24h/24 7j/7. Agents CATEC habilités N1/N2. ☎ 03 22 91 72 01.",
   keywords: [
     // Somme priorité
     "débouchage Somme",
@@ -32,6 +32,10 @@ export const metadata: Metadata = {
     "curage hydrocurage",
     "inspection télévisée canalisation",
     "vidange fosse septique",
+    "vidange fosse septique Picardie",
+    "vidange fosse septique Amiens",
+    "vidange fosse septique Compiègne",
+    "vidange fosse septique Beauvais",
     "bac à graisses restaurant",
     "maintenance poste de relevage",
     "électromécanique assainissement",
@@ -44,26 +48,35 @@ export const metadata: Metadata = {
     "débouchage syndic copropriété",
     "assainissement agricole",
     "curage réseau industriel",
-    // Geo
+    // Geo Picardie
+    "Picardie",
+    "assainissement Picardie",
+    "débouchage Picardie",
+    "Oise 60",
+    "Aisne 02",
+    "Beauvais",
+    "Soissons",
+    "Laon",
+    "Noyon",
     "Hauts-de-France",
     "urgence débouchage 24h 7j/7",
     "Vilbert Hydro",
     "Groupe Vilbert",
   ],
   openGraph: {
-    title: "Vilbert Hydro | Débouchage, Curage & Assainissement — Somme & Hauts-de-France",
+    title: "Vilbert Hydro | Débouchage, Curage & Assainissement — Picardie (80·60·02)",
     description:
-      "Débouchage, curage, vidange fosse septique, maintenance postes de relevage. Somme (80) et Hauts-de-France. Urgences 24h/24. Agréé vidangeur · CATEC · Habilitation électrique.",
+      "Débouchage, curage, vidange fosse septique agréé, maintenance postes de relevage en Picardie (Somme, Oise, Aisne). Urgences 24h/24. Agréé vidangeur · CATEC · Habilitation électrique.",
     url: BASE_URL,
     siteName: "Vilbert Hydro",
     locale: "fr_FR",
     type: "website",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Vilbert Hydro — Assainissement Somme" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Vilbert Hydro — Assainissement Picardie" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vilbert Hydro | Débouchage & Assainissement Somme — Urgences 24h/24",
-    description: "Débouchage, curage, vidange fosse septique. Somme (80), Hauts-de-France. Urgences 24h/24. Agréé vidangeur · CATEC.",
+    title: "Vilbert Hydro | Débouchage & Assainissement Picardie — Urgences 24h/24",
+    description: "Débouchage, curage, vidange fosse septique agréé. Picardie (Somme, Oise, Aisne). Urgences 24h/24. Agréé vidangeur · CATEC.",
   },
   robots: {
     index: true,
