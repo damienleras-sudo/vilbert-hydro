@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "À propos — Vilbert Hydro, expert assainissement depuis +30 ans",
@@ -80,13 +81,27 @@ export default function AProposPage() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            {chiffres.map((c) => (
-              <div key={c.label} className="bg-gray-50 rounded-2xl p-6 text-center border border-gray-100">
-                <div className="text-3xl font-black text-[#1b4f8c]">{c.val}</div>
-                <div className="text-gray-500 text-sm mt-1">{c.label}</div>
+          <div className="space-y-4">
+            {/* Photo flotte de véhicules */}
+            <div className="relative rounded-2xl overflow-hidden h-52">
+              <Image
+                src="/15403663_1320018538019104_2463712989386103737_o.jpg"
+                alt="Flotte de véhicules Vilbert Hydro — camions hydrocureurs et vidangeurs"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <p className="text-white text-sm font-bold">Notre flotte de véhicules professionnels</p>
               </div>
-            ))}
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              {chiffres.map((c) => (
+                <div key={c.label} className="bg-gray-50 rounded-2xl p-5 text-center border border-gray-100">
+                  <div className="text-3xl font-black text-[#1b4f8c]">{c.val}</div>
+                  <div className="text-gray-500 text-sm mt-1">{c.label}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

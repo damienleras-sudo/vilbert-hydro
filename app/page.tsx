@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { blogPosts } from "@/lib/blog-posts";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
@@ -10,24 +11,28 @@ const services = [
     title: "Débouchage canalisations",
     desc: "Intervention rapide pour déboucher vos canalisations bouchées. Particuliers et professionnels. Urgences 24h/24.",
     href: "/services#debouchage",
+    img: "/20221028_083531.jpg",
   },
   {
     icon: "💧",
     title: "Curage & Hydrocurage",
     desc: "Nettoyage haute pression de vos réseaux d'assainissement. Dépôts, graisses, racines éliminés.",
     href: "/services#curage",
+    img: "/hydrocurage-de-canalisation.webp",
   },
   {
     icon: "📷",
     title: "Inspection télévisée",
     desc: "Diagnostic précis par caméra robotisée. Rapport complet avec images et recommandations.",
     href: "/services#inspection",
+    img: null,
   },
   {
     icon: "🏠",
     title: "Vidange fosse septique",
     desc: "Vidange et entretien de fosses septiques, fosses toutes eaux. Respect des obligations légales.",
     href: "/services#vidange",
+    img: "/poste de relevage  après entretien de maintenance 1.jpg",
   },
 ];
 
@@ -77,11 +82,20 @@ export default function Home() {
     <>
       {/* HERO */}
       <section className="relative bg-[#1b4f8c] text-white overflow-hidden">
+        {/* Photo de fond semi-transparente */}
+        <div className="absolute inset-0">
+          <Image
+            src="/20210908_131650.jpg"
+            alt="Camion hydrocureur Vilbert - débouchage et curage"
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
+        </div>
         <div
           className="absolute inset-0 opacity-5"
           style={{
-            backgroundImage:
-              "repeating-linear-gradient(45deg, #fff 0, #fff 1px, transparent 0, transparent 50%)",
+            backgroundImage: "repeating-linear-gradient(45deg, #fff 0, #fff 1px, transparent 0, transparent 50%)",
             backgroundSize: "20px 20px",
           }}
         />
@@ -169,7 +183,7 @@ export default function Home() {
       {/* TRUST */}
       <TrustBanner />
 
-      {/* SERVICES */}
+      {/* SERVICES avec photos */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
@@ -186,16 +200,30 @@ export default function Home() {
               <Link
                 key={s.title}
                 href={s.href}
-                className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-100 group"
+                className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-100 group"
               >
-                <div className="text-4xl mb-4">{s.icon}</div>
-                <h3 className="text-lg font-bold text-[#1b4f8c] mb-2 group-hover:text-[#0f2942]">
-                  {s.title}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{s.desc}</p>
-                <span className="inline-block mt-4 text-[#f5b800] font-bold text-sm">
-                  En savoir plus →
-                </span>
+                {s.img && (
+                  <div className="relative h-40 overflow-hidden">
+                    <Image
+                      src={s.img}
+                      alt={s.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-[#1b4f8c]/30" />
+                    <div className="absolute top-3 left-3 text-3xl">{s.icon}</div>
+                  </div>
+                )}
+                <div className="p-6">
+                  {!s.img && <div className="text-4xl mb-4">{s.icon}</div>}
+                  <h3 className="text-lg font-bold text-[#1b4f8c] mb-2 group-hover:text-[#0f2942]">
+                    {s.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">{s.desc}</p>
+                  <span className="inline-block mt-4 text-[#f5b800] font-bold text-sm">
+                    En savoir plus →
+                  </span>
+                </div>
               </Link>
             ))}
           </div>
@@ -210,7 +238,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROS SECTION */}
+      {/* PROS SECTION avec photo */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -250,34 +278,30 @@ export default function Home() {
               </Link>
             </div>
             <div className="space-y-4">
-              {[
-                {
-                  icon: "🍽️",
-                  titre: "Restaurants & Métiers de bouche",
-                  desc: "Bouchers, traiteurs, boulangeries, cantines : entretien régulier de vos bacs à graisses et réseaux.",
-                },
-                {
-                  icon: "🏭",
-                  titre: "Sites industriels",
-                  desc: "Curage de réseaux industriels, vidange de bacs et cuves, interventions sur mesure selon vos contraintes.",
-                },
-                {
-                  icon: "🏢",
-                  titre: "Copropriétés & Collectivités",
-                  desc: "Entretien des réseaux collectifs, curage préventif, gestion des urgences pour les syndics et communes.",
-                },
-              ].map((item) => (
-                <div
-                  key={item.titre}
-                  className="flex gap-4 bg-gray-50 rounded-xl p-5 border border-gray-100"
-                >
-                  <div className="text-3xl flex-shrink-0">{item.icon}</div>
-                  <div>
-                    <h3 className="font-bold text-gray-900 mb-1">{item.titre}</h3>
-                    <p className="text-gray-600 text-sm">{item.desc}</p>
-                  </div>
+              {/* Photo bac à graisses */}
+              <div className="relative rounded-xl overflow-hidden h-52">
+                <Image
+                  src="/entretien bac dégraisseur.jpg"
+                  alt="Entretien bac dégraisseur restaurant - Vilbert Hydro"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                  <p className="text-white text-sm font-bold">Entretien bac dégraisseur</p>
                 </div>
-              ))}
+              </div>
+              {/* Photo intervention industrielle */}
+              <div className="relative rounded-xl overflow-hidden h-52">
+                <Image
+                  src="/20221028_111003.jpg"
+                  alt="Intervention Vilbert Hydro sur site industriel"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                  <p className="text-white text-sm font-bold">Intervention sur site industriel</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -309,8 +333,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ZONE + CONTACT CARD */}
+      {/* GALERIE PHOTOS */}
       <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-black text-[#1b4f8c] mb-3">Nos équipes en action</h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto mb-4" />
+            <p className="text-gray-600 max-w-xl mx-auto">
+              Des véhicules équipés et des techniciens expérimentés pour toutes vos interventions.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {[
+              { src: "/15403663_1320018538019104_2463712989386103737_o.jpg", alt: "Flotte de véhicules Vilbert Hydro - camions hydrocureurs" },
+              { src: "/20210908_131650.jpg", alt: "Camion hydrocureur Vilbert - débouchage curage" },
+              { src: "/20221028_083531.jpg", alt: "Intervention débouchage canalisation Vilbert Hydro" },
+              { src: "/photo d'intervention  entretien et remise en fonction d'un puisard.jpg", alt: "Entretien et remise en fonction d'un puisard" },
+              { src: "/poste de relevage  après entretien de maintenance 1.jpg", alt: "Poste de relevage après entretien de maintenance" },
+              { src: "/HYDROCURAGE-dessin.png", alt: "Schéma hydrocurage de canalisation" },
+            ].map((photo, i) => (
+              <div key={i} className={`relative rounded-xl overflow-hidden ${i === 0 ? "md:col-span-2 h-64" : "h-48"}`}>
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ZONE + CONTACT CARD */}
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
@@ -346,18 +402,13 @@ export default function Home() {
                 </p>
                 <p>
                   ✉️{" "}
-                  <a
-                    href="mailto:hydro@groupe-vilbert.fr"
-                    className="hover:text-white transition-colors"
-                  >
+                  <a href="mailto:hydro@groupe-vilbert.fr" className="hover:text-white transition-colors">
                     hydro@groupe-vilbert.fr
                   </a>
                 </p>
                 <div className="border-t border-blue-700 pt-3 mt-3">
                   <p className="font-bold text-[#f5b800]">🚨 Urgences 24h/24 · 7j/7</p>
-                  <p className="text-blue-200 text-xs mt-1">
-                    Devis gratuit — Intervention rapide
-                  </p>
+                  <p className="text-blue-200 text-xs mt-1">Devis gratuit — Intervention rapide</p>
                 </div>
               </address>
               <Link

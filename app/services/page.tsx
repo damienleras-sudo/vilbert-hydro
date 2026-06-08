@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Nos Services — Débouchage, Curage, Vidange Fosse Septique",
@@ -23,6 +24,8 @@ const services = [
       "Urgences 24h/24 · 7j/7",
     ],
     clienteles: "Particuliers, résidences, restaurants, hôtels",
+    img: "/20221028_083531.jpg",
+    imgAlt: "Intervention débouchage canalisation en zone résidentielle - Vilbert Hydro",
   },
   {
     id: "curage",
@@ -38,6 +41,8 @@ const services = [
       "Camions hydrocureurs disponibles rapidement",
     ],
     clienteles: "Particuliers, syndics, collectivités, industries",
+    img: "/HYDROCURAGE-dessin.png",
+    imgAlt: "Schéma hydrocurage de canalisation - camion hydrocureur",
   },
   {
     id: "inspection",
@@ -53,6 +58,8 @@ const services = [
       "Idéal avant achat immobilier ou travaux",
     ],
     clienteles: "Particuliers, notaires, syndics, communes",
+    img: "/photo d'intervention  entretien et remise en fonction d'un puisard.jpg",
+    imgAlt: "Entretien et remise en fonction d'un puisard - inspection Vilbert Hydro",
   },
   {
     id: "vidange",
@@ -68,6 +75,8 @@ const services = [
       "Conformité SPANC",
     ],
     clienteles: "Particuliers en zone rurale, campings, industries",
+    img: "/poste de relevage  après entretien de maintenance 1.jpg",
+    imgAlt: "Poste de relevage après entretien de maintenance - Vilbert Hydro",
   },
   {
     id: "restauration",
@@ -83,6 +92,8 @@ const services = [
       "Urgences et dépannage rapide",
     ],
     clienteles: "Restaurants, métiers de bouche, cantines, hôtels",
+    img: "/entretien bac dégraisseur.jpg",
+    imgAlt: "Entretien bac dégraisseur restaurant - Vilbert Hydro",
   },
   {
     id: "industriel",
@@ -98,6 +109,8 @@ const services = [
       "Interventions en toute sécurité",
     ],
     clienteles: "Usines, entrepôts, zones industrielles, collectivités",
+    img: "/20221028_111003.jpg",
+    imgAlt: "Intervention Vilbert Hydro sur site industriel - assainissement",
   },
 ];
 
@@ -152,21 +165,34 @@ export default function ServicesPage() {
                   Demander un devis →
                 </Link>
               </div>
-              <div className={`bg-white rounded-2xl p-7 shadow-sm border border-gray-100 ${i % 2 === 1 ? "lg:order-1" : ""}`}>
-                <h3 className="font-bold text-gray-900 mb-4">Ce que comprend ce service :</h3>
-                <ul className="space-y-3 mb-5">
-                  {s.details.map((d) => (
-                    <li key={d} className="flex items-start gap-3 text-gray-700 text-sm">
-                      <span className="text-[#f5b800] font-black mt-0.5">✓</span>
-                      {d}
-                    </li>
-                  ))}
-                </ul>
-                <div className="border-t border-gray-100 pt-4">
-                  <p className="text-xs text-gray-400 uppercase tracking-wide font-bold mb-1">
-                    Clientèles concernées
-                  </p>
-                  <p className="text-gray-600 text-sm">{s.clienteles}</p>
+              <div className={`space-y-4 ${i % 2 === 1 ? "lg:order-1" : ""}`}>
+                {s.img && (
+                  <div className="relative rounded-2xl overflow-hidden h-52">
+                    <Image
+                      src={s.img}
+                      alt={s.imgAlt}
+                      fill
+                      className="object-cover"
+                    />
+                    <div className="absolute inset-0 bg-[#1b4f8c]/10" />
+                  </div>
+                )}
+                <div className="bg-white rounded-2xl p-7 shadow-sm border border-gray-100">
+                  <h3 className="font-bold text-gray-900 mb-4">Ce que comprend ce service :</h3>
+                  <ul className="space-y-3 mb-5">
+                    {s.details.map((d) => (
+                      <li key={d} className="flex items-start gap-3 text-gray-700 text-sm">
+                        <span className="text-[#f5b800] font-black mt-0.5">✓</span>
+                        {d}
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="border-t border-gray-100 pt-4">
+                    <p className="text-xs text-gray-400 uppercase tracking-wide font-bold mb-1">
+                      Clientèles concernées
+                    </p>
+                    <p className="text-gray-600 text-sm">{s.clienteles}</p>
+                  </div>
                 </div>
               </div>
             </div>
