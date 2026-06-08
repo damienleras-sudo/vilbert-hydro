@@ -84,21 +84,6 @@ export default function Home() {
 
   return (
     <>
-      {/* BANDE URGENCE — très visible */}
-      <section className="bg-red-600 text-white py-3">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-3 text-center">
-          <span className="font-black text-base md:text-lg">
-            🚨 URGENCES 24h/24 — 7j/7 — Week-ends et jours fériés inclus
-          </span>
-          <a
-            href="tel:0322917201"
-            className="bg-white text-red-600 font-black px-5 py-1.5 rounded-full text-lg hover:bg-red-50 transition-colors whitespace-nowrap"
-          >
-            📞 03 22 91 72 01
-          </a>
-        </div>
-      </section>
-
       {/* HERO */}
       <section className="relative bg-[#1b4f8c] text-white overflow-hidden">
         <div className="absolute inset-0">
