@@ -41,7 +41,6 @@ const servicesMenu = [
 ];
 
 const navLinks = [
-  { label: "Accueil", href: "/" },
   { label: "À propos", href: "/a-propos" },
   { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },
