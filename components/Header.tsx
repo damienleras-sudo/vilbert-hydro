@@ -42,6 +42,9 @@ export default function Header() {
               <span>✉️</span>
               <span>hydro@groupe-vilbert.fr</span>
             </a>
+            <span className="hidden lg:flex items-center gap-1 text-green-300 font-bold text-xs">
+              ✓ Arrivée en moins de 2h en urgence
+            </span>
           </div>
           <div className="flex items-center gap-3 flex-wrap text-xs">
             <span className="hidden md:inline text-blue-200">Agréé vidangeur · CATEC · Habilitation électrique</span>

@@ -288,6 +288,17 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* CONTRAT MAINTENANCE */}
+      <section className="py-12 bg-[#1b4f8c] text-white">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <h2 className="text-2xl font-black mb-2">Vous êtes professionnel ou gestionnaire ?</h2>
+          <p className="text-blue-200 mb-6 max-w-xl mx-auto">Copropriétés, restaurants, industries, mairies — découvrez nos contrats de maintenance annuels avec priorité d&apos;intervention et tarifs préférentiels.</p>
+          <Link href="/contrat-maintenance" className="inline-block bg-[#f5b800] text-gray-900 font-black px-8 py-4 rounded-xl hover:bg-[#ffd44d] transition-colors text-lg">
+            Nos contrats de maintenance →
+          </Link>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-[#f5b800] py-14">
         <div className="max-w-3xl mx-auto px-4 text-center">

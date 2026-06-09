@@ -351,6 +351,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* GARANTIES */}
+      <section className="py-14 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-black text-[#1b4f8c] mb-2">Nos engagements</h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto" />
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { icon: "✅", titre: "Devis gratuit & sans engagement", desc: "Tarif fixé avant intervention, zéro surprise" },
+              { icon: "⏱️", titre: "Arrivée en moins de 2h", desc: "En urgence, nos équipes se déplacent rapidement" },
+              { icon: "📋", titre: "Rapport d'intervention", desc: "Document fourni après chaque prestation" },
+              { icon: "🔄", titre: "Satisfaction garantie", desc: "Si le problème persiste, on revient" },
+            ].map((g) => (
+              <div key={g.titre} className="bg-gray-50 rounded-xl p-5 text-center border border-gray-100 hover:border-[#f5b800] transition-colors">
+                <div className="text-3xl mb-3">{g.icon}</div>
+                <p className="font-black text-[#1b4f8c] text-sm mb-2">{g.titre}</p>
+                <p className="text-gray-500 text-xs leading-relaxed">{g.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* GALERIE */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
@@ -388,6 +412,25 @@ export default function Home() {
               <strong>80 km</strong> — couvrant toute la Picardie (Somme, Oise, Aisne), le Pas-de-Calais,
               et les départements limitrophes.
             </p>
+          </div>
+
+          {/* PRIX INDICATIFS */}
+          <div className="bg-[#f5b800]/10 border border-[#f5b800]/30 rounded-xl p-6 mb-6">
+            <h3 className="font-black text-[#1b4f8c] mb-4 text-lg">💶 Tarifs indicatifs</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              {[
+                { label: "Débouchage", prix: "à partir de 150€" },
+                { label: "Vidange fosse septique", prix: "à partir de 280€" },
+                { label: "Hydrocurage", prix: "à partir de 200€" },
+                { label: "Inspection télévisée", prix: "à partir de 180€" },
+              ].map((item) => (
+                <div key={item.label} className="bg-white rounded-lg p-4 text-center shadow-sm">
+                  <p className="font-black text-[#1b4f8c] text-sm mb-1">{item.label}</p>
+                  <p className="text-[#f5b800] font-black">{item.prix}</p>
+                  <p className="text-gray-400 text-xs mt-2">Devis gratuit • Tarif définitif avant intervention</p>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* CARTE LEAFLET */}
