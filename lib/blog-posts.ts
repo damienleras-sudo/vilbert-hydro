@@ -1169,4 +1169,464 @@ Nous intervenons sur l'ensemble de la Picardie (Somme, Oise, Aisne) dans un dél
 Appelez le **03 22 91 72 01** ou écrivez à hydro@groupe-vilbert.fr.
     `,
   },
+
+
+  // ─── SÉRIE 3 — SEO/LLM approfondissement ─────────────────────────────────
+
+  {
+    slug: "lingettes-canalisations-danger-alternatives",
+    title: "Lingettes dans les WC : pourquoi c'est le fléau n°1 des canalisations",
+    excerpt: "Les lingettes, même étiquetées 'biodégradables' ou 'jetables', bouchent canalisations, fosses septiques et postes de relevage. Voici pourquoi et ce qu'il faut utiliser à la place.",
+    date: "30 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Conseils pratiques",
+    metaDescription: "Lingettes dans les WC : pourquoi ne pas les jeter même si 'biodégradables' ? Impact sur canalisations, fosse septique, poste de relevage. Alternatives et solutions.",
+    content: `
+# Lingettes dans les WC : pourquoi c'est le fléau n°1 des canalisations
+
+C'est l'une des causes les plus fréquentes d'intervention chez Vilbert Hydro. Pourtant, beaucoup de personnes pensent encore qu'il est possible de jeter des lingettes dans les toilettes. Voici pourquoi c'est une erreur coûteuse.
+
+## Pourquoi les lingettes ne se dégradent pas dans les canalisations
+
+Contrairement au papier toilette qui se désintègre en quelques secondes, les lingettes conservent leur structure pendant des heures, des jours, voire des semaines. La plupart contiennent des fibres synthétiques (polyester, polyéthylène) qui résistent à l'humidité.
+
+## Les dégâts dans les canalisations
+
+Les lingettes se comportent comme des éponges : elles retiennent graisses, cheveux et calcaire. En quelques mois, une masse compacte peut obstruer totalement une canalisation. Résultat : refoulement d'eaux usées et débordement des WC.
+
+## L'impact sur les postes de relevage
+
+Les lingettes s'enroulent autour des turbines des pompes immergées, les bloquent et les grillent. Une pompe de relevage coûte entre **500 et 3 000 €** selon la puissance — sans compter le remplacement en urgence.
+
+## L'impact sur les fosses septiques
+
+Dans une fosse toutes eaux, les lingettes s'accumulent sans se dégrader, réduisent le volume utile et peuvent boucher la sortie vers le champ d'épandage. Résultat : vidange anticipée et risque de non-conformité au contrôle SPANC.
+
+## Les alternatives
+
+- **Papier toilette** : la seule matière conçue pour se dissoudre dans l'eau
+- **Papier toilette humidifié** à base de cellulose pure : acceptable avec modération
+- **Bidet ou douchette WC** : solution la plus efficace et la plus écologique
+
+Les lingettes démaquillantes, de nettoyage et désinfectantes ne doivent jamais partir dans les WC. Seule la corbeille à papier convient.
+
+Vilbert Hydro intervient pour déboucher et nettoyer vos canalisations en Picardie. **03 22 91 72 01**.
+    `,
+  },
+
+  {
+    slug: "hydrocurage-vs-debouchage-mecanique-comparaison",
+    title: "Hydrocurage ou débouchage mécanique : quelle technique pour quel problème ?",
+    excerpt: "Furet, ventouse, hydrocurage haute pression... Comment choisir la bonne technique selon votre problème ? Comparatif complet par les experts Vilbert Hydro.",
+    date: "29 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Expertise",
+    metaDescription: "Hydrocurage vs débouchage mécanique : comparatif furet, ventouse, haute pression. Quelle technique pour quel bouchon ? Picardie — Vilbert Hydro.",
+    content: `
+# Hydrocurage ou débouchage mécanique : quelle technique pour quel problème ?
+
+Face à une canalisation bouchée, les professionnels disposent de plusieurs techniques. Voici le guide complet pour comprendre quelle méthode utiliser.
+
+## La ventouse : pour les bouchons superficiels
+
+**Principe :** pression/dépression alternée sur le siphon.
+**Efficace sur :** cheveux, amas de savon dans un siphon de lavabo ou douche.
+**Limites :** inutile au-delà du siphon, ne résout pas les bouchons profonds.
+
+## Le furet motorisé : pour les bouchons solides
+
+**Principe :** spirale métallique flexible qui progresse dans la canalisation pour percer ou extraire le bouchon.
+**Efficace sur :** lingettes, chiffons, corps étrangers, accumulations de cheveux.
+**Limites :** ne nettoie pas les parois, ne traite pas les dépôts de graisse ou calcaire.
+
+## L'hydrocurage haute pression : la solution professionnelle de référence
+
+**Principe :** jet d'eau projeté à 100-200 bars via une lance rotative. Nettoyage 360° sur toute la longueur du réseau.
+**Efficace sur :** graisses solidifiées, calcaire, boues, limons, racines légères.
+**Avantages :** nettoyage en profondeur, préventif autant que curatif.
+
+C'est la technique utilisée par Vilbert Hydro pour les curages de réseau, bacs à graisses, fosses et postes de relevage.
+
+## Le robot de fraisage : pour les racinages importants
+
+Outil motorisé qui découpe les racines intrusives. Utilisé en complément de l'hydrocurage pour les racinages résistants.
+
+## Tableau comparatif
+
+| Technique | Bouchon léger | Bouchon profond | Graisse/calcaire | Racines | Préventif |
+|---|---|---|---|---|---|
+| Ventouse | Oui | Non | Non | Non | Non |
+| Furet motorisé | Oui | Oui | Non | Partiel | Non |
+| Hydrocurage HP | Oui | Oui | Oui | Partiel | Oui |
+| Robot fraisage | Non | Non | Non | Oui | Non |
+
+Pour un entretien préventif ou un bouchon récidivant, l'hydrocurage haute pression est systématiquement préconisé.
+
+Contactez Vilbert Hydro pour un diagnostic gratuit : **03 22 91 72 01**.
+    `,
+  },
+
+  {
+    slug: "debouchage-canalisation-compiegne-guide-2025",
+    title: "Débouchage de canalisations à Compiègne (60) : guide et tarifs 2025",
+    excerpt: "Canalisation bouchée à Compiègne ou dans l'Oise ? Vilbert Hydro intervient en moins de 2h. Techniques, tarifs et zones d'intervention dans le Compiégnois.",
+    date: "28 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Local SEO",
+    metaDescription: "Débouchage canalisation Compiègne (60) 2025 : tarifs, urgences 24h/24, hydrocurage, vidange fosse septique. Vilbert Hydro Oise. Tél 03 22 91 72 01.",
+    content: `
+# Débouchage de canalisations à Compiègne (Oise, 60) : guide complet 2025
+
+Compiègne et son agglomération font partie de la zone d'intervention prioritaire de Vilbert Hydro en Picardie.
+
+## Particularités du réseau dans le Compiégnois
+
+- **Canalisations en grès ou en fonte** dans les quartiers anciens — susceptibles de fissuration
+- **Fosses septiques** nombreuses dans les communes rurales (Lacroix-Saint-Ouen, Verberie, Choisy-au-Bac)
+- **Racinages importants** en bord d'Oise
+
+## Zone d'intervention
+
+- Compiègne et proches communes : Margny-lès-Compiègne, Lacroix-Saint-Ouen, Choisy-au-Bac, Jaux
+- Vallée de l'Oise : Verberie, Pont-Sainte-Maxence
+- Plaine picarde : Noyon, Guiscard, Lassigny
+
+## Services disponibles à Compiègne
+
+Débouchage 24h/24 — Hydrocurage haute pression — Inspection télévisée — Vidange fosse septique (agréé vidangeur) — Maintenance postes de relevage — Nettoyage bacs à graisses.
+
+## Tarifs indicatifs
+
+- Débouchage simple : à partir de **150 €**
+- Hydrocurage réseau : à partir de **200 €**
+- Vidange fosse septique : à partir de **280 €**
+- Inspection télévisée : à partir de **180 €**
+
+Depuis Camon, Compiègne est à environ 40 minutes. Intervention en **moins de 2h** pour les urgences, 24h/24 et 7j/7.
+
+**03 22 91 72 01** — nuits, week-ends et jours fériés inclus.
+    `,
+  },
+
+  {
+    slug: "wc-bouches-que-faire-solutions",
+    title: "WC bouchés : que faire ? Les solutions par ordre d'efficacité",
+    excerpt: "WC bouchés qui ne se vident plus ? Voici les solutions à essayer vous-même, quand appeler un professionnel, et comment éviter les erreurs qui aggravent la situation.",
+    date: "27 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Conseils pratiques",
+    metaDescription: "WC bouchés : ventouse, eau bouillante, furet — solutions efficaces par ordre. Quand appeler un plombier ? Urgences Picardie 24h/24. Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# WC bouchés : que faire ? Les solutions par ordre d'efficacité
+
+Les WC bouchés sont l'une des urgences domestiques les plus stressantes. Voici les solutions à essayer dans le bon ordre, et quand appeler un professionnel.
+
+## Étape 1 : n'aggravez pas la situation
+
+N'actionnez pas la chasse d'eau à répétition — l'eau va déborder. Attendez que le niveau redescende.
+
+N'utilisez pas de produits chimiques déboucheurs : inefficaces sur les bouchons solides et corrosifs pour le PVC. Ils compliquent aussi l'intervention du professionnel.
+
+## Étape 2 : la ventouse WC
+
+Utilisez une ventouse adaptée aux WC (modèle à soufflet). Appliquez des mouvements de pompage rapides pendant 30 secondes. Efficace sur : papier en excès. Inefficace sur : lingettes, objets tombés, bouchons profonds.
+
+## Étape 3 : l'eau chaude et le liquide vaisselle
+
+Versez un demi-litre de liquide vaisselle puis 5 litres d'eau très chaude (pas bouillante — risque de fissuration de la céramique). Laissez agir 20 minutes puis retentez la ventouse.
+
+## Étape 4 : le furet WC
+
+Introduisez le furet dans le siphon, tournez dans le sens des aiguilles d'une montre pour percer ou récupérer le bouchon.
+
+## Quand appeler Vilbert Hydro ?
+
+- Les WC débordent activement
+- La ventouse et le furet ont échoué
+- **Plusieurs appareils sanitaires** sont bouchés simultanément (bouchon sur collecteur principal)
+- Des eaux usées remontent dans la douche ou la baignoire
+- L'incident se répète régulièrement
+
+Intervention **24h/24 en Picardie** : **03 22 91 72 01**.
+    `,
+  },
+
+  {
+    slug: "prix-debouchage-canalisation-2025-tous-tarifs",
+    title: "Prix débouchage canalisation en 2025 : tous les tarifs expliqués",
+    excerpt: "Combien coûte un débouchage de canalisation en 2025 ? Fourchettes de prix selon la technique, l'urgence et le type d'installation. Comment éviter les arnaques.",
+    date: "26 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Tarifs & Conseils",
+    metaDescription: "Prix débouchage canalisation 2025 : tarifs furet, hydrocurage, inspection caméra, vidange fosse. Comment éviter les arnaques. Devis gratuit Vilbert Hydro Picardie.",
+    content: `
+# Prix débouchage canalisation en 2025 : tous les tarifs expliqués
+
+Le prix d'un débouchage peut varier du simple au triple. Voici un guide complet pour comprendre les tarifs et éviter les mauvaises surprises.
+
+## Tarifs de référence en 2025
+
+**Débouchage simple (furet motorisé)**
+- Bouchon léger, siphon ou évacuation : **150 à 250 €**
+- Bouchon profond sur canalisation principale : **200 à 350 €**
+
+**Hydrocurage haute pression**
+- 10 mètres linéaires : **200 à 350 €**
+- Réseau complet maison individuelle (50 m) : **400 à 700 €**
+- Bac à graisses restaurant : **300 à 500 €**
+
+**Inspection télévisée par caméra**
+- Logement individuel (20-50 m) : **180 à 350 €** — rapport vidéo inclus
+
+**Vidange fosse septique**
+- Fosse 3 000 L : **280 à 450 €**
+- Fosse 5 000 L : **350 à 600 €**
+- Micro-station (vidange boues) : **250 à 400 €**
+
+## Les facteurs qui font varier le prix
+
+**L'urgence :** une intervention de nuit ou le week-end est généralement majorée de 30 à 100 %. Chez Vilbert Hydro, le tarif est fixé avant intervention sans majoration cachée.
+
+**L'accessibilité :** fosse difficilement accessible, terrain en pente, regards enterrés.
+
+**La complexité :** racinage important ou canalisation effondrée nécessitant une technique complémentaire.
+
+## Comment éviter les arnaques
+
+Des prestataires peu scrupuleux facturent 1 000 à 3 000 € pour un débouchage de 20 minutes. Pour éviter les pièges :
+- Demandez un **devis écrit avant intervention**
+- Méfiez-vous des prestataires qui refusent de donner un tarif par téléphone
+- Évitez les numéros surtaxés (08...)
+- Préférez un prestataire **agréé** (agrément vidangeur pour les fosses)
+
+## Ce que comprend le tarif Vilbert Hydro
+
+Devis gratuit — tarif fixé avant intervention — rapport d'intervention fourni — bordereau BSMD légalement obligatoire pour les vidanges de fosse.
+
+**03 22 91 72 01** — devis gratuit en Picardie.
+    `,
+  },
+
+  {
+    slug: "assainissement-lotissement-prive-responsabilites",
+    title: "Assainissement dans un lotissement privé : qui est responsable des réseaux ?",
+    excerpt: "Dans un lotissement ou une résidence privée, la gestion des réseaux d'assainissement est souvent source de conflit. Qui est responsable ? Qui paie les travaux ?",
+    date: "25 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Réglementation",
+    metaDescription: "Assainissement lotissement privé : responsabilités réseau, ASL, syndic, obligations légales. Curage, entretien, qui paie ? Vilbert Hydro Picardie.",
+    content: `
+# Assainissement dans un lotissement privé : qui est responsable des réseaux ?
+
+Dans les lotissements et résidences fermées, les réseaux d'assainissement sont souvent privés — leur entretien ne relève pas de la commune, mais des propriétaires.
+
+## Réseau public vs réseau privé
+
+**Le réseau public** est géré par la commune jusqu'au branchement de chaque propriété.
+
+**Le réseau privé** comprend les canalisations à l'intérieur de la propriété, mais aussi les réseaux collecteurs internes qui desservent plusieurs lots avant de se raccorder au réseau public.
+
+## Qui est responsable dans un lotissement ?
+
+Avec une **Association Syndicale de Lotissement (ASL)**, les travaux d'entretien et de curage sont financés par les cotisations des membres.
+
+Sans ASL, la responsabilité de chaque propriétaire s'étend jusqu'au point de raccordement au réseau public.
+
+## Pourquoi un contrat de curage préventif est indispensable
+
+Un réseau collectif desservant 10, 20 ou 50 logements accumule des dépôts beaucoup plus vite qu'un réseau individuel. Sans curage régulier (tous les 1 à 2 ans), le risque de bouchon collectif est élevé — et les responsabilités difficiles à établir.
+
+Vilbert Hydro propose des **contrats de maintenance annuels** pour les lotissements et résidences privées :
+- Curage préventif du réseau collectif
+- Inspection télévisée optionnelle
+- Rapport d'état annuel remis à l'ASL
+- Priorité d'intervention en cas d'urgence
+
+Devis gratuit : **03 22 91 72 01** ou hydro@groupe-vilbert.fr.
+    `,
+  },
+
+  {
+    slug: "debouchage-beauvais-oise-guide-2025",
+    title: "Débouchage canalisations à Beauvais (Oise, 60) : guide et urgences 2025",
+    excerpt: "Vous habitez Beauvais ou le Beauvaisis ? Vilbert Hydro intervient pour vos débouchages, curage et vidange de fosses septiques dans l'Oise. Urgences 24h/24.",
+    date: "24 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Local SEO",
+    metaDescription: "Débouchage canalisation Beauvais Oise (60) 2025 : urgences 24h/24, hydrocurage, vidange fosse septique. Vilbert Hydro Beauvaisis. Tél 03 22 91 72 01.",
+    content: `
+# Débouchage canalisations à Beauvais (Oise, 60) : guide et urgences 2025
+
+Beauvais, chef-lieu de l'Oise, et son agglomération font partie de notre zone d'intervention en Picardie.
+
+## Caractéristiques du réseau dans le Beauvaisis
+
+- Réseaux anciens en grès ou en fonte dans le centre historique
+- Assainissement non collectif fréquent dans les communes périurbaines
+- Fosses septiques non conformes dans le Beauvaisis rural (Bresles, Méru, Noailles)
+- Postes de relevage défaillants dans les zones pavillonnaires récentes
+
+## Zones couvertes autour de Beauvais
+
+- Beauvais intra-muros, Saint-Martin-le-Nœud, Therdonne, Troissereux
+- Nord Oise : Nivillers, Goincourt, Warluis
+- Sud Oise : Bresles, Mello, La Chapelle-aux-Pots
+- Axe Beauvais-Compiègne : Mouy, Rantigny, Clermont
+
+## Services et tarifs à Beauvais
+
+- Débouchage urgence 24h/24 : **à partir de 150 €**
+- Hydrocurage haute pression : **à partir de 200 €**
+- Vidange fosse septique : **à partir de 280 €**
+- Inspection télévisée : **à partir de 180 €**
+
+Devis gratuit — tarif fixé avant intervention.
+
+**03 22 91 72 01** — 24h/24, 7j/7.
+    `,
+  },
+
+  {
+    slug: "separateur-hydrocarbures-entretien-reglementation",
+    title: "Séparateur d'hydrocarbures : entretien obligatoire et réglementation",
+    excerpt: "Garages, stations-service, parkings... Le séparateur d'hydrocarbures est obligatoire et son entretien est réglementé. Tout ce que vous devez savoir pour rester en conformité.",
+    date: "23 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Professionnels",
+    metaDescription: "Séparateur hydrocarbures entretien obligatoire : réglementation ICPE, fréquence vidange, curage. Garages, parkings en Picardie. Vilbert Hydro.",
+    content: `
+# Séparateur d'hydrocarbures : entretien obligatoire et réglementation
+
+Les séparateurs d'hydrocarbures (débourbeurs-déshuileurs) sont obligatoires pour les installations générant des eaux contaminées par des huiles ou hydrocarbures. Leur entretien est réglementé — et souvent négligé.
+
+## Qui est concerné ?
+
+Garages automobiles — centres de contrôle technique — stations-service — parkings couverts de plus de 5 000 m² — zones de lavage de véhicules — sites industriels — exploitations agricoles avec stockage de carburant.
+
+## Comment fonctionne un séparateur d'hydrocarbures ?
+
+Les matières lourdes (boues) se déposent dans le premier compartiment (débourbeur). Les hydrocarbures, plus légers, remontent en surface du second compartiment et sont retenus. L'eau traitée s'écoule vers le réseau. Un flotteur de sécurité se ferme automatiquement quand le niveau d'hydrocarbures atteint la limite maximale.
+
+## Obligations réglementaires
+
+Vidange obligatoire :
+- **Au moins une fois par an** pour les installations soumises à déclaration ICPE
+- **Dès que les hydrocarbures représentent plus de 50 % du volume utile**
+- **Immédiatement** si le by-pass automatique s'est déclenché
+
+Les matières collectées sont des **déchets dangereux** : bordereau BSD obligatoire.
+
+Amendes pouvant atteindre **75 000 €** en cas de pollution avérée.
+
+## L'intervention de Vilbert Hydro
+
+Vidange et nettoyage — vérification du by-pass — rapport et bordereau de traçabilité — filières agréées — intervention en sécurité par agents CATEC.
+
+**03 22 91 72 01** ou hydro@groupe-vilbert.fr — devis gratuit.
+    `,
+  },
+
+  {
+    slug: "entretien-reseau-assainissement-copropriete-obligations-syndic",
+    title: "Entretien réseau d'assainissement en copropriété : obligations du syndic",
+    excerpt: "Syndics et gestionnaires : quelles sont vos obligations légales en matière d'entretien du réseau d'assainissement ? Curage, postes de relevage, responsabilités en cas de sinistre.",
+    date: "22 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Professionnels",
+    metaDescription: "Obligations syndic entretien assainissement copropriété : curage réseau, poste de relevage, responsabilité sinistre. Contrat maintenance Vilbert Hydro Picardie.",
+    content: `
+# Entretien réseau d'assainissement en copropriété : obligations du syndic
+
+En copropriété, le réseau d'assainissement collectif relève des **parties communes**. Son entretien est une obligation légale du syndic.
+
+## Le cadre légal
+
+La loi du 10 juillet 1965 sur la copropriété impose au syndic d'assurer la conservation de l'immeuble. Un sinistre causé par un manque d'entretien engage la **responsabilité civile du syndic** envers les copropriétaires lésés.
+
+## Ce que comprend le réseau collectif
+
+Canalisations d'évacuation communes — colonnes montantes et descendantes — regards de visite — postes de relevage — fosses septiques collectives — bacs à graisses des cuisines communes.
+
+## Fréquence d'entretien recommandée
+
+| Équipement | Fréquence |
+|---|---|
+| Curage réseau principal | Tous les 1-2 ans |
+| Vidange poste de relevage | Annuelle |
+| Inspection télévisée | Tous les 5 ans |
+| Nettoyage regards | Annuel |
+| Fosse septique collective | Tous les 2-3 ans |
+
+## En cas de bouchon collectif
+
+Si le syndic ne peut pas justifier d'un entretien régulier (aucune intervention depuis 5 ans), sa responsabilité peut être engagée et l'assurance de la copropriété peut refuser de couvrir les dommages.
+
+## Contrat de maintenance Vilbert Hydro
+
+- Curage préventif annuel du réseau collectif
+- Maintenance du poste de relevage
+- Rapport remis au syndic
+- Priorité d'intervention 24h/24
+
+Devis personnalisé : **03 22 91 72 01** ou hydro@groupe-vilbert.fr.
+    `,
+  },
+
+  {
+    slug: "micro-station-filtre-compact-que-choisir-anc",
+    title: "Micro-station ou filtre compact : que choisir pour son assainissement non collectif ?",
+    excerpt: "Vous construisez ou rénovez votre système d'assainissement non collectif ? Micro-station ou filtre compact : avantages, inconvénients, coûts et entretien comparés.",
+    date: "21 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Réglementation",
+    metaDescription: "Micro-station vs filtre compact ANC : coût installation, entretien, surface nécessaire. Guide choix assainissement non collectif Picardie. Vilbert Hydro.",
+    content: `
+# Micro-station ou filtre compact : que choisir pour son assainissement non collectif ?
+
+Deux alternatives modernes à la fosse avec épandage : la **micro-station d'épuration** et le **filtre compact agréé**. Voici un comparatif objectif.
+
+## La micro-station d'épuration
+
+**Principe :** traitement biologique aérobie — un soufflage d'air maintient des bactéries actives qui dégradent la matière organique.
+
+**Avantages :**
+- Très faible emprise au sol (1-2 m²)
+- Qualité de traitement élevée (norme NF EN 12566-3)
+- Pas de contrainte de perméabilité du sol
+
+**Inconvénients :**
+- Consommation électrique (50-150 W en continu)
+- Contrat d'entretien obligatoire avec le fabricant
+- Vidange des boues tous les 1-2 ans
+- Sensible aux absences prolongées (bactéries)
+- Coût installation : **4 000 à 10 000 €**
+
+## Le filtre compact agréé
+
+**Principe :** système passif — les eaux prétraitées passent au travers d'un matériau filtrant (zéolite, pouzzolane, coco...).
+
+**Avantages :**
+- Pas de consommation électrique
+- Entretien simple, pas de contrat fabricant obligatoire
+- Peu de pièces mécaniques
+- Coût installation : **2 500 à 6 000 €**
+
+**Inconvénients :**
+- Emprise au sol de 6-15 m²
+- Durée de vie du filtre : 10 à 20 ans (remplacement à prévoir)
+
+## Comparatif rapide
+
+| Critère | Micro-station | Filtre compact |
+|---|---|---|
+| Emprise au sol | 1-2 m² | 6-15 m² |
+| Électricité | Oui | Non |
+| Entretien | Fréquent | Simple |
+| Coût | 4 000-10 000 € | 2 500-6 000 € |
+
+**Terrain exigu + exutoire disponible :** micro-station. **Propriétaire peu disponible + budget limité :** filtre compact.
+
+Consultez votre SPANC avant tout travaux. Pour la vidange et l'entretien en Picardie, Vilbert Hydro est agréé vidangeur. **03 22 91 72 01**.
+    `,
+  },
 ];
