@@ -555,4 +555,618 @@ Pour éviter les urgences à l'avenir :
 Vilbert Hydro est disponible **24h/24 et 7j/7** pour vos urgences : **03 22 91 72 01**.
     `,
   },
+
+  // ─── NOUVEAUX ARTICLES SEO/LLM ───────────────────────────────────────────
+
+  {
+    slug: "mauvaises-odeurs-egout-maison-causes-solutions",
+    title: "Mauvaises odeurs d'égout dans la maison : causes et solutions",
+    excerpt: "Une odeur d'égout dans votre logement est souvent le signe d'un problème d'assainissement à traiter rapidement. Causes fréquentes, diagnostic et solutions.",
+    date: "9 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Conseils pratiques",
+    metaDescription: "Mauvaises odeurs d'égout dans la maison : pourquoi ça sent les égouts ? Siphon sec, canalisation bouchée, fosse pleine — causes et solutions par Vilbert Hydro.",
+    content: `
+# Mauvaises odeurs d'égout dans la maison : causes et solutions
+
+Une odeur désagréable d'œuf pourri ou d'égout qui envahit votre intérieur est non seulement incommodante, mais souvent le signe d'un problème à ne pas négliger. Voici les causes les plus fréquentes et comment y remédier.
+
+## Les causes les plus fréquentes
+
+### 1. Un siphon à sec
+Le siphon (le coude en forme de U sous votre évier, lavabo ou douche) retient en permanence un peu d'eau qui fait office de barrière contre les remontées de gaz. S'il n'a pas été utilisé depuis plusieurs semaines (résidence secondaire, WC peu fréquenté), l'eau s'évapore et les odeurs remontent.
+
+**Solution :** Faites couler l'eau pendant 30 secondes pour remplir à nouveau le siphon. Si l'odeur persiste, le siphon est peut-être bouché ou défectueux.
+
+### 2. Une canalisation partiellement obstruée
+Les dépôts de graisses, de savon et de matières organiques s'accumulent sur les parois des canalisations. En se décomposant, ils dégagent des gaz sulfureux à l'odeur caractéristique. Le bouchon n'est pas encore total, mais l'écoulement est lent et les odeurs remontent.
+
+**Solution :** Un curage préventif par hydrocurage haute pression (200 bars) nettoie intégralement les parois et élimine ces dépôts.
+
+### 3. Une fosse septique pleine ou mal aérée
+Si votre logement est en assainissement non collectif, une fosse septique trop pleine ou dont le système d'aération est défaillant peut diffuser des odeurs de soufre (H₂S) dans votre intérieur.
+
+**Solution :** Vidange par un prestataire agréé et vérification du système d'aération (ventilation primaire et secondaire).
+
+### 4. Un problème sur le réseau collectif
+Parfois, les odeurs viennent non pas de votre installation intérieure, mais du réseau d'égout public. Un incident sur le réseau, un regard mal fermé ou un problème de surpression peut provoquer des reflux de gaz.
+
+**Solution :** Signalez le problème à votre commune. En attendant, vérifiez que tous vos siphons sont bien remplis.
+
+### 5. Des canalisations ou joints défectueux
+Des joints vieillis, une canalisation fissurée ou un raccordement mal étanche peuvent laisser s'échapper des gaz de votre réseau d'évacuation dans les murs ou sous les planchers.
+
+**Solution :** Une inspection télévisée par caméra permet de localiser précisément la fuite sans travaux destructifs.
+
+## Quand appeler un professionnel ?
+
+Appelez Vilbert Hydro sans attendre si :
+- L'odeur est persistante malgré les vérifications de base
+- Plusieurs points d'eau sont concernés simultanément
+- L'eau s'écoule lentement dans plusieurs appareils
+- Vous êtes en assainissement non collectif et la fosse date de plus de 3 ans sans vidange
+- L'odeur est accompagnée de gargouillis
+
+## Prévention : les bons gestes
+
+- Ne versez jamais d'huile de cuisson dans l'évier
+- Évitez les lingettes, même "biodégradables", dans les WC
+- Faites couler régulièrement l'eau dans les siphons peu utilisés
+- Faites entretenir votre réseau tous les 2 à 3 ans (curage préventif)
+
+Vilbert Hydro intervient en Picardie 24h/24 pour diagnostiquer et résoudre vos problèmes d'odeurs d'égout. Appelez le **03 22 91 72 01**.
+    `,
+  },
+
+  {
+    slug: "fosse-septique-pleine-signes-risques-solutions",
+    title: "Fosse septique pleine : signes, risques et que faire en urgence",
+    excerpt: "Comment savoir si votre fosse septique est pleine ? Quels sont les risques de débordement ? Signes d'alerte, risques sanitaires et démarches pour une vidange urgente.",
+    date: "8 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Urgences",
+    metaDescription: "Fosse septique pleine : signes (odeurs, refoulement, herbe verte), risques sanitaires et environnementaux, vidange urgente en Picardie. Agréé vidangeur Vilbert Hydro.",
+    content: `
+# Fosse septique pleine : signes, risques et que faire en urgence
+
+Une fosse septique qui atteint sa capacité maximale ne se contente pas de déborder : elle présente des risques sanitaires sérieux pour votre famille et des risques juridiques pour vous en tant que propriétaire. Voici comment reconnaître les signes d'une fosse pleine et quoi faire.
+
+## Les signes qui ne trompent pas
+
+### Signes précoces (à surveiller)
+- **Écoulement lent** dans les lavabos, douches et WC
+- **Gargouillis** entendus dans les canalisations après utilisation
+- **Légère odeur** de soufre à l'intérieur ou à l'extérieur
+- **Herbe anormalement verte et luxuriante** au-dessus du champ d'épandage (les effluents fertilisent)
+
+### Signes d'urgence (appelez immédiatement)
+- **Refoulement d'eaux usées** dans les toilettes, la douche ou l'évier
+- **Odeur forte et persistante** d'œuf pourri ou d'égout
+- **Flaque d'eau malodorante** à la surface du sol, près de la fosse
+- **WC qui déborde** ou se vide très lentement
+
+## Risques d'une fosse pleine non traitée
+
+### Risques sanitaires
+Les eaux usées non traitées contiennent des bactéries (E. coli, salmonelles), des virus et des parasites. Un débordement expose votre famille, surtout les enfants, à des infections gastro-intestinales graves.
+
+### Risques environnementaux
+Le déversement d'effluents non traités dans la nature pollue les nappes phréatiques et les cours d'eau. L'arrêté du 7 septembre 2009 engage votre responsabilité en tant que propriétaire.
+
+### Risques juridiques
+En cas de vente immobilière, le diagnostic de l'installation d'assainissement non collectif (ANC) est obligatoire depuis 2011. Une fosse défaillante peut bloquer la vente ou entraîner une décote du prix.
+
+En cas de plainte d'un voisin ou de contrôle SPANC, les sanctions peuvent aller jusqu'à **75 000 € d'amende et 2 ans d'emprisonnement** (article L. 1337-2 du Code de la santé publique).
+
+## Quelle fréquence de vidange ?
+
+La réglementation impose une vidange **tous les 4 ans minimum**. En pratique :
+- Logement de 4 personnes avec fosse de 3 000 L : tous les 3 ans
+- Logement de 6+ personnes : tous les 2 ans
+- Présence de broyeur d'aliments : fréquence augmentée
+
+**Règle empirique :** quand les boues dépassent 50 % du volume utile, il faut vidanger.
+
+## Que faire si votre fosse déborde ?
+
+1. **Cessez d'utiliser les sanitaires** immédiatement
+2. **Appelez Vilbert Hydro** au **03 22 91 72 01** — intervention urgente possible
+3. **Aérez** les pièces concernées
+4. **Ne touchez pas** aux zones souillées sans équipement de protection
+5. Attendez l'intervention du professionnel avant de remettre les installations en service
+
+## La vidange par un agréé : ce que ça implique
+
+Seul un prestataire disposant d'un **agrément préfectoral vidangeur** peut légalement vidanger votre fosse et transporter les matières vers une filière de traitement agréée. Un **Bordereau de Suivi des Matières de Vidange (BSMD)** vous est remis à l'issue de chaque intervention — conservez-le précieusement.
+
+Vilbert Hydro est agréé vidangeur en Picardie (Somme, Oise, Aisne). Intervention urgente disponible. Appelez le **03 22 91 72 01**.
+    `,
+  },
+
+  {
+    slug: "diagnostic-anc-vente-immobiliere-fosse-septique",
+    title: "Vente immobilière et fosse septique : le diagnostic ANC obligatoire",
+    excerpt: "Vous vendez un bien avec une fosse septique ? Le diagnostic d'assainissement non collectif est obligatoire depuis 2011. Ce qu'il faut savoir avant la vente.",
+    date: "7 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Réglementation",
+    metaDescription: "Diagnostic ANC obligatoire vente immobilière : fosse septique, délai, coût, conséquences. Ce que dit la loi. Mise en conformité par Vilbert Hydro en Picardie.",
+    content: `
+# Vente immobilière et fosse septique : le diagnostic ANC obligatoire
+
+Depuis le 1er janvier 2011, le diagnostic de l'installation d'assainissement non collectif (ANC) est obligatoire pour toute vente d'un bien immobilier non raccordé au tout-à-l'égout. Voici ce que vendeurs et acheteurs doivent savoir.
+
+## Ce que dit la loi
+
+L'article L. 271-4 du Code de la construction et de l'habitation rend obligatoire la fourniture d'un diagnostic ANC dans le Dossier de Diagnostic Technique (DDT) annexé à la promesse ou à l'acte de vente.
+
+Ce diagnostic est réalisé par le **SPANC (Service Public d'Assainissement Non Collectif)** de votre commune, sur demande du propriétaire vendeur.
+
+## Ce que le SPANC contrôle
+
+Le technicien du SPANC vérifie :
+- L'existence et la localisation de l'installation
+- Son type (fosse septique, fosse toutes eaux, micro-station, filtre compact...)
+- Sa conformité avec la réglementation en vigueur
+- Son bon état de fonctionnement
+- L'absence de risque sanitaire ou de nuisance environnementale
+
+## Les délais
+
+Le diagnostic ANC a une validité de **3 ans**. Il doit dater de moins de 3 ans au moment de la vente. Prévoyez un délai de 2 à 6 semaines pour obtenir le rendez-vous avec le SPANC, selon les communes.
+
+## Que se passe-t-il si l'installation est non conforme ?
+
+Si le diagnostic révèle une non-conformité, **l'acheteur dispose d'un an** à compter de la signature de l'acte authentique pour réaliser les travaux de mise en conformité. Cette obligation est à la charge de l'acheteur, sauf négociation contractuelle différente.
+
+En pratique, une installation non conforme impacte souvent le prix de vente : l'acheteur demandera une décote correspondant au coût estimé des travaux.
+
+## Les travaux de mise en conformité
+
+Selon la non-conformité constatée, les travaux peuvent inclure :
+- Simple vidange et nettoyage de la fosse
+- Réparation ou remplacement du système d'aération
+- Réfection du champ d'épandage
+- Remplacement complet de l'installation (5 000 à 15 000 €)
+
+## Conseil avant la vente : anticipez
+
+Ne découvrez pas les problèmes le jour de la vente. Faites réaliser une vidange préventive avant la visite du SPANC : une fosse propre et bien entretenue présente bien mieux et passe plus facilement le contrôle.
+
+Vilbert Hydro réalise les vidanges préventives avant diagnostic SPANC en Picardie. Agréé vidangeur, BSMD fourni. Appelez le **03 22 91 72 01** pour un devis gratuit.
+    `,
+  },
+
+  {
+    slug: "poste-de-relevage-fonctionnement-pannes-maintenance",
+    title: "Poste de relevage eaux usées : fonctionnement, pannes courantes et maintenance",
+    excerpt: "Qu'est-ce qu'un poste de relevage ? Comment fonctionne-t-il ? Pannes fréquentes, signes d'alerte et importance d'un contrat de maintenance préventif.",
+    date: "6 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Expertise",
+    metaDescription: "Poste de relevage eaux usées : fonctionnement, pannes courantes (pompe bloquée, alarme, flotteur), maintenance préventive et curative en Picardie par Vilbert Hydro.",
+    content: `
+# Poste de relevage eaux usées : fonctionnement, pannes courantes et maintenance
+
+Le poste de relevage est un équipement essentiel pour les bâtiments dont les eaux usées ne peuvent pas s'écouler gravitairement vers le réseau principal. Méconnu mais indispensable, il mérite une attention régulière.
+
+## Qu'est-ce qu'un poste de relevage ?
+
+Un poste de relevage (ou station de pompage) est une installation qui collecte les eaux usées dans une cuve étanche, puis les refoule via une pompe immergée vers le réseau d'assainissement situé à un niveau plus élevé.
+
+On en trouve dans :
+- Les sous-sols de bâtiments
+- Les copropriétés avec niveaux inférieurs au réseau public
+- Les zones pavillonnaires en contrebas du réseau
+- Les exploitations agricoles
+- Les zones industrielles
+
+## Composants principaux
+
+Un poste de relevage comprend :
+- **La cuve** (polyéthylène ou béton) : volume de 500 L à plusieurs m³
+- **La ou les pompes de relevage** (immergées, 0,5 à 10 kW selon débit)
+- **Un système de flotteurs** qui déclenche et arrête les pompes selon le niveau
+- **Une alarme de niveau haut** (sonore et/ou lumineuse)
+- **Une armoire de commande électrique** (démarrage, protection, téléalarme)
+- **Un clapet anti-retour** sur la conduite de refoulement
+
+## Les pannes les plus fréquentes
+
+### Pompe bloquée ou grippée
+Cause principale : lingettes, cheveux, graisses solidifiées, corps étrangers. La pompe tourne mais ne refoule plus, ou déclenche le disjoncteur thermique. Intervention rapide requise pour éviter le débordement.
+
+### Flotteur coincé ou défectueux
+Le flotteur ne remonte pas → la pompe ne se déclenche pas → la cuve déborde. Ou le flotteur reste haut → la pompe tourne à vide → surchauffe et grillage.
+
+### Alarme déclenchée
+L'alarme indique un niveau anormalement élevé. Causes : pompe en panne, débit entrant exceptionnel, refoulement bouché. Ne jamais ignorer une alarme de poste de relevage.
+
+### Armoire de commande défaillante
+Condensation, vieillissement des composants électroniques, surtension. Le personnel habilité électrique N1/N2 est indispensable pour intervenir en toute sécurité.
+
+### Cuve à vidanger
+Les graisses, boues et sables s'accumulent au fond de la cuve. Sans curage régulier, ils obstruent les pompes et réduisent le volume utile.
+
+## Conséquences d'une panne non traitée
+
+Un poste de relevage en panne = eaux usées qui refluent dans le bâtiment. En copropriété, les dégâts peuvent être considérables (dégâts des eaux, factures de nettoyage, responsabilité du syndic). En industrie, une panne peut entraîner l'arrêt de la production.
+
+## Maintenance préventive : pourquoi est-elle indispensable ?
+
+Un contrat de maintenance préventif avec Vilbert Hydro comprend :
+- Visite annuelle de contrôle (pompes, flotteurs, armoire, cuve)
+- Nettoyage de la cuve par hydrocurage
+- Test des systèmes d'alarme et de téléalarme
+- Rapport d'intervention écrit
+- Priorité d'intervention en cas de panne
+
+Nos techniciens sont habilités CATEC (espace confiné), N1/N2 et habilitation électrique — les trois habilitations requises pour intervenir en sécurité sur un poste de relevage.
+
+Contactez Vilbert Hydro pour un devis de contrat de maintenance : **03 22 91 72 01** ou hydro@groupe-vilbert.fr.
+    `,
+  },
+
+  {
+    slug: "difference-fosse-septique-fosse-toutes-eaux",
+    title: "Fosse septique ou fosse toutes eaux : quelle est la différence ?",
+    excerpt: "Fosse septique, fosse toutes eaux, micro-station... ces termes sont souvent confondus. Découvrez les différences essentielles et comment identifier votre installation.",
+    date: "5 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Réglementation",
+    metaDescription: "Différence fosse septique et fosse toutes eaux : définition, rôle, réglementation 2025. Quelle installation avez-vous chez vous ? Guide complet Vilbert Hydro.",
+    content: `
+# Fosse septique ou fosse toutes eaux : quelle est la différence ?
+
+Ces deux termes désignent des équipements d'assainissement non collectif distincts, bien que souvent confondus dans le langage courant. Comprendre la différence est important, notamment lors d'une vente immobilière ou d'un contrôle SPANC.
+
+## La fosse septique "classique"
+
+La fosse septique traditionnelle (au sens strict) ne reçoit que les **eaux-vannes** — c'est-à-dire les eaux des toilettes. Les eaux grises (évier, douche, bain, lave-linge) s'écoulent directement dans le sol via un puisard ou un filtre à sable séparé.
+
+Ce type d'installation est **interdit depuis 1996** pour les nouvelles constructions. Les fosses septiques classiques encore en service sont donc forcément anciennes et souvent non conformes selon les normes actuelles.
+
+## La fosse toutes eaux
+
+La **fosse toutes eaux** (FTE) reçoit l'ensemble des eaux usées du logement : eaux-vannes (WC) ET eaux grises (cuisine, salle de bain, buanderie). C'est le standard obligatoire depuis 1996.
+
+Elle fonctionne en deux étapes :
+1. **Décantation** : les matières solides se déposent au fond (boues) et les graisses remontent en surface (écumes)
+2. **Prétraitement biologique** : les bactéries anaérobies dégradent la matière organique
+
+Les effluents prétraités sont ensuite envoyés vers un système de traitement secondaire (champ d'épandage, filtre à sable, filtre compact...).
+
+## La micro-station d'épuration
+
+La micro-station est une alternative moderne à la fosse toutes eaux. Elle traite les eaux usées par **aération forcée** (bactéries aérobies), ce qui permet un traitement plus poussé en moins de place. Elle nécessite une maintenance plus régulière (entretien des systèmes d'aération, vidange des boues tous les 1 à 2 ans).
+
+## Comment identifier mon installation ?
+
+| Caractéristique | Fosse septique | Fosse toutes eaux | Micro-station |
+|---|---|---|---|
+| Eaux reçues | WC uniquement | Toutes | Toutes |
+| Obligatoire depuis | Interdite depuis 1996 | 1996 | Alternative possible |
+| Fréquence vidange | Tous les 2-3 ans | Tous les 3-4 ans | Tous les 1-2 ans |
+| Entretien spécifique | Non | Non | Oui (aération) |
+
+Pour identifier votre installation, consultez le plan de votre terrain, les documents remis à l'achat ou contactez votre SPANC.
+
+## Ce que ça change pour la vidange
+
+Quelle que soit votre installation, la vidange doit être réalisée par un **prestataire agréé vidangeur** qui vous remettra un **bordereau BSMD**. Ce document prouve la conformité de votre démarche auprès du SPANC.
+
+Vilbert Hydro intervient sur tous types d'installations (fosses septiques, fosses toutes eaux, micro-stations) en Picardie. Agréé vidangeur préfectoral. **03 22 91 72 01**.
+    `,
+  },
+
+  {
+    slug: "assainissement-non-collectif-obligations-picardie-2025",
+    title: "Assainissement non collectif en Picardie : toutes vos obligations en 2025",
+    excerpt: "Propriétaire d'une maison non raccordée au tout-à-l'égout en Picardie ? Voici l'ensemble de vos obligations légales : entretien, contrôle SPANC, vidange, vente immobilière.",
+    date: "4 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Réglementation",
+    metaDescription: "Assainissement non collectif Picardie 2025 : obligations légales, contrôle SPANC, fréquence vidange, vente immobilière, sanctions. Guide complet par Vilbert Hydro.",
+    content: `
+# Assainissement non collectif en Picardie : toutes vos obligations en 2025
+
+En Picardie, comme partout en France, les logements non raccordés au réseau d'assainissement collectif sont soumis à des obligations strictes. Voici un guide complet pour comprendre vos responsabilités en tant que propriétaire.
+
+## Qu'est-ce que l'assainissement non collectif (ANC) ?
+
+L'ANC désigne tout dispositif individuel de traitement des eaux usées non raccordé au réseau public : fosse toutes eaux, micro-station, filtre à sable, filtre compact, tertre d'infiltration...
+
+En France, environ 5 millions de logements sont concernés — et une proportion importante se trouve dans les zones rurales de la Somme, de l'Oise et de l'Aisne.
+
+## Le SPANC : votre interlocuteur obligatoire
+
+Le **Service Public d'Assainissement Non Collectif** est présent dans chaque intercommunalité de Picardie. Ses missions : contrôler la conception, l'installation et le bon fonctionnement de votre dispositif.
+
+Le SPANC effectue obligatoirement :
+- Un contrôle à la construction d'une installation neuve
+- Un contrôle périodique de bon fonctionnement (tous les 8 à 10 ans selon les communes)
+- Un contrôle lors de la vente du bien
+
+## Vos obligations légales
+
+### 1. Maintenir l'installation en bon état
+Vous êtes responsable du bon fonctionnement de votre installation. Toute défaillance engageant votre responsabilité vis-à-vis de l'environnement ou de la santé publique peut entraîner des sanctions.
+
+### 2. Faire vidanger régulièrement votre fosse
+**Fréquence légale minimum : tous les 4 ans** (arrêté du 7 septembre 2009). En pratique, le SPANC peut imposer une fréquence plus courte. La vidange doit être réalisée par un **prestataire agréé vidangeur** qui vous remet un **Bordereau de Suivi des Matières de Vidange (BSMD)**.
+
+### 3. Accepter les contrôles du SPANC
+Vous ne pouvez pas refuser l'accès à votre installation lors d'un contrôle SPANC. Un refus peut entraîner des sanctions et une majoration de la redevance d'assainissement.
+
+### 4. Réaliser les travaux demandés
+Si le SPANC identifie une non-conformité présentant un **risque sanitaire ou environnemental**, vous avez l'obligation de réaliser les travaux dans le délai imparti (généralement 4 ans).
+
+## Sanctions en cas de non-respect
+
+- Majoration de la redevance d'assainissement par la commune (jusqu'à 100 %)
+- Mise en demeure du maire
+- En cas de pollution avérée : amende jusqu'à **75 000 €** et 2 ans d'emprisonnement (Code de la santé publique, art. L. 1337-2)
+- Blocage ou décote lors de la vente immobilière
+
+## Les SPANC en Picardie
+
+Les intercommunalités du territoire gèrent chacune leur SPANC. Pour connaître les coordonnées du SPANC de votre commune en Somme (80), Oise (60) ou Aisne (02), contactez votre mairie.
+
+## Faites appel à un professionnel agréé
+
+Pour vos vidanges, Vilbert Hydro est agréé vidangeur préfectoral en Picardie. Nos camions vidangeurs assurent la collecte, le transport et l'acheminement vers des filières de traitement agréées. **BSMD remis systématiquement.**
+
+Appelez le **03 22 91 72 01** ou écrivez à hydro@groupe-vilbert.fr.
+    `,
+  },
+
+  {
+    slug: "debouchage-canalisation-amiens-guide-complet-2025",
+    title: "Débouchage de canalisations à Amiens : guide complet et tarifs 2025",
+    excerpt: "Canalisation bouchée à Amiens ? Tout ce qu'il faut savoir : quand appeler un professionnel, quelles techniques, quels tarifs et comment choisir le bon prestataire dans la Somme.",
+    date: "3 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Local SEO",
+    metaDescription: "Débouchage canalisation Amiens 2025 : techniques, tarifs, urgences 24h/24. Vilbert Hydro intervient en moins de 2h à Amiens et dans l'Amiénois. ☎ 03 22 91 72 01.",
+    content: `
+# Débouchage de canalisations à Amiens : guide complet et tarifs 2025
+
+Vous habitez Amiens ou l'agglomération amiénoise et vous faites face à une canalisation bouchée ? Ce guide vous donnera toutes les informations pour agir efficacement — et savoir quand faire appel à Vilbert Hydro.
+
+## Les types de bouchons les plus fréquents à Amiens
+
+Comme dans toutes les villes du nord de la France, les canalisations amiénoises souffrent de problèmes récurrents liés au vieillissement du réseau, aux eaux calcaires et à l'accumulation de graisses :
+
+- **Bouchons de graisse** dans les cuisines et bacs à graisses (très fréquent dans le secteur de la restauration — Saint-Leu, centre-ville)
+- **Accumulation de calcaire et de savon** dans les salles de bain
+- **Racinages** dans les maisons individuelles avec jardins (résidences de l'agglomération : Longueau, Camon, Rivery, Saint-Sauveur)
+- **Effondrements de canalisation** sur les réseaux anciens (quartiers historiques)
+
+## Nos zones d'intervention à Amiens et alentours
+
+Vilbert Hydro intervient sur l'ensemble de l'agglomération amiénoise :
+- **Amiens intramuros** : centre-ville, Saint-Leu, Montières, Etouvie, Rivery
+- **Agglomération nord** : Longueau, Glisy, Boves, Gentelles
+- **Agglomération est** : Camon (notre siège), Dury, Boves
+- **Agglomération ouest** : Flixecourt, Picquigny
+- **Agglomération nord** : Corbie, Villers-Bretonneux
+
+## Techniques d'intervention
+
+### Débouchage au furet motorisé
+Pour les bouchons de matières solides (lingettes, amas de cheveux, corps étrangers). Le furet tourne dans la canalisation et brise ou extrait le bouchon.
+
+### Hydrocurage haute pression
+Jet d'eau à 200 bars projeté dans la canalisation. Efficace sur les dépôts de graisses, calcaire et boues. Nettoie les parois en profondeur et prévient les récidives.
+
+### Inspection caméra
+Avant ou après intervention, notre caméra robotisée parcourt la canalisation et identifie l'origine exacte du problème : casse, racines, décalage de joint, dépôt. Vous recevez un rapport avec images.
+
+## Tarifs indicatifs à Amiens en 2025
+
+Les prix varient selon la complexité, l'accessibilité et la technique utilisée :
+- **Débouchage simple** (furet, bouchon léger) : à partir de **150 €**
+- **Hydrocurage** (nettoyage haute pression, 10 m linéaires) : à partir de **200 €**
+- **Inspection télévisée** : à partir de **180 €**
+- **Vidange fosse septique** : à partir de **280 €**
+
+**Devis gratuit et tarif fixé avant intervention** — aucune surprise.
+
+## Urgences à Amiens : délai d'intervention
+
+Vilbert Hydro est basé à Camon, à **5 minutes d'Amiens**. En cas d'urgence (refoulement, débordement, inondation), nous visons une **arrivée en moins de 2 heures**, 24h/24 et 7j/7 y compris week-ends et jours fériés.
+
+Appelez le **03 22 91 72 01** — ligne d'urgence disponible en permanence.
+    `,
+  },
+
+  {
+    slug: "refoulement-eaux-usees-causes-urgence-prevention",
+    title: "Refoulement d'eaux usées : causes, que faire en urgence, prévention",
+    excerpt: "Eaux usées qui remontent dans les toilettes, la douche ou l'évier ? C'est un refoulement. Causes, gestes d'urgence immédiats et solutions professionnelles.",
+    date: "2 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Urgences",
+    metaDescription: "Refoulement eaux usées : causes (bouchon, fosse pleine, réseau saturé), gestes d'urgence, intervention 24h/24 en Picardie. Vilbert Hydro ☎ 03 22 91 72 01.",
+    content: `
+# Refoulement d'eaux usées : causes, que faire en urgence et prévention
+
+Un refoulement d'eaux usées est l'une des situations les plus stressantes dans un logement : eaux sales qui remontent dans les toilettes, la douche ou l'évier, odeurs nauséabondes, risque de dégâts des eaux. Voici comment réagir.
+
+## Qu'est-ce qu'un refoulement ?
+
+Un refoulement se produit quand les eaux usées ne peuvent plus s'évacuer normalement et remontent à contre-courant vers les points bas. Contrairement à un bouchon simple qui bloque l'écoulement, le refoulement provoque une remontée active.
+
+## Les causes principales
+
+### Bouchon profond sur le réseau privatif
+L'obstruction se situe en aval des appareils sanitaires, souvent au niveau de la canalisation principale ou du regard de branchement. L'eau ne peut plus s'évacuer et cherche une sortie.
+
+### Fosse septique pleine ou saturée
+Quand la fosse toutes eaux est pleine, les effluents n'ont nulle part où aller et reflux vers le logement. Signal d'urgence absolu.
+
+### Défaillance du clapet anti-retour
+Dans les installations avec poste de relevage, un clapet anti-retour défectueux laisse revenir les eaux refoulées dans la cuve, puis dans le bâtiment.
+
+### Engorgement du réseau public
+Lors de fortes pluies, le réseau d'égout communal peut être saturé. Les eaux remontent via le branchement de votre logement — phénomène particulièrement fréquent dans les villes de la Somme lors d'épisodes pluvieux intenses.
+
+### Racines d'arbres
+Les racines progressent dans les fissures des canalisations et peuvent créer un bouchon total sur une canalisation enterrée — souvent découvert brutalement.
+
+## Que faire immédiatement
+
+1. **Cessez d'utiliser tous les sanitaires** — chaque litre d'eau aggrave la situation
+2. **Coupez l'eau au compteur général** si le refoulement est actif
+3. **N'utilisez pas de produits chimiques** — ils n'agissent pas sur les bouchons profonds et peuvent endommager les canalisations
+4. **Appelez Vilbert Hydro** au **03 22 91 72 01** — disponible 24h/24
+5. **Protégez vos affaires** dans les zones à risque (sous-sol, rez-de-chaussée bas)
+6. **Documentez** avec des photos pour votre assurance
+
+## Ce que fait l'équipe Vilbert Hydro
+
+À l'arrivée, nos techniciens procèdent à :
+1. Inspection visuelle et localisation du bouchon
+2. Hydrocurage haute pression pour déboucher et nettoyer
+3. Inspection caméra si nécessaire pour identifier une cause structurelle
+4. Rapport d'intervention écrit
+
+## Prévention : évitez les récidives
+
+- Ne jetez jamais de lingettes dans les WC (même "biodégradables")
+- Installez un grille-cheveux sur les évacuations de douche
+- Faites curagez votre réseau tous les 2 à 3 ans
+- Vidangez régulièrement votre fosse septique (tous les 3-4 ans)
+- Faites entretenir votre poste de relevage annuellement
+
+Vilbert Hydro intervient en urgence en Picardie 24h/24. **03 22 91 72 01**.
+    `,
+  },
+
+  {
+    slug: "curage-reseau-assainissement-quand-pourquoi",
+    title: "Curage de réseau d'assainissement : quand et pourquoi le faire ?",
+    excerpt: "Le curage de réseau est souvent négligé jusqu'au bouchon critique. Découvrez quand planifier un curage préventif, comment il se déroule et pourquoi c'est moins cher que le débouchage d'urgence.",
+    date: "1 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Expertise",
+    metaDescription: "Curage réseau assainissement : curage préventif vs curatif, hydrocurage haute pression, fréquence, coût. Picardie (Somme, Oise, Aisne) — Vilbert Hydro.",
+    content: `
+# Curage de réseau d'assainissement : quand et pourquoi le faire ?
+
+Le curage de réseau est l'entretien préventif souvent négligé qui, s'il est planifié régulièrement, évite les urgences coûteuses et les dégâts des eaux. Voici tout ce que vous devez savoir.
+
+## Curage préventif vs curage curatif
+
+**Curage préventif** : intervention planifiée sur un réseau fonctionnel pour éliminer les dépôts avant qu'ils causent un bouchon. Moins urgent, moins coûteux, très efficace.
+
+**Curage curatif** : intervention d'urgence sur un réseau bouché ou partiellement obstrué. Tarif majoré, délai d'attente, risque de dégâts matériels.
+
+La règle d'or : **1 curage préventif = éviter 3 débouchages d'urgence**.
+
+## Qu'est-ce qui s'accumule dans les canalisations ?
+
+Même avec des usages corrects, les canalisations accumulent naturellement :
+- **Graisses et lipides** (cuisine, restauration) : se solidifient sur les parois à basse température
+- **Savon et calcaire** : forment une gangue dure dans les tuyaux en PVC et en fonte
+- **Matières organiques** : résidus alimentaires, papiers, matières fécales non traitées
+- **Sables et limons** : s'accumulent dans les regards et les parties basses du réseau
+- **Racines** : pénètrent dans les fissures et prolifèrent
+
+## La technique de l'hydrocurage haute pression
+
+L'hydrocurage est la technique de référence. Un camion hydrocureur injecte de l'eau à **haute pression (100 à 200 bars)** dans la canalisation via une lance rotative. Le jet décolle les dépôts sur 360° et les propulse vers un regard de collecte.
+
+Les dépôts sont ensuite aspirés par le camion combiné aspiro-cureur.
+
+Avantages : non destructif pour les canalisations, efficace sur tous types de dépôts, permet un nettoyage jusqu'à 150 m linéaires en une intervention.
+
+## Quelle fréquence pour quel usage ?
+
+| Type d'installation | Fréquence recommandée |
+|---|---|
+| Résidence individuelle | Tous les 3-5 ans |
+| Copropriété (< 20 logements) | Tous les 2-3 ans |
+| Copropriété (> 20 logements) | Annuel |
+| Restaurant / cuisine professionnelle | Semestriel à annuel |
+| Industrie agroalimentaire | Trimestriel à semestriel |
+| Réseau public | Variable selon la commune |
+
+## Comment se déroule un curage avec Vilbert Hydro ?
+
+1. **Inspection préalable** (optionnelle) : inspection caméra pour évaluer l'état du réseau
+2. **Mise en place** du camion hydrocureur et identification des regards
+3. **Hydrocurage** de l'aval vers l'amont
+4. **Aspiration** des dépôts décollés
+5. **Inspection finale** si demandée
+6. **Rapport d'intervention** avec état du réseau
+
+## Tarifs indicatifs
+
+- Hydrocurage (10 m linéaires, résidentiel) : à partir de **200 €**
+- Contrat annuel copropriété : sur devis selon réseau
+- Curage d'urgence (bouchon total) : majoration 30-50 % selon horaire
+
+Devis gratuit — appelez le **03 22 91 72 01** ou écrivez à hydro@groupe-vilbert.fr.
+    `,
+  },
+
+  {
+    slug: "inspection-televisee-avant-achat-immobilier",
+    title: "Inspection télévisée des canalisations avant achat immobilier : pourquoi c'est indispensable",
+    excerpt: "Avant d'acheter une maison, faire inspecter les canalisations par caméra peut vous éviter de très mauvaises surprises. Un investissement de 180 € qui peut vous économiser des milliers d'euros.",
+    date: "31 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Conseils pratiques",
+    metaDescription: "Inspection télévisée canalisations avant achat immobilier : pourquoi, quand, combien ça coûte ? Évitez les mauvaises surprises en Picardie. Vilbert Hydro.",
+    content: `
+# Inspection télévisée des canalisations avant achat immobilier : pourquoi c'est indispensable
+
+Vous avez trouvé la maison idéale en Picardie. Les diagnostics obligatoires (électricité, gaz, amiante, DPE...) sont au vert. Mais avez-vous pensé aux canalisations ? Ce qu'elles cachent peut vous coûter très cher.
+
+## Ce que les diagnostics obligatoires ne montrent pas
+
+Le Dossier de Diagnostic Technique (DDT) inclut depuis 2011 le diagnostic ANC (assainissement non collectif) pour les biens non raccordés au réseau. Mais il n'existe **aucun diagnostic obligatoire sur l'état des canalisations** pour les biens raccordés au tout-à-l'égout.
+
+Or, une canalisation en fonte de 40 ans peut être à deux doigts de l'effondrement. Des racines peuvent avoir envahi le réseau sur 10 mètres. Une canalisation mal pente peut accumuler les bouchons chroniques.
+
+## Ce que l'inspection télévisée révèle
+
+Notre caméra robotisée, équipée d'une optique haute résolution et d'un enregistreur vidéo, parcourt l'intégralité de votre réseau d'évacuation et identifie :
+
+- **Fissures et fractures** (risque d'effondrement, infiltrations)
+- **Décalages de joint** (infiltrations d'eau dans le terrain, ou d'eau de nappe dans les canalisations)
+- **Racinages** (arbres du jardin, haies de voisinage)
+- **Dépôts importants** de calcaire, graisses ou sédiments
+- **Affaissements** créant des zones de stagnation
+- **Erreurs de raccordement** (eaux pluviales mélangées aux eaux usées, etc.)
+
+## Combien ça coûte ?
+
+Une inspection télévisée pour un logement individuel (réseau de 20 à 50 m linéaires) coûte **à partir de 180 €** chez Vilbert Hydro, avec rapport écrit et images.
+
+Comparez ce chiffre au coût d'un remplacement de canalisation enterrée : entre **3 000 et 15 000 €** selon la longueur, la profondeur et les revêtements à déposer.
+
+## Dans quels cas c'est particulièrement recommandé
+
+- **Maison de plus de 25 ans** avec tuyaux en fonte ou grès
+- **Maison avec grands arbres** dans le jardin ou sur la limite de propriété
+- **Antécédents de bouchons** mentionnés par le vendeur ou détectables (traces de débordement)
+- **Sous-sol** : les canalisations souterraines sont les plus difficiles à inspecter autrement
+- **Zone rurale** : raccordements parfois mal réalisés, réseaux anciens
+
+## Comment négocier après inspection
+
+Si l'inspection révèle des anomalies, vous disposez d'arguments concrets pour :
+- Négocier une baisse de prix correspondant aux travaux à prévoir
+- Demander que les travaux soient réalisés avant la vente
+- Inclure une clause dans l'acte de vente
+
+## Comment commander une inspection à Vilbert Hydro
+
+Nous intervenons sur l'ensemble de la Picardie (Somme, Oise, Aisne) dans un délai de 48 à 72h pour une intervention non urgente. Le rapport complet (vidéo + compte-rendu écrit) vous est remis le jour même ou sous 24h.
+
+Appelez le **03 22 91 72 01** ou écrivez à hydro@groupe-vilbert.fr.
+    `,
+  },
 ];
