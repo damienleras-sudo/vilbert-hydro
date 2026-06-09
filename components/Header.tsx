@@ -32,9 +32,15 @@ const servicesMenu = [
   {
     category: "🏢 Par type de client",
     items: [
+      { label: "Particuliers", href: "/debouchage-canalisation", desc: "Maison individuelle, urgences, fosse" },
       { label: "Copropriété & Syndic", href: "/assainissement-copropriete", desc: "Réseau collectif, contrat annuel" },
       { label: "Restaurants & CHR", href: "/assainissement-restaurant", desc: "Bac graisses, bac dégraisseur" },
       { label: "Agriculteurs", href: "/assainissement-agriculteur", desc: "Fosse, réseau, cours de ferme" },
+      { label: "Industrie & Entreprises", href: "/separateur-hydrocarbures", desc: "Séparateur HC, nettoyage industriel" },
+      { label: "BTP & Chantiers", href: "/nettoyage-haute-pression-sol", desc: "Nettoyage sol, balayage après travaux" },
+      { label: "Collectivités & Mairies", href: "/balayage-voirie", desc: "Voirie, routes, espaces publics" },
+      { label: "Hôtels & Campings", href: "/assainissement-restaurant", desc: "Fosses, bacs graisses, réseau" },
+      { label: "Industries agroalim.", href: "/sous-produits-animaux", desc: "Sous-produits animaux cat. 2 & 3" },
       { label: "Contrat maintenance", href: "/contrat-maintenance", desc: "Entretien préventif planifié" },
     ],
   },
