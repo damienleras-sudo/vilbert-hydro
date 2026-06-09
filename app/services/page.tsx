@@ -305,6 +305,63 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* PRESTATIONS COMPLEMENTAIRES */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-black text-[#1b4f8c] mb-3">Prestations complémentaires</h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto mb-4" />
+            <p className="text-gray-600 max-w-2xl mx-auto">Des services spécialisés pour répondre à tous vos besoins industriels, agricoles et de voirie.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                icon: "🚿",
+                titre: "Nettoyage haute pression sol",
+                desc: "Camions HP 200 bars pour le nettoyage de plateformes industrielles, chantiers BTP et cours agricoles. Démarche éco-responsable : récupération des eaux pluviales pour recharger nos camions.",
+                href: "/nettoyage-haute-pression-sol",
+              },
+              {
+                icon: "🛢️",
+                titre: "Dégazage cuves à fioul",
+                desc: "Pompage, nettoyage, inertage ou démantèlement de cuves à fioul avec agrément ADR et agents habilités ATEX. Traçabilité via TrackDéchets. Attestation remise. Obligation légale arrêté 2004.",
+                href: "/degazage-cuve-fioul",
+              },
+              {
+                icon: "⚗️",
+                titre: "Séparateur hydrocarbures",
+                desc: "Entretien réglementaire de séparateurs hydrocarbures (1 à 4 fois/an) et bacs dégraisseurs. Conformité norme EN 858. Rapport de conformité remis à chaque intervention.",
+                href: "/separateur-hydrocarbures",
+              },
+              {
+                icon: "🐄",
+                titre: "Sous-produits animaux",
+                desc: "Collecte et transport de sous-produits animaux catégories 2 et 3 (règlement CE 1069/2009). Agrément préfectoral. Intervention auprès des industries agroalimentaires et des élevages.",
+                href: "/sous-produits-animaux",
+              },
+              {
+                icon: "🧹",
+                titre: "Balayage voirie",
+                desc: "Camion balayeur-aspirateur pour le balayage de routes, chantiers et plateformes en Picardie. Nettoyage efficace et rapide des voiries communales et industrielles.",
+                href: "/balayage-voirie",
+              },
+            ].map((s) => (
+              <div key={s.href} className="bg-gray-50 rounded-2xl p-7 border border-gray-100 flex flex-col">
+                <div className="text-4xl mb-3">{s.icon}</div>
+                <h3 className="text-lg font-black text-[#1b4f8c] mb-3">{s.titre}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed flex-1 mb-5">{s.desc}</p>
+                <Link
+                  href={s.href}
+                  className="inline-block text-sm font-bold text-[#1b4f8c] hover:underline"
+                >
+                  En savoir plus →
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-[#f5b800] py-14">
         <div className="max-w-3xl mx-auto px-4 text-center">

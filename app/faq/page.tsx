@@ -170,6 +170,36 @@ const faqData = [
       },
     ],
   },
+  {
+    section: "Prestations spécialisées",
+    questions: [
+      {
+        q: "Faites-vous le dégazage de cuves à fioul ?",
+        a: "Oui. Vilbert Hydro réalise le dégazage de cuves à fioul avec agrément ADR et agents habilités ATEX. Selon vos besoins, nous assurons le pompage des résidus, le nettoyage, l'inertage ou le démantèlement complet de la cuve. Une attestation de dégazage vous est remise à l'issue de l'intervention. Traçabilité numérique assurée via TrackDéchets.",
+        link: { href: "/degazage-cuve-fioul", label: "En savoir plus sur le dégazage de cuves à fioul" },
+      },
+      {
+        q: "Entretenez-vous les séparateurs hydrocarbures ?",
+        a: "Oui. Vilbert Hydro assure l'entretien réglementaire de vos séparateurs hydrocarbures, de 1 à 4 fois par an selon votre activité, ainsi que vos bacs dégraisseurs. Nos interventions sont conformes à la norme EN 858. Un rapport de conformité vous est systématiquement remis, à conserver pour vos contrôles réglementaires.",
+        link: { href: "/separateur-hydrocarbures", label: "En savoir plus sur l'entretien des séparateurs hydrocarbures" },
+      },
+      {
+        q: "Proposez-vous le nettoyage haute pression de sols ?",
+        a: "Oui. Nos camions équipés de pompes haute pression (200 bars) interviennent pour le nettoyage de plateformes industrielles, chantiers BTP et cours agricoles. Vilbert Hydro adopte une démarche éco-responsable : les eaux pluviales récupérées sont utilisées pour recharger nos camions, limitant ainsi la consommation d'eau potable.",
+        link: { href: "/nettoyage-haute-pression-sol", label: "En savoir plus sur le nettoyage haute pression de sols" },
+      },
+      {
+        q: "Disposez-vous d'un agrément pour les sous-produits animaux ?",
+        a: "Oui. Vilbert Hydro dispose d'un agrément préfectoral pour la collecte et le transport de sous-produits animaux catégories 2 et 3, conformément au règlement CE 1069/2009. Nous intervenons auprès des industries agroalimentaires et des élevages en Picardie.",
+        link: { href: "/sous-produits-animaux", label: "En savoir plus sur la collecte de sous-produits animaux" },
+      },
+      {
+        q: "Avez-vous un camion balayeur ?",
+        a: "Oui. Vilbert Hydro dispose d'un camion balayeur-aspirateur pour le balayage et le nettoyage de voiries, routes communales, chantiers et plateformes industrielles en Picardie. Contactez-nous pour un devis adapté à votre besoin.",
+        link: { href: "/balayage-voirie", label: "En savoir plus sur le balayage de voirie" },
+      },
+    ],
+  },
 ];
 
 const allQA = faqData.flatMap((s) => s.questions);

@@ -29,6 +29,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/maintenance-poste-relevage`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${BASE}/faq`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
     { url: `${BASE}/avis-clients`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE}/nettoyage-haute-pression-sol`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/degazage-cuve-fioul`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/separateur-hydrocarbures`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/sous-produits-animaux`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${BASE}/balayage-voirie`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
   ];
 
   const VIDANGE_VILLES = ["amiens","abbeville","peronne","albert","montdidier","doullens","corbie","roye","ham","chaulnes","friville-escarbotin","arras","lens","saint-quentin","soissons","laon","compiegne","beauvais","noyon"];

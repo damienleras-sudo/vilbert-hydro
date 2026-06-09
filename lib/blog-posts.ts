@@ -1899,4 +1899,211 @@ Vidange complète — nettoyage haute pression — vérification état bac — r
 Contrat de maintenance annuel disponible. **03 22 91 72 01** ou hydro@groupe-vilbert.fr. Voir [assainissement restaurant](/assainissement-restaurant) et [hydrocurage haute pression](/hydrocurage-haute-pression).
     `,
   },
+  {
+    slug: "degazage-cuve-fioul-picardie-obligation-legale",
+    title: "Dégazage cuve à fioul en Picardie : obligation légale, procédure et agrément ADR",
+    excerpt: "Vous avez une cuve à fioul hors service dans la Somme ou l'Oise ? Dégazage et démantèlement obligatoires. Vilbert Hydro, agréé ADR, explique tout.",
+    date: "8 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Réglementation",
+    metaDescription: "Dégazage cuve fioul Picardie : obligation arrêté 2004, agrément ADR, TrackDéchets. Somme (80) Oise (60). Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Dégazage cuve à fioul en Picardie : obligation légale, procédure et agrément ADR
+
+De nombreuses maisons et exploitations de la Somme, de l'Oise et de l'Aisne possèdent d'anciennes cuves à fioul hors service. Souvent oubliées, parfois enterrées, elles constituent un risque réel et une responsabilité légale pour leur propriétaire.
+
+## L'obligation légale : arrêté du 1er juillet 2004
+
+L'arrêté du 1er juillet 2004 relatif aux réservoirs enterrés impose la neutralisation ou l'enlèvement des cuves hors service. En cas de vente immobilière, la présence d'une cuve non neutralisée peut bloquer la transaction ou entraîner une moins-value.
+
+**Risques en cas d'inaction :** explosion liée aux vapeurs résiduelles, pollution des sols et nappes phréatiques, responsabilité civile et pénale du propriétaire.
+
+## Notre procédure de dégazage
+
+1. **Pompage des hydrocarbures résiduels** — récupération en fûts agréés
+2. **Nettoyage haute pression intérieur** — élimination des boues et résidus
+3. **Dégazage** — ventilation et mesure d'explosimètre
+4. **Neutralisation ou démantèlement** — inertage au sable/eau OU découpe et évacuation
+5. **Traitement en filière agréée** — bordereau BSD + TrackDéchets
+
+## Agrément ADR : pourquoi c'est indispensable
+
+L'accord ADR (transport de marchandises dangereuses) est obligatoire pour le transport des hydrocarbures résiduels. Vilbert Hydro dispose de l'agrément ADR. Nos agents sont formés ATEX (atmosphères explosives). Toute intervention donne lieu à un **Bordereau de Suivi des Déchets** et à une attestation de neutralisation.
+
+## TrackDéchets : traçabilité numérique
+
+Depuis 2022, TrackDéchets est obligatoire pour les déchets dangereux (loi AGEC). Vilbert Hydro est inscrit sur TrackDéchets. Vous recevez votre bordereau numérique immédiatement après intervention.
+
+## Zones d'intervention
+
+Somme (80), Oise (60), Aisne (02), Pas-de-Calais. Amiens, Compiègne, Beauvais, Saint-Quentin, Abbeville et tout le bassin picard.
+
+**03 22 91 72 01**. Voir [dégazage cuves à fioul](/degazage-cuve-fioul) et [séparateur hydrocarbures](/separateur-hydrocarbures).
+    `,
+  },
+  {
+    slug: "balayage-voirie-chantier-picardie-camion-balayeur",
+    title: "Balayage de voirie et de chantiers en Picardie — Camion balayeur-aspirateur Vilbert Hydro",
+    excerpt: "Vilbert Hydro dispose d'un camion balayeur-aspirateur pour nettoyer routes, plateformes industrielles et chantiers BTP en Picardie. Résultat impeccable, TrackDéchets.",
+    date: "7 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Services Spécialisés",
+    metaDescription: "Balayage voirie chantiers Picardie : camion balayeur-aspirateur, routes BTP plateformes. Somme (80) Oise (60). Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Balayage de voiries et chantiers en Picardie — Camion balayeur-aspirateur
+
+Vilbert Hydro ne se limite pas à l'assainissement. Notre camion **balayeur-aspirateur** intervient sur tout type de surface en Picardie pour délivrer un résultat propre, sans résidu ni poussière.
+
+## Notre équipement balayeur
+
+Notre camion balaye, nettoie et aspire simultanément. Contrairement au simple balayage mécanique, notre équipement :
+- **Balaye** les dépôts sur toute la largeur de la surface
+- **Nettoie** par jet d'eau intégré si nécessaire
+- **Aspire** la totalité des déchets — aucun rejet en suspension dans l'air
+
+Les déchets collectés sont traités en filière agréée. TrackDéchets utilisé pour les déchets classés.
+
+## Quand faire appel à notre balayeur ?
+
+**Chantiers BTP :** avant réception de travaux (voirie neuve, enrobé posé), élimination poussières de béton, gravillons, boues séchées. Les maîtres d'ouvrage exigent souvent un procès-verbal de nettoyage.
+
+**Routes et voiries communales :** remise en état après travaux, avant événement, entretien régulier.
+
+**Plateformes industrielles et logistiques :** poussières de production, granulats, déchets d'exploitation.
+
+**Cours agricoles :** résidus de récolte, grain, paille après moisson. Silos, aires de stockage.
+
+**Parkings et zones commerciales :** sable d'hiver, feuilles, graviers, déjections.
+
+## Combinaison balayage + nettoyage haute pression
+
+Sur les chantiers importants, nous combinons balayage et [nettoyage haute pression](/nettoyage-haute-pression-sol) le même jour : le balayeur élimine d'abord les débris grossiers, puis le camion HP nettoie les surfaces.
+
+**03 22 91 72 01** — devis gratuit. Voir [balayage voirie](/balayage-voirie) et [nettoyage haute pression sol](/nettoyage-haute-pression-sol).
+    `,
+  },
+  {
+    slug: "nettoyage-haute-pression-sol-picardie-eaux-pluviales",
+    title: "Nettoyage haute pression de sols en Picardie — Éco-responsable & récupération eaux pluviales",
+    excerpt: "Vilbert Hydro nettoie vos plateformes, chantiers et cours agricoles avec des camions haute pression rechargés par récupération d'eaux pluviales. Démarche éco-responsable.",
+    date: "6 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Services Spécialisés",
+    metaDescription: "Nettoyage haute pression sol Picardie : plateformes, chantiers BTP, cours agricoles. Éco-responsable, eaux pluviales récupérées. Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Nettoyage haute pression de sols en Picardie — Éco-responsable
+
+Vilbert Hydro propose un service de **nettoyage haute pression de sols et surfaces** pour les chantiers, plateformes industrielles, cours agricoles et espaces collectifs en Picardie.
+
+## Notre démarche éco-responsable : récupération des eaux pluviales
+
+Nos camions haute pression sont équipés de réserves d'eau intégrées de grande capacité. Engagement fort : nous rechargeons ces réserves **en priorité par récupération d'eaux pluviales** lorsque le chantier ou notre site le permet.
+
+Résultat : **réduction significative de la consommation d'eau potable** pour les opérations de nettoyage industriel. Une démarche de sobriété hydrique cohérente avec notre métier.
+
+## Surfaces traitées
+
+- **Plateformes industrielles** : huiles, graisses, résidus de production
+- **Chantiers BTP** : béton, ciment, boues de forage, enrobé
+- **Cours agricoles et silos** : déjections, boues, algues, résidus végétaux
+- **Parkings** : hydrocarbures, peintures, mousse
+- **Voiries communales** : après travaux, désherbage, mousse sur trottoirs
+
+## Gestion des eaux usées
+
+Les eaux de nettoyage chargées (hydrocarbures, graisses, boues) sont récupérées et traitées en filière agréée. Pas de rejet direct dans le réseau. TrackDéchets utilisé si les boues collectées sont classifiées déchets dangereux.
+
+## Combinaison possible
+
+Service souvent combiné avec [balayage voirie](/balayage-voirie) (séquence balayage d'abord, puis nettoyage HP) ou avec [hydrocurage de réseaux](/hydrocurage-haute-pression) sur les mêmes chantiers.
+
+**03 22 91 72 01**. Voir [nettoyage haute pression sol](/nettoyage-haute-pression-sol).
+    `,
+  },
+  {
+    slug: "separateur-hydrocarbures-entretien-reglementaire-picardie",
+    title: "Entretien séparateur hydrocarbures en Picardie : réglementation, fréquence et sanctions 2025",
+    excerpt: "Garage, station-service, parking couvert en Picardie : l'entretien de votre séparateur hydrocarbures est obligatoire. Vilbert Hydro vous explique tout.",
+    date: "5 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Réglementation",
+    metaDescription: "Entretien séparateur hydrocarbures Picardie : obligation légale, norme EN 858, rapport conformité. Somme (80). Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Entretien séparateur hydrocarbures en Picardie : réglementation 2025
+
+Tout établissement rejetant des eaux pluviales ou industrielles susceptibles d'être contaminées par des hydrocarbures doit installer et entretenir un **séparateur hydrocarbures** conforme à la norme EN 858-1.
+
+## Qui est concerné ?
+
+- Garages automobiles et ateliers de carrosserie
+- Stations-service et laveries automobiles
+- Parkings couverts (copropriétés, centres commerciaux)
+- Entrepôts et plateformes logistiques
+- Zones industrielles avec stockage ou utilisation d'hydrocarbures
+
+## Fréquence d'entretien obligatoire
+
+L'arrêté du 2 février 1998 (ICPE) impose :
+- **1 à 4 vidanges par an** selon le débit nominatif de l'appareil
+- **Tenue d'un registre** de maintenance conservé 5 ans
+- **Rapport de visite** à chaque intervention
+
+Le non-respect expose à une mise en demeure de la DREAL et à des sanctions pouvant atteindre **75 000 €** (art. L. 514-11 code de l'environnement).
+
+## Notre prestation
+
+Pompage des hydrocarbures flottants — curage des boues de fond — vérification de l'obturateur de fermeture automatique — nettoyage de la cuve — remise en service et test — **rapport de conformité norme EN 858** remis immédiatement.
+
+Les hydrocarbures pompés sont traités en **filière agréée** avec traçabilité TrackDéchets.
+
+## Bac à graisses : même logique
+
+Pour les restaurants, cantines et industries alimentaires, le [bac à graisses](/assainissement-restaurant) obéit à la même logique d'entretien réglementaire. Vilbert Hydro gère les deux.
+
+**03 22 91 72 01**. Voir [séparateur hydrocarbures](/separateur-hydrocarbures).
+    `,
+  },
+  {
+    slug: "sous-produits-animaux-collecte-transport-picardie",
+    title: "Collecte et transport de sous-produits animaux en Picardie — Agrément Vilbert Hydro",
+    excerpt: "Vilbert Hydro est agréé pour la collecte et le transport de sous-produits animaux (cat. 2 & 3) en Picardie. Industries agroalimentaires, élevages, abattoirs.",
+    date: "4 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Services Spécialisés",
+    metaDescription: "Sous-produits animaux collecte transport Picardie : agrément cat 2 & 3, règlement CE 1069/2009. Industries agroalimentaires. Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Collecte et transport de sous-produits animaux en Picardie
+
+La Picardie concentre une activité agroalimentaire importante : élevages porcins et bovins dans la Somme, industrie de transformation dans l'Oise et l'Aisne. Vilbert Hydro dispose d'un **agrément pour la collecte et le transport des sous-produits animaux** catégories 2 et 3.
+
+## Cadre réglementaire : règlement CE 1069/2009
+
+Le règlement européen 1069/2009 classe les sous-produits animaux en 3 catégories selon le niveau de risque sanitaire :
+- **Catégorie 1** : matériaux à haut risque (prions) — hors de notre périmètre
+- **Catégorie 2** : lisiers, fumiers, contenus de tube digestif, boues issues d'animaux — **notre domaine**
+- **Catégorie 3** : anciens aliments d'origine animale, déchets de cuisines non dangereux, produits déclassés — **notre domaine**
+
+## Qui fait appel à nous ?
+
+- **Abattoirs et ateliers de découpe** : eaux grasses, déchets de découpe catégorie 3
+- **Charcuteries et conserveries** : graisses fondues, sous-produits de fabrication
+- **Élevages porcins et bovins** : lisiers, fumiers, contenus digestifs catégorie 2
+- **Industries laitières** : petit-lait, déchets de fromagerie
+- **Restaurants collectifs** : déchets de cuisine d'origine animale
+
+## Filières de traitement
+
+Selon la catégorie et l'analyse préalable :
+- **Épandage agricole** : sous conditions strictes, plan d'épandage, analyses obligatoires, notification préfectorale
+- **Compostage** : en centres agréés catégorie 3
+- **Méthanisation** : valorisation énergétique
+- **Équarrissage** : pour catégorie 2 non épandable
+
+## TrackDéchets et documents de transport
+
+Traçabilité conforme règlement 1069/2009. Documents commerciaux de transport remis à chaque opération. TrackDéchets si applicable.
+
+**03 22 91 72 01** — contrats réguliers bienvenus. Voir [sous-produits animaux](/sous-produits-animaux) et [assainissement agriculteur](/assainissement-agriculteur).
+    `,
+  },
 ];
