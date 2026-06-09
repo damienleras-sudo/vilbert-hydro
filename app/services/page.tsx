@@ -161,6 +161,12 @@ const services = [
 export default function ServicesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://vilbert-hydro.vercel.app" },
+          { "@type": "ListItem", "position": 2, "name": "Nos Services", "item": "https://vilbert-hydro.vercel.app/services" }
+        ]
+      }) }} />
       {/* HERO */}
       <section className="bg-red-600 text-white py-2 text-center text-sm font-bold">
         🚨 Urgences 24h/24 — 7j/7 — Week-ends et jours fériés —{" "}

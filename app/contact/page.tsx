@@ -46,6 +46,12 @@ const certifications = [
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://vilbert-hydro.vercel.app" },
+          { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://vilbert-hydro.vercel.app/contact" }
+        ]
+      }) }} />
       {/* HERO URGENCE */}
       <section className="bg-red-600 text-white py-4">
         <div className="max-w-7xl mx-auto px-4 text-center">

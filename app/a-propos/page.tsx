@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "À propos — Vilbert Hydro, expert assainissement depuis +30 ans",
   description:
-    "Découvrez Vilbert Hydro : filiale du Groupe Vilbert, spécialiste du débouchage, curage et assainissement en Hauts-de-France depuis plus de 30 ans. Notre équipe, nos valeurs, notre engagement.",
+    "Découvrez Vilbert Hydro : filiale du Groupe Vilbert, spécialiste du débouchage, curage et assainissement en Picardie (Somme, Oise, Aisne) depuis plus de 30 ans. Notre équipe, nos valeurs, notre engagement.",
   alternates: { canonical: "https://vilbert-hydro.vercel.app/a-propos" },
 };
 
@@ -34,14 +34,46 @@ const valeurs = [
 
 const chiffres = [
   { val: "+30 ans", label: "d'expérience en assainissement" },
-  { val: "+2 000", label: "clients particuliers et professionnels" },
-  { val: "70", label: "collaborateurs au sein du Groupe Vilbert" },
-  { val: "6", label: "départements couverts en Hauts-de-France" },
+  { val: "+5 000", label: "interventions réalisées" },
+  { val: "80 km", label: "de rayon d'intervention" },
+  { val: "3", label: "départements Picardie couverts" },
+];
+
+const equipements = [
+  {
+    icon: "🚛",
+    titre: "Camions hydrocureurs haute pression",
+    desc: "Notre flotte de camions hydrocureurs équipés de pompes à 200 bars garantit un nettoyage en profondeur de tous vos réseaux, quelles que soient les obstructions.",
+  },
+  {
+    icon: "📷",
+    titre: "Caméras d'inspection télévisée haute résolution",
+    desc: "Nos caméras robotisées haute résolution permettent un diagnostic précis de l'état de vos canalisations, sans travaux destructifs.",
+  },
+  {
+    icon: "🏗️",
+    titre: "Camions vidangeurs agréés",
+    desc: "Nos camions vidangeurs agréés pour matières de vidange assurent la collecte, le transport et le traitement des boues dans des filières réglementées. BSMD fourni systématiquement.",
+  },
 ];
 
 export default function AProposPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Accueil", item: "https://vilbert-hydro.vercel.app" },
+              { "@type": "ListItem", position: 2, name: "À propos", item: "https://vilbert-hydro.vercel.app/a-propos" },
+            ],
+          }),
+        }}
+      />
+
       {/* HERO */}
       <section className="bg-[#1b4f8c] text-white py-16">
         <div className="max-w-7xl mx-auto px-4">
@@ -49,7 +81,7 @@ export default function AProposPage() {
           <div className="w-16 h-1 bg-[#f5b800] mb-6" />
           <p className="text-blue-100 max-w-2xl text-lg">
             Une expertise de plus de 30 ans au service des particuliers et des professionnels de
-            Hauts-de-France.
+            Picardie (Somme, Oise, Aisne).
           </p>
         </div>
       </section>
@@ -63,7 +95,7 @@ export default function AProposPage() {
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
                 Vilbert Hydro est la division assainissement du{" "}
-                <strong>Groupe Vilbert</strong>, une entreprise familiale implantée en Hauts-de-France
+                <strong>Groupe Vilbert</strong>, une entreprise familiale implantée en Picardie (Somme, Oise, Aisne)
                 depuis plus de 30 ans. Fondé par la famille Vilbert, le groupe s&apos;est
                 progressivement diversifié pour répondre aux besoins croissants de ses clients dans
                 les domaines des travaux publics, du transport, du recyclage et de l&apos;assainissement.
@@ -73,7 +105,7 @@ export default function AProposPage() {
                 <strong> débouchage de canalisations</strong>, <strong>hydrocurage</strong>,{" "}
                 <strong>inspection télévisée</strong> et <strong>vidange de fosses septiques</strong>.
                 Nous intervenons pour les particuliers, les restaurateurs, les industries et les
-                collectivités dans toute la région Hauts-de-France.
+                collectivités dans toute la région Picardie (Somme, Oise, Aisne).
               </p>
               <p>
                 Notre engagement : une réponse rapide, des techniciens qualifiés, et une transparence
@@ -125,8 +157,30 @@ export default function AProposPage() {
         </div>
       </section>
 
-      {/* GROUPE VILBERT */}
+      {/* ÉQUIPEMENT */}
       <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-black text-[#1b4f8c] mb-3">Un matériel professionnel de pointe</h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto mb-4" />
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Vilbert Hydro investit continuellement dans des équipements de dernière génération pour garantir des interventions efficaces et conformes aux exigences réglementaires.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {equipements.map((e) => (
+              <div key={e.titre} className="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-md transition-shadow">
+                <div className="text-5xl mb-4">{e.icon}</div>
+                <h3 className="font-black text-[#1b4f8c] text-lg mb-3">{e.titre}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{e.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* GROUPE VILBERT */}
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="bg-[#1b4f8c] rounded-2xl p-8 md:p-12 text-white">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -137,7 +191,7 @@ export default function AProposPage() {
                 <div className="w-16 h-1 bg-[#f5b800] mb-5" />
                 <p className="text-blue-100 leading-relaxed mb-4">
                   Le Groupe Vilbert est un acteur majeur des services environnementaux et des travaux
-                  publics en Hauts-de-France. Avec près de 70 collaborateurs et plus de 2 000 clients,
+                  publics en Picardie (Somme, Oise, Aisne). Avec près de 70 collaborateurs et plus de 5 000 interventions réalisées,
                   le groupe intervient dans les domaines de la carrière, du transport, du recyclage
                   des déchets BTP et de l&apos;assainissement.
                 </p>
@@ -166,6 +220,46 @@ export default function AProposPage() {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ENGAGEMENT QUALITÉ / GARANTIES */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-black text-[#1b4f8c] mb-3">Nos engagements qualité</h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto" />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                icon: "📋",
+                titre: "Devis gratuit",
+                desc: "Devis gratuit et sans engagement avant chaque intervention. Tarif fixé à l'avance, sans mauvaise surprise.",
+              },
+              {
+                icon: "⚡",
+                titre: "Arrivée en 2h",
+                desc: "En cas d'urgence, nos techniciens s'engagent à intervenir dans les 2 heures en Picardie (Somme, Oise, Aisne).",
+              },
+              {
+                icon: "📄",
+                titre: "Rapport d'intervention",
+                desc: "Un rapport d'intervention complet vous est remis à chaque passage : travaux réalisés, état du réseau, recommandations.",
+              },
+              {
+                icon: "🏅",
+                titre: "Satisfaction garantie",
+                desc: "Notre priorité : votre satisfaction. Si le problème persiste après notre intervention, nous revenons sans surcoût.",
+              },
+            ].map((g) => (
+              <div key={g.titre} className="bg-gray-50 rounded-2xl p-6 border border-gray-100 text-center hover:shadow-md transition-shadow">
+                <div className="text-4xl mb-4">{g.icon}</div>
+                <h3 className="font-black text-[#1b4f8c] text-base mb-2">{g.titre}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{g.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

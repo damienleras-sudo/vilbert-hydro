@@ -34,6 +34,12 @@ export default function VidangeFosseSeptiquePage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://vilbert-hydro.vercel.app" },
+          { "@type": "ListItem", "position": 2, "name": "Vidange Fosse Septique", "item": "https://vilbert-hydro.vercel.app/vidange-fosse-septique" }
+        ]
+      }) }} />
       {/* SECTION 1 — HERO */}
       <section className="bg-[#1b4f8c] text-white py-16 md:py-20 relative overflow-hidden">
         <div

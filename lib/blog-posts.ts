@@ -11,6 +11,204 @@
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "debouchage-urgence-picardie-que-faire",
+    title: "Canalisation bouchée en urgence en Picardie : que faire ?",
+    excerpt:
+      "Bouchon sévère, refoulement, inondation... Que faire en cas d'urgence assainissement en Picardie ? Les bons réflexes et comment joindre Vilbert Hydro 24h/24.",
+    date: "10 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Urgences",
+    metaDescription:
+      "Débouchage urgence Picardie 24h/24 : que faire en cas de canalisation bouchée, refoulement ou inondation ? Réflexes + numéro d'urgence Vilbert Hydro.",
+    content: `
+# Canalisation bouchée en urgence en Picardie : que faire ?
+
+Une canalisation bouchée peut vite tourner au cauchemar : eaux qui remontent, odeurs insupportables, risque d'inondation… En Picardie, Vilbert Hydro intervient 24h/24 pour tous vos problèmes d'assainissement urgents.
+
+## Les signes d'une vraie urgence assainissement
+
+Tous les bouchons ne nécessitent pas une intervention immédiate. Mais certains signes doivent vous alerter :
+
+- **Refoulement multiple** : de l'eau remonte dans plusieurs appareils simultanément (baignoire, lavabo, WC) — signe d'un bouchon en aval, dans la canalisation principale.
+- **Odeurs pestilentielles persistantes** : elles peuvent indiquer une stagnation dans le réseau ou un problème de fosse septique.
+- **Eau qui remonte dans les WC** lorsque vous utilisez l'évier ou la douche.
+- **Inondation de cave ou de sous-sol** liée à une canalisation défaillante.
+- **Gargouillis** dans plusieurs points du réseau.
+
+Ces symptômes traduisent un problème profond qui ne se résoudra pas seul. Appelez le **03 22 91 72 01** sans attendre.
+
+## Les gestes immédiats à adopter
+
+En attendant l'arrivée de nos techniciens, adoptez les bons réflexes :
+
+1. **Coupez l'arrivée d'eau** au robinet général si l'eau refoule et risque de causer des dégâts.
+2. **Ne utilisez plus les sanitaires** : chaque litre d'eau envoyé dans le réseau aggrave la situation.
+3. **Aérez les pièces concernées** pour dissiper les gaz qui peuvent être nocifs.
+4. **Photographiez les dégâts** pour faciliter vos démarches auprès de votre assurance.
+5. **Ne versez surtout pas de produits chimiques déboucheurs** : ils peuvent empirer le bouchon et rendre l'intervention plus difficile.
+
+## Ce que fait le professionnel à son arrivée
+
+Nos techniciens Vilbert Hydro disposent de l'équipement adapté pour résoudre tous les types d'urgences :
+
+- **Hydrocurage haute pression (200 bars)** : un jet d'eau puissant brise et évacue les obstructions les plus résistantes.
+- **Furet électrique** : pour les bouchons localisés dans les siphons ou les coudes.
+- **Caméra d'inspection télévisée** : pour localiser précisément l'origine du problème et éviter des travaux inutiles.
+- En cas de problème de fosse ou de réseau collectif : diagnostic complet et intervention adaptée.
+
+## Délai d'intervention Vilbert Hydro en urgence
+
+Nous nous engageons à intervenir **en moins de 2 heures** dans notre zone d'intervention prioritaire. Nous couvrons toute la Picardie :
+
+- **Somme (80)** : Amiens, Abbeville, Péronne, Albert, Doullens, Montdidier et environs
+- **Oise (60)** : Compiègne, Beauvais, Noyon, Senlis et environs
+- **Aisne (02)** : Saint-Quentin, Soissons, Laon et environs
+
+## Contactez-nous maintenant
+
+Une urgence assainissement ne peut pas attendre. Appelez Vilbert Hydro **24h/24 et 7j/7**, week-ends et jours fériés inclus :
+
+**📞 03 22 91 72 01**
+
+Devis gratuit. Rapport d'intervention fourni. Techniciens agréés et habilités.
+    `,
+  },
+  {
+    slug: "contrat-maintenance-assainissement-copropriete",
+    title: "Contrat de maintenance assainissement en copropriété : ce que vous devez savoir",
+    excerpt:
+      "Gestionnaires de copropriété, découvrez pourquoi un contrat de maintenance assainissement est indispensable pour vos réseaux, fosses et postes de relevage.",
+    date: "25 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Professionnels",
+    metaDescription:
+      "Contrat maintenance assainissement copropriété Picardie : avantages, obligations légales, postes de relevage, curage réseaux, vidange fosses. Vilbert Hydro.",
+    content: `
+# Contrat de maintenance assainissement en copropriété : ce que vous devez savoir
+
+La gestion de l'assainissement d'une copropriété est une responsabilité lourde pour les syndics et gestionnaires. Un réseau défaillant peut provoquer des débordements, des nuisances olfactives et engager la responsabilité du syndic. La solution : un contrat de maintenance avec un professionnel agréé.
+
+## Les obligations légales du syndic
+
+Le syndic de copropriété est tenu d'assurer l'entretien des parties communes, dont les réseaux d'assainissement. En cas de sinistre lié à un défaut d'entretien (inondation, dégât des eaux, pollution), la responsabilité du syndic peut être engagée.
+
+Les obligations portent notamment sur :
+
+- L'entretien des canalisations collectives
+- La maintenance des postes de relevage
+- La vidange des fosses septiques si la copropriété est en assainissement non collectif
+- La traçabilité des interventions (rapports, BSMD, etc.)
+
+## Les risques en cas de défaillance
+
+Un réseau non entretenu peut entraîner :
+
+- **Des refoulements** dans les appartements du rez-de-chaussée
+- **Des odeurs** dans les parties communes ou les logements
+- **Une panne de poste de relevage** provoquant un débordement immédiat
+- **Des sanctions** lors de contrôles SPANC pour les copropriétés en ANC
+- **Des litiges** entre copropriétaires et mises en cause du syndic
+
+## Les avantages d'un contrat de maintenance
+
+Souscrire un contrat de maintenance assainissement avec Vilbert Hydro vous apporte :
+
+- **Priorité d'intervention** en cas de panne ou d'urgence
+- **Tarifs négociés** dans le cadre du contrat, plus avantageux que les interventions ponctuelles
+- **Traçabilité complète** : rapports d'intervention, registre de maintenance, BSMD pour les vidanges
+- **Tranquillité d'esprit** : planning d'entretien préventif géré par nos soins
+- **Conformité réglementaire** garantie à tout moment
+
+## Contenu d'un contrat type Vilbert Hydro
+
+Un contrat de maintenance assainissement copropriété comprend généralement :
+
+- **Curage annuel** des canalisations collectives par hydrocurage haute pression
+- **Vidange des fosses** septiques ou toutes eaux selon la réglementation SPANC
+- **Inspection télévisée biennale** pour détecter les anomalies structurelles
+- **Maintenance préventive des postes de relevage** : pompes, flotteurs, armoires électriques
+- **Dépannage d'urgence 24h/24** inclus dans le contrat
+
+## Demandez votre devis
+
+Vilbert Hydro intervient en Picardie (Somme, Oise, Aisne) auprès des copropriétés, syndics et gestionnaires immobiliers. Contactez-nous pour établir un contrat adapté à la taille et aux besoins de votre copropriété :
+
+**📞 03 22 91 72 01**
+**✉️ hydro@groupe-vilbert.fr**
+
+Devis gratuit, sans engagement.
+    `,
+  },
+  {
+    slug: "prix-vidange-fosse-septique-picardie-2025",
+    title: "Prix d'une vidange de fosse septique en Picardie en 2025",
+    excerpt:
+      "Combien coûte une vidange de fosse septique en Picardie ? Découvrez les tarifs pratiqués en Somme, Oise et Aisne, les facteurs qui influencent le prix et pourquoi choisir un prestataire agréé.",
+    date: "2 juin 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Tarifs & Conseils",
+    metaDescription:
+      "Prix vidange fosse septique Picardie 2025 : tarifs indicatifs en Somme (80), Oise (60), Aisne (02). Fosse septique, toutes eaux, micro-station. Agréé vidangeur.",
+    content: `
+# Prix d'une vidange de fosse septique en Picardie en 2025
+
+Vous devez faire vidanger votre fosse septique et vous voulez savoir combien cela va vous coûter ? Voici un guide complet sur les tarifs pratiqués en Picardie (Somme, Oise, Aisne) et les facteurs qui influencent le prix d'une vidange.
+
+## Fourchette de prix indicative en Picardie
+
+Le prix d'une vidange de fosse septique varie selon plusieurs paramètres, mais voici les fourchettes généralement observées en Picardie en 2025 :
+
+- **Fosse septique standard (3 à 5 m³)** : entre 280 € et 400 € TTC
+- **Fosse toutes eaux (4 à 6 m³)** : entre 320 € et 450 € TTC
+- **Fosse de grande capacité ou micro-station** : entre 400 € et 600 € TTC
+
+Ces tarifs incluent le déplacement, l'aspiration des boues, le transport vers une filière agréée et la remise du Bordereau de Suivi des Matières de Vidange (BSMD).
+
+## Les facteurs qui influencent le prix
+
+### 1. Le volume de la fosse
+Plus la fosse est grande, plus le volume à aspirer est important, et plus le prix sera élevé.
+
+### 2. L'accessibilité
+Une fosse difficile d'accès (jardin étroit, distance importante depuis la route, profondeur excessive) peut entraîner un surcoût.
+
+### 3. La distance du prestataire
+Un prestataire situé loin de votre domicile facturera davantage de frais de déplacement. Privilégiez un professionnel local comme Vilbert Hydro, basé à Camon (Somme).
+
+### 4. La fréquence d'entretien
+Une fosse vidangée régulièrement (tous les 3-4 ans) coûte moins cher à entretenir qu'une fosse surchargée nécessitant une intervention d'urgence.
+
+## Obligation de faire appel à un agréé vidangeur
+
+L'arrêté du 7 septembre 2009 impose que la vidange soit réalisée exclusivement par un **prestataire disposant d'un agrément préfectoral**. Faire appel à un professionnel non agréé expose à plusieurs risques :
+
+- **Sanctions du SPANC** lors du contrôle
+- **Absence de BSMD** : sans ce document, vous ne pouvez pas prouver la conformité de votre installation
+- **Risques environnementaux** : les matières de vidange doivent être traitées dans des filières agréées
+
+**Vilbert Hydro est agréé vidangeur préfectoral** et vous remet systématiquement le BSMD à chaque intervention.
+
+## Pourquoi méfiez-vous des prix "low cost" ?
+
+Des offres très basses (moins de 200 €) doivent vous alerter. Elles peuvent cacher :
+
+- Un prestataire non agréé (illégal)
+- Une évacuation des matières dans des conditions non conformes (risque de pollution)
+- L'absence de BSMD (vous serez en infraction auprès du SPANC)
+- Des travaux bâclés
+
+## Déplacement gratuit avec Vilbert Hydro
+
+Chez Vilbert Hydro, le déplacement est inclus dans nos tarifs en Picardie. Nous vous fournissons systématiquement un **devis gratuit avant intervention**, sans engagement.
+
+Contactez-nous pour connaître le tarif exact adapté à votre installation :
+
+**📞 03 22 91 72 01**
+
+Agrément préfectoral · BSMD systématique · Conformité SPANC garantie.
+    `,
+  },
+  {
     slug: "debouchage-canalisation-soi-meme-ou-professionnel",
     title: "Débouchage canalisation : le faire soi-même ou appeler un professionnel ?",
     excerpt:
