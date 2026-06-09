@@ -34,6 +34,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/separateur-hydrocarbures`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${BASE}/sous-produits-animaux`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
     { url: `${BASE}/balayage-voirie`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/assainissement-particulier`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/assainissement-industrie`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/assainissement-chantier-btp`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${BASE}/assainissement-collectivite`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${BASE}/assainissement-hotel-camping`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
   ];
 
   const VIDANGE_VILLES = ["amiens","abbeville","peronne","albert","montdidier","doullens","corbie","roye","ham","chaulnes","friville-escarbotin","arras","lens","saint-quentin","soissons","laon","compiegne","beauvais","noyon"];
