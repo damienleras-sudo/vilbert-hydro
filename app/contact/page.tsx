@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Contact — Débouchage & Assainissement Somme — 03 22 91 72 01",
   description:
     "Contactez Vilbert Hydro pour toute demande de débouchage, curage, vidange fosse septique ou maintenance poste de relevage. Urgences 24h/24 7j/7 au 03 22 91 72 01. hydro@groupe-vilbert.fr",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/contact" },
+  alternates: { canonical: "https://vilbert-hydro.fr/contact" },
 };
 
 const zonesSomme = [
@@ -48,8 +48,8 @@ export default function ContactPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://vilbert-hydro.vercel.app" },
-          { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://vilbert-hydro.vercel.app/contact" }
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://vilbert-hydro.fr" },
+          { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://vilbert-hydro.fr/contact" }
         ]
       }) }} />
       {/* HERO URGENCE */}

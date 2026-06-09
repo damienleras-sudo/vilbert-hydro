@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { blogPosts } from "@/lib/blog-posts";
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.metaDescription,
-    alternates: { canonical: `https://vilbert-hydro.vercel.app/blog/${slug}` },
+    alternates: { canonical: `https://vilbert-hydro.fr/blog/${slug}` },
     openGraph: {
       title: post.title,
       description: post.metaDescription,
@@ -106,9 +106,9 @@ export default async function BlogPostPage({ params }: Props) {
     publisher: {
       "@type": "Organization",
       name: "Vilbert Hydro",
-      url: "https://vilbert-hydro.vercel.app",
+      url: "https://vilbert-hydro.fr",
     },
-    mainEntityOfPage: `https://vilbert-hydro.vercel.app/blog/${post.slug}`,
+    mainEntityOfPage: `https://vilbert-hydro.fr/blog/${post.slug}`,
   };
 
   const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);

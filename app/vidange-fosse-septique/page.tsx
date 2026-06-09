@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Vidange Fosse Septique Picardie — Agréé Vidangeur · Somme · Oise · Aisne — 03 22 91 72 01",
   description: "Vilbert Hydro, agréé vidangeur préfectoral : vidange fosse septique en Picardie (Somme 80, Oise 60, Aisne 02). Obligation légale, BSMD, conformité SPANC. Urgences 24h/24. Devis gratuit. ☎ 03 22 91 72 01",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/vidange-fosse-septique" },
+  alternates: { canonical: "https://vilbert-hydro.fr/vidange-fosse-septique" },
   keywords: ["vidange fosse septique", "vidange fosse septique Picardie", "vidange fosse septique Somme", "vidange fosse septique Amiens", "vidange fosse septique Compiègne", "vidange fosse septique Beauvais", "agréé vidangeur", "BSMD", "SPANC", "fosse toutes eaux", "assainissement non collectif", "ANC"],
 };
 
@@ -36,8 +36,8 @@ export default function VidangeFosseSeptiquePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://vilbert-hydro.vercel.app" },
-          { "@type": "ListItem", "position": 2, "name": "Vidange Fosse Septique", "item": "https://vilbert-hydro.vercel.app/vidange-fosse-septique" }
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://vilbert-hydro.fr" },
+          { "@type": "ListItem", "position": 2, "name": "Vidange Fosse Septique", "item": "https://vilbert-hydro.fr/vidange-fosse-septique" }
         ]
       }) }} />
       {/* SECTION 1 — HERO */}

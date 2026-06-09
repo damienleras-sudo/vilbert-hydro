@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { blogPosts } from "@/lib/blog-posts";
 
@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Blog — Conseils assainissement, débouchage et entretien canalisations",
   description:
     "Conseils pratiques, réglementation et guides sur l'assainissement, le débouchage de canalisations, la vidange de fosses septiques et l'entretien des réseaux. Blog Vilbert Hydro.",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/blog" },
+  alternates: { canonical: "https://vilbert-hydro.fr/blog" },
 };
 
 export default function BlogPage() {

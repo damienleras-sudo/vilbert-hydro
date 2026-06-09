@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Contrat de Maintenance Assainissement Picardie — Vilbert Hydro",
   description:
     "Contrats de maintenance assainissement pour copropriétés, restaurants, industries et agriculteurs en Picardie. 3 formules : Essentiel, Pro, Premium. Priorité d'intervention, tarifs préférentiels, traçabilité. ☎ 03 22 91 72 01",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/contrat-maintenance" },
+  alternates: { canonical: "https://vilbert-hydro.fr/contrat-maintenance" },
 };
 
 const formules = [

@@ -1,8 +1,8 @@
-import { MetadataRoute } from "next";
+﻿import { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-posts";
 import { villes } from "@/lib/villes";
 
-const BASE = "https://vilbert-hydro.vercel.app";
+const BASE = "https://vilbert-hydro.fr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [

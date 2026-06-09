@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import SchemaOrg from "@/components/SchemaOrg";
 
-const BASE_URL = "https://vilbert-hydro.vercel.app";
+const BASE_URL = "https://vilbert-hydro.fr";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -85,7 +85,9 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: BASE_URL },
   verification: {
-    google: undefined,
+    // Coller ici le code Google Search Console (ex: "abc123xyz")
+    // Obtenir sur : https://search.google.com/search-console → Ajouter une propriété → Balise HTML
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
   },
 };
 

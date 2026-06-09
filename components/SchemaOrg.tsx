@@ -4,19 +4,19 @@
     "@graph": [
       {
         "@type": ["LocalBusiness", "Plumber"],
-        "@id": "https://vilbert-hydro.vercel.app/#business",
+        "@id": "https://vilbert-hydro.fr/#business",
         name: "Vilbert Hydro",
         legalName: "Vilbert Hydro",
         description:
           "Vilbert Hydro — spécialiste du débouchage de canalisations, curage et hydrocurage haute pression, inspection télévisée, vidange de fosses septiques, maintenance de postes de relevage et électromécanique en Picardie (Somme, Oise, Aisne) et Hauts-de-France. Agréé vidangeur. Agents CATEC habilités N1/N2. Habilitation électrique. Intervention 24h/24 7j/7 pour particuliers, professionnels, syndicats de copropriété, agriculteurs et industries.",
-        url: "https://vilbert-hydro.vercel.app",
+        url: "https://vilbert-hydro.fr",
         logo: {
           "@type": "ImageObject",
-          url: "https://vilbert-hydro.vercel.app/logo.png",
+          url: "https://vilbert-hydro.fr/logo.png",
           width: 400,
           height: 160,
         },
-        image: "https://vilbert-hydro.vercel.app/logo.png",
+        image: "https://vilbert-hydro.fr/logo.png",
         telephone: "+33322917201",
         email: "hydro@groupe-vilbert.fr",
         address: {
@@ -167,10 +167,10 @@
       },
       {
         "@type": "Organization",
-        "@id": "https://vilbert-hydro.vercel.app/#org",
+        "@id": "https://vilbert-hydro.fr/#org",
         name: "Vilbert Hydro",
-        url: "https://vilbert-hydro.vercel.app",
-        logo: "https://vilbert-hydro.vercel.app/logo.png",
+        url: "https://vilbert-hydro.fr",
+        logo: "https://vilbert-hydro.fr/logo.png",
         parentOrganization: {
           "@type": "Organization",
           name: "Groupe Vilbert",
@@ -182,15 +182,15 @@
       },
       {
         "@type": "WebSite",
-        "@id": "https://vilbert-hydro.vercel.app/#website",
-        url: "https://vilbert-hydro.vercel.app",
+        "@id": "https://vilbert-hydro.fr/#website",
+        url: "https://vilbert-hydro.fr",
         name: "Vilbert Hydro",
         description: "Débouchage, curage, vidange fosse septique, maintenance poste de relevage en Picardie (Somme, Oise, Aisne) et Hauts-de-France",
         inLanguage: "fr-FR",
-        publisher: { "@id": "https://vilbert-hydro.vercel.app/#org" },
+        publisher: { "@id": "https://vilbert-hydro.fr/#org" },
         potentialAction: {
           "@type": "SearchAction",
-          target: "https://vilbert-hydro.vercel.app/blog?q={search_term_string}",
+          target: "https://vilbert-hydro.fr/blog?q={search_term_string}",
           "query-input": "required name=search_term_string",
         },
       },

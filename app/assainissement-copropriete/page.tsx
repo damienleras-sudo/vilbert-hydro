@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Assainissement Copropriété Picardie — Curage, Vidange, Relevage | Vilbert Hydro",
   description:
     "Vilbert Hydro, spécialiste assainissement pour syndicats de copropriété en Picardie. Curage réseaux collectifs, vidange fosses, maintenance postes de relevage, contrat annuel, BSMD. ☎ 03 22 91 72 01",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/assainissement-copropriete" },
+  alternates: { canonical: "https://vilbert-hydro.fr/assainissement-copropriete" },
 };
 
 export default function AssainissementCopropietePage() {

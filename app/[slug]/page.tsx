@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { villes } from "@/lib/villes";
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Débouchage ${v.nom} (${v.codePostal}) — Vilbert Hydro`,
     description: `Débouchage de canalisations à ${v.nom} (${v.departement}). Vilbert Hydro intervient rapidement pour vos urgences. Curage, vidange fosse septique, inspection télévisée. Devis gratuit au 03 22 91 72 01.`,
-    alternates: { canonical: `https://vilbert-hydro.vercel.app/debouchage-${v.slug}` },
+    alternates: { canonical: `https://vilbert-hydro.fr/debouchage-${v.slug}` },
   };
 }
 
@@ -40,7 +40,7 @@ export default async function VillePage({ params }: Props) {
       "@type": "LocalBusiness",
       name: "Vilbert Hydro",
       telephone: "+33322917201",
-      url: "https://vilbert-hydro.vercel.app",
+      url: "https://vilbert-hydro.fr",
     },
     areaServed: {
       "@type": "City",

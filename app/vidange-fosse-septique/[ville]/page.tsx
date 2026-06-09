@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { villes } from "@/lib/villes";
 import { notFound } from "next/navigation";
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ ville: st
   return {
     title: `Vidange Fosse Septique ${ville.nom} (${ville.codePostal}) — Agréé Vidangeur · 03 22 91 72 01`,
     description: `Vilbert Hydro, agréé vidangeur préfectoral à ${ville.nom} (${ville.codePostal}). Vidange fosse septique conforme SPANC, remise du BSMD obligatoire. Agrément préfectoral (arrêté 2009), 30 ans d'expérience. Urgences 24h/24. ☎ 03 22 91 72 01`,
-    alternates: { canonical: `https://vilbert-hydro.vercel.app/vidange-fosse-septique/${ville.slug}` },
+    alternates: { canonical: `https://vilbert-hydro.fr/vidange-fosse-septique/${ville.slug}` },
     keywords: [
       `vidange fosse septique ${ville.nom}`,
       `vidangeur agréé ${ville.nom}`,
@@ -83,15 +83,15 @@ export default async function VidangeFosseSeptiqueVillePage({ params }: { params
             postalCode: "80450",
             addressCountry: "FR",
           },
-          url: "https://vilbert-hydro.vercel.app",
+          url: "https://vilbert-hydro.fr",
         },
       },
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://vilbert-hydro.vercel.app" },
-          { "@type": "ListItem", position: 2, name: "Vidange Fosse Septique", item: "https://vilbert-hydro.vercel.app/vidange-fosse-septique" },
-          { "@type": "ListItem", position: 3, name: `Vidange Fosse Septique ${ville.nom}`, item: `https://vilbert-hydro.vercel.app/vidange-fosse-septique/${ville.slug}` },
+          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://vilbert-hydro.fr" },
+          { "@type": "ListItem", position: 2, name: "Vidange Fosse Septique", item: "https://vilbert-hydro.fr/vidange-fosse-septique" },
+          { "@type": "ListItem", position: 3, name: `Vidange Fosse Septique ${ville.nom}`, item: `https://vilbert-hydro.fr/vidange-fosse-septique/${ville.slug}` },
         ],
       },
       {

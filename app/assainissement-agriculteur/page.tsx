@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Assainissement Agricole Picardie — Vidange Fosse, Curage | Vilbert Hydro",
   description:
     "Assainissement pour exploitations agricoles en Picardie : vidange fosses et cuves, curage réseaux d'exploitation, maintenance postes de relevage agricoles, conformité réglementaire. ☎ 03 22 91 72 01",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/assainissement-agriculteur" },
+  alternates: { canonical: "https://vilbert-hydro.fr/assainissement-agriculteur" },
 };
 
 export default function AssainissementAgriculteurPage() {

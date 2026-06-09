@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Assainissement Restaurant & Métiers de Bouche — Bac à Graisses Picardie | Vilbert Hydro",
   description:
     "Entretien bac à graisses, curage réseau cuisine, vidange fosse pour restaurants et métiers de bouche en Picardie. Obligation ICPE, fréquence légale, BSMD. Contrat annuel. ☎ 03 22 91 72 01",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/assainissement-restaurant" },
+  alternates: { canonical: "https://vilbert-hydro.fr/assainissement-restaurant" },
 };
 
 export default function AssainissementRestaurantPage() {

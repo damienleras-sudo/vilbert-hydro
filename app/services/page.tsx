@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Vidange Fosse Septique · Débouchage · Assainissement Picardie — Agréé Vidangeur",
   description:
     "Vilbert Hydro : vidange fosse septique agréée en Picardie (Somme, Oise, Aisne), débouchage canalisations, curage et hydrocurage, inspection télévisée, entretien bacs à graisses, maintenance postes de relevage, électromécanique. Agréé vidangeur · CATEC · Habilitation électrique.",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/services" },
+  alternates: { canonical: "https://vilbert-hydro.fr/services" },
 };
 
 const services = [
@@ -163,8 +163,8 @@ export default function ServicesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://vilbert-hydro.vercel.app" },
-          { "@type": "ListItem", "position": 2, "name": "Nos Services", "item": "https://vilbert-hydro.vercel.app/services" }
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://vilbert-hydro.fr" },
+          { "@type": "ListItem", "position": 2, "name": "Nos Services", "item": "https://vilbert-hydro.fr/services" }
         ]
       }) }} />
       {/* HERO */}

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "À propos — Vilbert Hydro, expert assainissement depuis +30 ans",
   description:
     "Découvrez Vilbert Hydro : filiale du Groupe Vilbert, spécialiste du débouchage, curage et assainissement en Picardie (Somme, Oise, Aisne) depuis plus de 30 ans. Notre équipe, nos valeurs, notre engagement.",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/a-propos" },
+  alternates: { canonical: "https://vilbert-hydro.fr/a-propos" },
 };
 
 const valeurs = [
@@ -67,8 +67,8 @@ export default function AProposPage() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Accueil", item: "https://vilbert-hydro.vercel.app" },
-              { "@type": "ListItem", position: 2, name: "À propos", item: "https://vilbert-hydro.vercel.app/a-propos" },
+              { "@type": "ListItem", position: 1, name: "Accueil", item: "https://vilbert-hydro.fr" },
+              { "@type": "ListItem", position: 2, name: "À propos", item: "https://vilbert-hydro.fr/a-propos" },
             ],
           }),
         }}

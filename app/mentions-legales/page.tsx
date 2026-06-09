@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mentions légales — Vilbert Hydro",
   description: "Mentions légales de Vilbert Hydro : éditeur, hébergeur, propriété intellectuelle, données personnelles.",
-  alternates: { canonical: "https://vilbert-hydro.vercel.app/mentions-legales" },
+  alternates: { canonical: "https://vilbert-hydro.fr/mentions-legales" },
   robots: { index: false, follow: false },
 };
 
