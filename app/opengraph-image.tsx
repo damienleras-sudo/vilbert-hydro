@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Vilbert Hydro — Débouchage, Curage & Assainissement en Hauts-de-France";
+export const alt = "Vilbert Hydro — Débouchage, Curage & Assainissement en Picardie (Somme, Oise, Aisne)";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -32,7 +32,7 @@ export default function Image() {
           Débouchage · Curage · Assainissement
         </div>
         <div style={{ color: "#bfdbfe", fontSize: 20, marginTop: 12 }}>
-          Hauts-de-France — 📞 03 22 91 72 01
+          Picardie (80 · 60 · 02) — 📞 03 22 91 72 01
         </div>
         <div style={{ background: "#f5b800", color: "#1a1a1a", fontSize: 16, fontWeight: 900, padding: "8px 20px", borderRadius: 8, marginTop: 30 }}>
           🚨 URGENCES 24H/24 · 7J/7

@@ -100,7 +100,7 @@ export default function Footer() {
             <li><Link href="/services#debouchage" className="hover:text-white transition-colors">Débouchage canalisations</Link></li>
             <li><Link href="/services#curage" className="hover:text-white transition-colors">Curage & Hydrocurage</Link></li>
             <li><Link href="/services#inspection" className="hover:text-white transition-colors">Inspection télévisée</Link></li>
-            <li><Link href="/services#vidange" className="hover:text-white transition-colors">Vidange fosse septique</Link></li>
+            <li><Link href="/vidange-fosse-septique" className="hover:text-white transition-colors font-semibold text-[#f5b800]/80">Vidange fosse septique ↗</Link></li>
             <li><Link href="/services#relevage" className="hover:text-white transition-colors">Maintenance poste de relevage</Link></li>
             <li><Link href="/services#electromecanique" className="hover:text-white transition-colors">Électromécanique</Link></li>
             <li><Link href="/services#restauration" className="hover:text-white transition-colors">Bacs à graisses restaurants</Link></li>
@@ -194,8 +194,9 @@ export default function Footer() {
       <div className="border-t border-gray-800 py-4">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-500">
           <p>© {currentYear} Vilbert Hydro – 620 Rue Stéphane Hessel, 80450 Camon – Tous droits réservés</p>
-          <p>
-            Agréé vidangeur · CATEC · Habilitation électrique · Picardie (80·60·02)
+          <p className="flex items-center gap-3 flex-wrap justify-center">
+            <span>Agréé vidangeur · CATEC · Habilitation électrique · Picardie (80·60·02)</span>
+            <Link href="/mentions-legales" className="hover:text-gray-300 transition-colors underline">Mentions légales</Link>
           </p>
         </div>
       </div>

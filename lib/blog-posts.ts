@@ -1,8 +1,9 @@
-export interface BlogPost {
+﻿export interface BlogPost {
   slug: string;
   title: string;
   excerpt: string;
   date: string;
+  author: string;
   category: string;
   content: string;
   metaDescription: string;
@@ -15,6 +16,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Bouchon dans vos canalisations ? Découvrez quand vous pouvez intervenir vous-même et quand il vaut mieux faire appel à un professionnel du débouchage.",
     date: "3 juin 2025",
+    author: "Équipe Vilbert Hydro",
     category: "Conseils pratiques",
     metaDescription:
       "Débouchage canalisation : à quel moment appeler un plombier professionnel ? Conseils pour identifier la gravité du bouchon et choisir la bonne solution.",
@@ -69,6 +71,7 @@ Pour un bouchon simple, quelques solutions maison suffisent souvent. Mais dès q
     excerpt:
       "La réglementation impose un entretien régulier des fosses septiques. Découvrez vos obligations légales et les bonnes pratiques pour éviter les amendes.",
     date: "18 mai 2025",
+    author: "Équipe Vilbert Hydro",
     category: "Réglementation",
     metaDescription:
       "Réglementation fosse septique 2025 : fréquence de vidange obligatoire, contrôle SPANC, sanctions. Tout ce que vous devez savoir pour être en conformité.",
@@ -131,6 +134,7 @@ Pour programmer votre vidange ou obtenir un devis, appelez-nous au **03 22 91 72
     excerpt:
       "Restaurateurs, le bac à graisses est obligatoire et son entretien est réglementé. Découvrez vos obligations et comment éviter les sanctions.",
     date: "2 mai 2025",
+    author: "Équipe Vilbert Hydro",
     category: "Professionnels",
     metaDescription:
       "Bac à graisses restaurant : obligations légales, fréquence de nettoyage, sanctions en cas de non-conformité. Guide complet pour les restaurateurs.",
@@ -194,6 +198,7 @@ Contactez-nous au **03 22 91 72 01** pour établir un contrat adapté à votre �
     excerpt:
       "L'inspection télévisée permet de diagnostiquer précisément l'état de vos canalisations. Découvrez dans quels cas ce diagnostic est indispensable.",
     date: "15 avril 2025",
+    author: "Équipe Vilbert Hydro",
     category: "Expertise",
     metaDescription:
       "Inspection télévisée canalisations : utilité, déroulement, coût. Découvrez quand et pourquoi faire inspecter vos canalisations par caméra robotisée.",
@@ -252,6 +257,7 @@ Pour demander une inspection télévisée, contactez Vilbert Hydro au **03 22 91
     excerpt:
       "L'hydrocurage est la technique de référence pour le nettoyage des réseaux d'assainissement. Découvrez comment ça marche et quand en avoir besoin.",
     date: "28 mars 2025",
+    author: "Équipe Vilbert Hydro",
     category: "Expertise",
     metaDescription:
       "Hydrocurage réseau assainissement : principe, avantages, applications. Tout comprendre sur le nettoyage haute pression des canalisations.",
@@ -306,6 +312,7 @@ Pour un devis d'hydrocurage, contactez-nous au **03 22 91 72 01**.
     excerpt:
       "En attendant l'intervention de Vilbert Hydro, voici les gestes à faire et à éviter pour limiter les dégâts en cas de canalisation bouchée en urgence.",
     date: "10 mars 2025",
+    author: "Équipe Vilbert Hydro",
     category: "Conseils pratiques",
     metaDescription:
       "Canalisation bouchée en urgence : gestes de premiers secours, ce qu'il faut faire et éviter avant l'arrivée du plombier. Conseils Vilbert Hydro.",

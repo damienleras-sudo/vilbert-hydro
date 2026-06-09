@@ -6,6 +6,7 @@ import Image from "next/image";
 const nav = [
   { label: "Accueil", href: "/" },
   { label: "Nos Services", href: "/services" },
+  { label: "Vidange Fosse Septique", href: "/vidange-fosse-septique" },
   { label: "À propos", href: "/a-propos" },
   { label: "Blog", href: "/blog" },
 ];
@@ -73,7 +74,7 @@ export default function Header() {
         <Link href="/" aria-label="Vilbert Hydro — Accueil">
           <Image
             src="/logo.png"
-            alt="Vilbert Hydro — Débouchage, Curage et Assainissement en Hauts-de-France"
+            alt="Vilbert Hydro — Débouchage, Curage et Assainissement en Picardie"
             width={200}
             height={72}
             priority
