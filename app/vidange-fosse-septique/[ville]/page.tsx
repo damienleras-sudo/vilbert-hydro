@@ -3,7 +3,7 @@ import Link from "next/link";
 import { villes } from "@/lib/villes";
 import { notFound } from "next/navigation";
 
-const SLUGS = ["amiens", "compiegne", "beauvais", "saint-quentin", "abbeville", "peronne"];
+const SLUGS = ["amiens", "abbeville", "peronne", "albert", "montdidier", "doullens", "corbie", "roye", "ham", "chaulnes", "friville-escarbotin", "arras", "lens", "saint-quentin", "soissons", "laon", "compiegne", "beauvais", "noyon"];
 
 const zonesAutour: Record<string, string[]> = {
   amiens: ["Longueau", "Rivery", "Camon", "Dury", "Glisy", "Boves", "Sains-en-Amiénois", "Thézy-Glimont", "Villers-Bocage", "Corbie"],
@@ -12,6 +12,19 @@ const zonesAutour: Record<string, string[]> = {
   "saint-quentin": ["Gauchy", "Rouvroy", "Fayet", "Roupy", "Vermand", "Ham", "Bohain-en-Vermandois", "La Fère", "Tergnier", "Chauny"],
   abbeville: ["Rouvroy-les-Merles", "Drucat", "Grand-Laviers", "Vauchelles-les-Quesnoy", "Saint-Riquier", "Ailly-le-Haut-Clocher", "Rue", "Crécy-en-Ponthieu", "Doullens", "Gamaches"],
   peronne: ["Roisel", "Brie", "Estrées-Mons", "Sailly-Saillisel", "Fins", "Villers-Carbonnel", "Doingt", "Éterpigny", "Nesle", "Chaulnes"],
+  albert: ["Méaulte", "Bray-sur-Somme", "Morlancourt", "Pozières", "Aveluy", "Doullens", "Villers-Bocage", "Corbie", "Acheux-en-Amiénois", "Fricourt"],
+  montdidier: ["Roye", "Moreuil", "Ailly-sur-Noye", "Démuin", "Pierrepont-sur-Avre", "Fresnoy-lès-Roye", "Hargicourt", "Canny-sur-Matz", "Mailly-Raineval", "Saulchoy-sous-Poix"],
+  doullens: ["Lucheux", "Frévent", "Auxi-le-Château", "Hédauville", "Pas-en-Artois", "Bouquemaison", "Naours", "Grouches-Luchuel", "Bonnay", "Villers-l'Hôpital"],
+  corbie: ["Fouilloy", "Daours", "Aubigny", "Lamotte-Brebière", "Villers-Bretonneux", "Marcelcave", "Longueau", "Démuin", "Hangard", "Cachy"],
+  roye: ["Montdidier", "Chaulnes", "Vermandovillers", "Gruny", "Erches", "Fresnoy-lès-Roye", "Andechy", "Cressy-Omencourt", "Tilloloy", "Popincourt"],
+  ham: ["Nesle", "Pithon", "Eppeville", "Hombleux", "Offoy", "Béhéricourt", "Douilly", "Croix-Moligneaux", "Monchy-Lagache", "Ugny-l'Équipée"],
+  chaulnes: ["Rosières-en-Santerre", "Lihons", "Vermandovillers", "Herleville", "Rainecourt", "Proyart", "Cappy", "Bray-sur-Somme", "Étinehem", "Méricourt-l'Abbé"],
+  "friville-escarbotin": ["Woincourt", "Ault", "Oust-Marest", "Bouvaincourt-sur-Bresle", "Dargnies", "Fressenneville", "Nibas", "Miannay", "Bouillancourt-en-Séry", "Yzengremer"],
+  arras: ["Beaurains", "Achicourt", "Tilloy-lès-Mofflaines", "Dainville", "Saint-Nicolas-lez-Arras", "Anzin-Saint-Aubin", "Sainte-Catherine", "Wanquetin", "Agny", "Agnez-lès-Duisans"],
+  lens: ["Liévin", "Hénin-Beaumont", "Harnes", "Courrières", "Noyelles-sous-Lens", "Loos-en-Gohelle", "Méricourt", "Billy-Montigny", "Rouvroy", "Bully-les-Mines"],
+  soissons: ["Villeneuve-Saint-Germain", "Crouy", "Cuffies", "Venizel", "Billy-sur-Aisne", "Courmelles", "Fontenoy", "Berzy-le-Sec", "Vauxbuin", "Septmonts"],
+  laon: ["Chambry", "Bruyères-et-Montbérault", "Athies-sous-Laon", "Chivy-lès-Étouvelles", "Ardon", "Montchâlons", "Pouilly-sur-Serre", "Lappion", "Samoussy", "Neuville-sur-Ailette"],
+  noyon: ["Cuts", "Salency", "Crisolles", "Tracy-le-Val", "Bailly", "Pontoise-lès-Noyon", "Sempigny", "Beaurains-lès-Noyon", "Guiscard", "Lassigny"],
 };
 
 export function generateStaticParams() {

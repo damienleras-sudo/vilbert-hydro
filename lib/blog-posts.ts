@@ -1629,4 +1629,274 @@ Deux alternatives modernes à la fosse avec épandage : la **micro-station d'ép
 Consultez votre SPANC avant tout travaux. Pour la vidange et l'entretien en Picardie, Vilbert Hydro est agréé vidangeur. **03 22 91 72 01**.
     `,
   },
+  {
+    slug: "vidange-fosse-septique-abbeville-somme-80",
+    title: "Vidange fosse septique à Abbeville (Somme 80) : tarifs et agréments 2025",
+    excerpt: "Besoin de vidanger votre fosse septique à Abbeville ou dans le Ponthieu ? Vilbert Hydro, agréé vidangeur préfectoral, intervient dans toute la Somme.",
+    date: "15 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Local SEO Somme",
+    metaDescription: "Vidange fosse septique Abbeville Somme (80) : agréé vidangeur, BSMD, SPANC. Tarifs 280-450 euros. Urgences 24h/24. Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Vidange fosse septique à Abbeville (Somme 80)
+
+Abbeville et le Ponthieu concentrent de nombreuses habitations en assainissement non collectif. Vilbert Hydro, agréé vidangeur préfectoral dans la Somme, intervient régulièrement sur ce secteur.
+
+## Obligation légale de vidange
+
+L'arrêté du 7 septembre 2009 impose une vidange tous les 4 ans minimum. Le SPANC de la Communauté d'Agglomération de la Baie de Somme contrôle régulièrement les installations. Sans vidange régulière : odeurs, refoulement des eaux usées, pollution de la nappe phréatique et sanctions SPANC.
+
+## L'agrément vidangeur : obligatoire
+
+Depuis 2009, seules les entreprises avec agrément préfectoral peuvent vidanger. Vilbert Hydro est agréé. Nous remettons le **Bordereau de Suivi des Matières de Vidange (BSMD)** à chaque intervention — obligatoire et indispensable lors d'une vente immobilière.
+
+## Zones couvertes autour d'Abbeville
+
+Ponthieu : Saint-Riquier, Doullens, Crécy-en-Ponthieu, Rue — Vimeu : Friville-Escarbotin, Woincourt, Ault, Gamaches — Vallée de la Somme : Grand-Laviers, Drucat, Vauchelles-les-Quesnoy, Ailly-le-Haut-Clocher.
+
+## Tarifs à Abbeville
+
+- Fosse 3 000 L : **280 à 380 €** — Fosse 5 000 L : **350 à 450 €**
+- BSMD et déplacement inclus — Devis gratuit
+
+**03 22 91 72 01**. Voir aussi [vidange fosse septique Abbeville](/vidange-fosse-septique/abbeville) et notre [FAQ assainissement](/faq).
+    `,
+  },
+  {
+    slug: "vidange-fosse-septique-albert-corbie-somme",
+    title: "Vidange fosse septique à Albert et Corbie (Somme 80) — Pays du Coquelicot",
+    excerpt: "Vidange fosse septique à Albert, Corbie, Bray-sur-Somme ou dans le Pays du Coquelicot. Vilbert Hydro agréé vidangeur Somme 80.",
+    date: "14 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Local SEO Somme",
+    metaDescription: "Vidange fosse septique Albert Corbie Somme 80 : agréé vidangeur, BSMD, SPANC. Pays du Coquelicot. Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Vidange fosse septique à Albert et Corbie (Somme 80)
+
+Le Pays du Coquelicot et la vallée de la Somme entre Amiens et Albert comptent de nombreuses communes rurales en assainissement non collectif. La plupart des fosses de ce secteur datent des années 1970-1990 : volume parfois sous-dimensionné, béton fragilisé.
+
+## Fréquence de vidange
+
+L'arrêté du 7 septembre 2009 impose une vidange tous les 4 ans minimum. Pour les installations anciennes ou les familles nombreuses, 2-3 ans est conseillé. Le SPANC de la communauté de communes du Pays du Coquelicot contrôle régulièrement.
+
+## Zones d'intervention
+
+Albert et communes proches : Méaulte, Aveluy, Bécordel-Bécourt — Corbie et vallée : Fouilloy, Daours, Aubigny, Lamotte-Brebière, Longueau — Santerre nord : Villers-Bretonneux, Marcelcave, Hangard, Cachy, Démuin — Acheux-en-Amiénois, Doullens.
+
+## Tarifs
+
+- Fosse 3 000 L : **280 à 380 €** — Fosse 5 000 L : **350 à 450 €**
+- BSMD remis systématiquement — Déplacement inclus
+
+**03 22 91 72 01**. Voir [vidange fosse septique Albert](/vidange-fosse-septique/albert) et notre [FAQ](/faq).
+    `,
+  },
+  {
+    slug: "debouchage-urgence-amiens-nuit-weekend",
+    title: "Débouchage d'urgence à Amiens — Intervention en moins de 2h, nuit et week-end",
+    excerpt: "Canalisation bouchée à Amiens un soir, un week-end ou jour férié ? Vilbert Hydro intervient 24h/24 en moins de 2h sur Amiens et toute la Somme. Pas de majoration cachée.",
+    date: "13 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Urgences",
+    metaDescription: "Débouchage urgence Amiens nuit week-end 24h/24 : intervention moins de 2h, tarif fixé avant. Somme 80. Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Débouchage d'urgence à Amiens — Nuit, week-end, jours fériés
+
+Vilbert Hydro est disponible 24h/24, 7j/7 — nuits, week-ends et jours fériés — pour intervenir dans Amiens et toute la Somme.
+
+## Délai d'intervention : moins de 2h sur Amiens
+
+Depuis notre base de Camon (5 km d'Amiens), nous intervenons en **moins de 2 heures** sur l'agglomération amiénoise : Amiens, Longueau, Rivery, Camon, Dury, Glisy, Boves, Sains-en-Amiénois, Corbie, Villers-Bretonneux.
+
+## Que faire en attendant ?
+
+1. Ne pas actionner la chasse d'eau si les WC débordent
+2. Couper l'arrivée d'eau si risque de dégât des eaux
+3. Ne pas utiliser de produits chimiques (inefficaces sur bouchons solides, corrosifs pour canalisations PVC)
+4. Identifier si plusieurs appareils sont touchés simultanément (bouchon sur collecteur principal)
+
+## Tarification transparente
+
+Contrairement aux prestataires qui facturent 800 à 1 500 € pour un débouchage de 20 minutes, Vilbert Hydro annonce le prix avant intervention. Tarifs débouchage urgence Amiens : **150 à 350 €** selon complexité. Pas de majoration nocturne cachée.
+
+**03 22 91 72 01** — disponible maintenant. Voir aussi [débouchage canalisation](/debouchage-canalisation) et notre [FAQ](/faq).
+    `,
+  },
+  {
+    slug: "spanc-somme-controle-assainissement-non-collectif",
+    title: "SPANC Somme (80) : contrôle de votre assainissement non collectif",
+    excerpt: "Le SPANC de la Somme contrôle régulièrement les installations ANC. Que vérifient-ils ? Quelles sanctions ? Comment se mettre en conformité ?",
+    date: "12 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Réglementation",
+    metaDescription: "SPANC Somme 80 : contrôle ANC, fréquence visite, sanctions non-conformité, mise en conformité. Agréé vidangeur Vilbert Hydro.",
+    content: `
+# SPANC Somme (80) : contrôle de votre assainissement non collectif
+
+Le Service Public d'Assainissement Non Collectif (SPANC) vérifie les installations ANC — fosses septiques, fosses toutes eaux, micro-stations, filtres compacts. Dans la Somme, plusieurs SPANC opèrent selon les communautés de communes.
+
+## Rôle du SPANC
+
+Le SPANC vérifie la conformité à l'arrêté du 7 septembre 2009, l'absence de risque sanitaire, l'entretien régulier (vidange tous les 4 ans).
+
+## Fréquence des contrôles
+
+Tous les **8 à 10 ans**, ou lors d'une vente immobilière (art. L.271-4 CCH), ou suite à une plainte de voisinage.
+
+## Non-conformités fréquentes dans la Somme
+
+Fosse de volume insuffisant — absence de ventilation — champ d'épandage absent ou non fonctionnel — béton fissuré — aucune vidange depuis plus de 4 ans (pas de BSMD).
+
+## Sanctions
+
+L'article **L.1337-2 du Code de la Santé Publique** prévoit jusqu'à **75 000 € d'amende**. En pratique, mise en demeure avec délai de régularisation. Lors d'une vente, l'acheteur a 1 an pour les travaux (art. L.1331-11-1).
+
+## Se préparer au contrôle
+
+Avoir le dernier BSMD — dégager l'accès aux regards — si doute, demander une [inspection télévisée](/inspection-televisee) préalable.
+
+Vilbert Hydro, agréé vidangeur Somme. **03 22 91 72 01**. Voir [vidange fosse septique](/vidange-fosse-septique).
+    `,
+  },
+  {
+    slug: "curage-canalisation-amiens-preventif-2025",
+    title: "Curage de canalisations à Amiens : entretien préventif et urgences 2025",
+    excerpt: "Curage et hydrocurage de canalisations à Amiens et dans la Somme. Bouchons récidivants, odeurs, réseau ancien : Vilbert Hydro avec matériel 200 bars.",
+    date: "11 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Local SEO Somme",
+    metaDescription: "Curage canalisation Amiens 2025 : hydrocurage 200 bars, entretien préventif, réseau collectif. Somme 80. Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Curage de canalisations à Amiens : entretien préventif 2025
+
+Amiens concentre des réseaux variés : canalisations anciennes en grès dans le centre historique, copropriétés avec postes de relevage, zones commerciales et restaurants. Vilbert Hydro intervient sur tous ces réseaux.
+
+## Pourquoi curer les canalisations à Amiens ?
+
+- Canalisations anciennes dans les quartiers Saint-Leu, Saint-Maurice et le centre (grès ou fonte, pentes irrégulières)
+- Accumulation de graisses en zones commerciales (Glisy, Longueau)
+- Racinages dans les quartiers arborés (Montières, Henriville)
+- Dépôts calcaires liés à la dureté de l'eau
+
+## Hydrocurage haute pression : 200 bars
+
+Lance rotative, nettoyage parois 360° sur toute la longueur. Résultat : réseau comme neuf.
+
+Tarifs curage Amiens :
+- Réseau individuel 10 m : **200 à 350 €**
+- Réseau complet maison 50 m : **400 à 700 €**
+- Bac à graisses restaurant : **300 à 500 €**
+
+## Curage préventif vs curatif
+
+Préventif (tous les 1-3 ans) : moins cher sur la durée, évite les urgences coûteuses.
+Curatif (urgence) : intervention en moins de 2h sur Amiens.
+
+Zones couvertes : Amiens, Longueau, Rivery, Camon, Dury, Glisy, Boves, Corbie, Villers-Bretonneux.
+
+**03 22 91 72 01**. Voir [hydrocurage haute pression](/hydrocurage-haute-pression) et [débouchage canalisation](/debouchage-canalisation).
+    `,
+  },
+  {
+    slug: "fosse-septique-non-conforme-vente-somme",
+    title: "Fosse septique non conforme et vente immobilière dans la Somme : que faire ?",
+    excerpt: "Vendre un bien dans la Somme avec une fosse septique non conforme ? Obligations légales, délais de mise en conformité, impact sur la transaction.",
+    date: "10 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Réglementation",
+    metaDescription: "Fosse septique non conforme vente immobilière Somme : obligations légales, délai 1 an, diagnostic SPANC. Vilbert Hydro agréé vidangeur.",
+    content: `
+# Fosse septique non conforme et vente immobilière dans la Somme
+
+La vente d'une maison avec assainissement non collectif est encadrée par une législation stricte.
+
+## Obligation légale de diagnostic ANC
+
+Depuis la loi Grenelle II, l'article **L.271-4 CCH** impose un rapport de diagnostic ANC réalisé par le SPANC, datant de moins de 3 ans, annexé à la promesse de vente.
+
+## Si la fosse est non conforme : 2 options
+
+1. **Le vendeur effectue les travaux avant la vente** — installation mise en conformité, vente sans contrainte
+2. **Vente avec non-conformité mentionnée** — l'acquéreur a 1 an après la signature pour les travaux (art. L.1331-11-1). Justifie une négociation sur le prix.
+
+## Coût de mise en conformité dans la Somme
+
+- Réhabilitation fosse : **2 000 à 5 000 €**
+- Filtre compact : **2 500 à 6 000 €**
+- Micro-station : **4 000 à 10 000 €**
+
+## Conseil : inspection télévisée avant le contrôle SPANC
+
+Faites une [inspection télévisée](/inspection-televisee) préalable pour identifier les problèmes (fissures, affaissements) et les corriger avant l'inspection officielle.
+
+Pour la vidange préalable au contrôle : **03 22 91 72 01**. Voir [vidange fosse septique](/vidange-fosse-septique) et notre [FAQ](/faq).
+    `,
+  },
+  {
+    slug: "debouchage-canalisation-montdidier-roye-somme",
+    title: "Débouchage canalisation à Montdidier, Roye et le Santerre (Somme 80) — 2025",
+    excerpt: "Canalisation bouchée à Montdidier, Roye, Ham ou dans le Santerre ? Vilbert Hydro intervient en urgence dans le sud de la Somme.",
+    date: "9 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Local SEO Somme",
+    metaDescription: "Débouchage canalisation Montdidier Roye Somme 80 : urgences 24h/24, hydrocurage, vidange fosse. Santerre. Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Débouchage canalisation à Montdidier, Roye et le Santerre (Somme 80)
+
+Le Santerre, plateau agricole du sud de la Somme, regroupe Montdidier, Roye, Chaulnes, Ham et leurs environs. Zone rurale à forte activité agricole avec de nombreuses fosses septiques anciennes.
+
+## Zones d'intervention dans le Santerre
+
+**Autour de Montdidier :** Moreuil, Ailly-sur-Noye, Démuin, Pierrepont-sur-Avre, Mailly-Raineval, Canny-sur-Matz
+**Autour de Roye :** Chaulnes, Vermandovillers, Fresnoy-lès-Roye, Andechy, Tilloloy
+**Autour de Ham :** Nesle, Pithon, Eppeville, Hombleux, Monchy-Lagache
+
+## Services disponibles
+
+Débouchage 24h/24 — Hydrocurage haute pression (200 bars) — Vidange fosses septiques (agréé vidangeur, BSMD) — Inspection télévisée — Curage réseaux agricoles.
+
+## Tarifs et délai
+
+- Débouchage : **150 à 350 €** — Vidange fosse 3 000 L : **280 à 380 €** — Hydrocurage 10 m : **200 à 350 €**
+- Depuis Camon : Montdidier à 35 min, Roye à 45 min. Intervention urgence en **moins de 2h**.
+
+**03 22 91 72 01**. Voir [débouchage canalisation](/debouchage-canalisation) et [vidange fosse septique](/vidange-fosse-septique).
+    `,
+  },
+  {
+    slug: "entretien-bac-graisses-amiens-restaurants-chr",
+    title: "Entretien bac à graisses à Amiens — Obligation légale pour restaurants et CHR",
+    excerpt: "Restaurants, hôtels, cantines à Amiens : l'entretien du bac à graisses est obligatoire. Fréquence, réglementation, sanctions, tarifs.",
+    date: "8 mai 2025",
+    author: "Équipe Vilbert Hydro",
+    category: "Professionnels",
+    metaDescription: "Entretien bac graisses Amiens restaurants CHR : obligation légale, fréquence 3-6 mois, tarifs 300-500 euros. Somme 80. Vilbert Hydro 03 22 91 72 01.",
+    content: `
+# Entretien bac à graisses à Amiens — Obligation légale restaurants et CHR
+
+Tous les établissements de restauration, hôtels, cafés et collectivités raccordés au réseau d'assainissement sont légalement tenus d'installer et d'entretenir régulièrement un bac à graisses.
+
+## Cadre légal
+
+**Arrêté du 2 février 1998** et règlement du service d'assainissement d'Amiens Métropole. Sans bac ou sans entretien : les graisses passent dans le réseau collectif et la responsabilité de l'établissement est engagée.
+
+## Fréquence obligatoire
+
+- Petite restauration : tous les **6 mois**
+- Restaurant 50-100 couverts : tous les **3-4 mois**
+- Restauration collective : tous les **2-3 mois**
+
+## Risques en cas de non-conformité
+
+Mise en demeure — **fermeture administrative** (DDPP) — facturation travaux réseau à l'établissement — pénalités contrôle sanitaire.
+
+## Intervention Vilbert Hydro à Amiens
+
+Vidange complète — nettoyage haute pression — vérification état bac — rapport + bordereau de traçabilité — filières agréées.
+
+**Tarif entretien bac à graisses Amiens : 300 à 500 €** selon volume.
+
+Contrat de maintenance annuel disponible. **03 22 91 72 01** ou hydro@groupe-vilbert.fr. Voir [assainissement restaurant](/assainissement-restaurant) et [hydrocurage haute pression](/hydrocurage-haute-pression).
+    `,
+  },
 ];

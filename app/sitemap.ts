@@ -23,7 +23,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/assainissement-restaurant`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE}/assainissement-agriculteur`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/contrat-maintenance`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE}/debouchage-canalisation`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.95 },
+    { url: `${BASE}/hydrocurage-haute-pression`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/inspection-televisee`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/maintenance-poste-relevage`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/faq`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${BASE}/avis-clients`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
   ];
+
+  const VIDANGE_VILLES = ["amiens","abbeville","peronne","albert","montdidier","doullens","corbie","roye","ham","chaulnes","friville-escarbotin","arras","lens","saint-quentin","soissons","laon","compiegne","beauvais","noyon"];
+  const vidangeVilleRoutes: MetadataRoute.Sitemap = VIDANGE_VILLES.map((v) => ({
+    url: `${BASE}/vidange-fosse-septique/${v}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }));
 
   const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((p) => ({
     url: `${BASE}/blog/${p.slug}`,
@@ -39,5 +53,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...blogRoutes, ...villeRoutes];
+  return [...staticRoutes, ...vidangeVilleRoutes, ...blogRoutes, ...villeRoutes];
 }
