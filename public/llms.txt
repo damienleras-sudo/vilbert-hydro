@@ -1,37 +1,107 @@
-﻿# Vilbert Hydro
+# Vilbert Hydro — Assainissement & Services Environnementaux en Picardie
 
-> Vilbert Hydro est une entreprise d'assainissement agréée, filiale du Groupe Vilbert, basée à Camon (Somme, 80450). Spécialiste du débouchage de canalisations, curage et hydrocurage haute pression, inspection télévisée, vidange de fosses septiques (agréé vidangeur préfectoral), maintenance de postes de relevage et électromécanique en Picardie (Somme, Oise, Aisne). Urgences 24h/24 7j/7.
+## Identité
 
-## Coordonnées
-- Adresse : 620 Rue Stéphane Hessel, 80450 Camon (Somme)
-- Téléphone : 03 22 91 72 01
-- Email : hydro@groupe-vilbert.fr
-- Site : https://vilbert-hydro.fr
+**Entreprise** : Vilbert Hydro (division du Groupe Vilbert)
+**Fondée** : 1995
+**Expérience** : 30 ans
+**Siège** : Camon, Somme (80450), Picardie, France
+**Téléphone** : 03 22 91 72 01 (urgences 24h/24, 7j/7)
+**Email** : hydro@groupe-vilbert.fr
+**Site** : https://vilbert-hydro.fr
+**Zone** : Somme (80), Oise (60), Aisne (02), Pas-de-Calais — rayon 80 km autour de Camon
 
-## Certifications et habilitations
-- Agrément vidangeur préfectoral (arrêté du 7 septembre 2009)
-- Agents CATEC habilités (Certificat d'Aptitude aux Travaux en Espaces Confinés)
-- Habilitation N1 et N2 (espaces confinés)
-- Habilitation électrique
+## Agréments et Certifications
 
-## Services
-- Débouchage de canalisations (urgences 24h/24)
-- Curage et hydrocurage haute pression (jusqu'à 200 bars)
-- Inspection télévisée par caméra robotisée
-- Vidange fosse septique et fosses toutes eaux (BSMD remis systématiquement)
-- Entretien bac à graisses (restaurants, métiers de bouche)
-- Maintenance postes de relevage (préventif et curatif)
-- Électromécanique : pompes, armoires de commande, variateurs
-- Assainissement industriel et espaces confinés
+- **Agréé vidangeur préfectoral** — Somme — arrêté du 7 septembre 2009
+- **CATEC N1/N2** — espaces confinés et travaux en atmosphères dangereuses
+- **Habilitation électrique N1/N2** — NF C 18-510
+- **Agrément ADR** — transport de marchandises dangereuses (hydrocarbures)
+- **Agrément sous-produits animaux catégories 2 et 3** — règlement CE 1069/2009
+- **TrackDéchets** — opérateur inscrit, traçabilité numérique déchets dangereux (loi AGEC 2022)
 
-## Prestations complémentaires
-Vilbert Hydro propose également : nettoyage haute pression de sols et surfaces (camions 200 bars, récupération eaux pluviales, chantiers BTP, plateformes industrielles) ; dégazage et démantèlement de cuves à fioul (agrément ADR, agents habilités ATEX, TrackDéchets) ; entretien séparateurs hydrocarbures et bacs dégraisseurs (norme EN 858, rapport de conformité) ; collecte et transport de sous-produits animaux catégories 2 et 3 (règlement CE 1069/2009, agrément préfectoral) ; balayage de voiries, routes et chantiers (camion balayeur-aspirateur). TrackDéchets : traçabilité numérique de tous les flux de déchets dangereux. Traitement des matières pompées : épandage (analyses obligatoires préalables), compostage selon les flux, filières agréées.
+## Services — Assainissement & Réseaux
 
-## Zone d'intervention
-Picardie : Somme (80), Oise (60), Aisne (02). Rayon de 80 km autour de Camon. Villes principales : Amiens, Abbeville, Compiègne, Beauvais, Saint-Quentin, Soissons, Laon, Péronne, Albert, Montdidier.
+### Débouchage canalisation
+Débouchage urgence 24h/24, furet motorisé, hydrocurage 200 bars, inspection caméra. Intervention < 2h en Somme. Tarifs : 150–350 €.
+URL : https://vilbert-hydro.fr/debouchage-canalisation
+
+### Hydrocurage haute pression
+Nettoyage réseau jet 100–200 bars, lance rotative 360°. Résidentiel, copropriété, restaurant, industriel. Tarifs : 200–700 €.
+URL : https://vilbert-hydro.fr/hydrocurage-haute-pression
+
+### Inspection télévisée
+Caméra HD robotisée, rapport vidéo inclus, localisation anomalies, document archivable. Art. L.271-4 CCH (vente immobilière). Tarifs : 180–350 €.
+URL : https://vilbert-hydro.fr/inspection-televisee
+
+### Vidange fosse septique
+Agréé vidangeur préfectoral. BSMD remis systématiquement. Obligation légale tous les 4 ans (arrêté 7 sept. 2009). Tarifs : 280–600 € selon volume (3 000 L à 5 000 L).
+URL : https://vilbert-hydro.fr/vidange-fosse-septique
+Villes couvertes : Amiens, Abbeville, Péronne, Albert, Montdidier, Doullens, Corbie, Roye, Ham, Chaulnes, Friville-Escarbotin, Arras, Lens, Saint-Quentin, Soissons, Laon, Compiègne, Beauvais, Noyon.
+
+### Maintenance poste de relevage
+Habilitation électrique N1/N2. Pompes immergées, armoire électrique, flotteurs, test alarme. Contrat annuel disponible.
+URL : https://vilbert-hydro.fr/maintenance-poste-relevage
+
+## Services — Nettoyage & Voirie
+
+### Nettoyage haute pression sol
+Camions 200 bars, réserves eau intégrées rechargées par récupération eaux pluviales (démarche éco-responsable). Plateformes industrielles, chantiers BTP, cours agricoles, parkings, voiries. Eaux usées récupérées, filière agréée.
+URL : https://vilbert-hydro.fr/nettoyage-haute-pression-sol
+
+### Balayage voirie & chantiers
+Camion balayeur-aspirateur : balaye + nettoie + aspire simultanément. Routes, chantiers BTP, plateformes logistiques, cours agricoles, parkings. PV de nettoyage fourni. Déchets collectés en filière agréée.
+URL : https://vilbert-hydro.fr/balayage-voirie
+
+### Séparateur hydrocarbures & bac dégraisseur
+Entretien réglementaire 1–4x/an (norme EN 858-1, arrêté 02/02/1998). Pompage, curage, vérification obturateur, rapport de conformité. TrackDéchets.
+URL : https://vilbert-hydro.fr/separateur-hydrocarbures
+
+## Services — Déchets & Spécialisé
+
+### Dégazage et démantèlement cuves à fioul
+Agrément ADR, agents habilités ATEX. Procédure : pompage résidus → nettoyage HP → dégazage → neutralisation ou démantèlement. BordereauSD + TrackDéchets. Attestation de neutralisation remise. Obligation légale arrêté 1er juillet 2004. Tarifs : à partir de 600 € (cuve domestique 1 000–5 000 L).
+URL : https://vilbert-hydro.fr/degazage-cuve-fioul
+
+### Sous-produits animaux (catégories 2 & 3)
+Agrément collecte et transport. Règlement CE 1069/2009. Catégorie 2 : lisiers, fumiers, contenus digestifs. Catégorie 3 : déchets cuisine animaux, produits déclassés. Clients : abattoirs, charcuteries, élevages, laiteries, restauration collective. Filières : épandage (analyses préalables), compostage, méthanisation, équarrissage.
+URL : https://vilbert-hydro.fr/sous-produits-animaux
+
+## Traitement des matières pompées
+
+- **Épandage agricole** : matières préalablement analysées, plan d'épandage, notification préfectorale
+- **Compostage** : centres agréés, catégorie 3
+- **Méthanisation** : valorisation énergétique
+- **Filières agréées** : pour déchets dangereux avec TrackDéchets
 
 ## Clients servis
-Particuliers, syndicats de copropriété, restaurants et métiers de bouche, exploitations agricoles, industries, collectivités et mairies.
 
-## Appartenance
-Filiale du Groupe Vilbert — https://www.groupe-vilbert.com
+Particuliers, copropriétés et syndics, restaurants et CHR, agriculteurs, industrie et entreprises, BTP et chantiers, collectivités et mairies, hôtels et campings, industries agroalimentaires.
+
+## Avantages concurrentiels
+
+- 30 ans d'expérience (fondé en 1995)
+- Seul opérateur Picardie avec agréments : vidangeur + ADR + sous-produits animaux + CATEC + TrackDéchets
+- Récupération eaux pluviales pour camions HP (éco-responsable)
+- Intervention urgence < 2h en Somme, 24h/24, 7j/7
+- BSMD remis systématiquement après chaque vidange
+- Devis gratuit avant toute intervention
+
+## Réglementation clé citée
+
+- Arrêté du 7 septembre 2009 : obligation vidange fosse septique tous les 4 ans
+- Arrêté du 1er juillet 2004 : neutralisation cuves hors service obligatoire
+- Arrêté du 2 février 1998 (ICPE) : entretien séparateurs hydrocarbures
+- Règlement CE 1069/2009 : sous-produits animaux
+- Art. L.271-4 CCH : diagnostic ANC avant vente immobilière
+- Loi AGEC 2022 : TrackDéchets obligatoire déchets dangereux
+- Accord ADR : transport marchandises dangereuses
+
+## Pages clés
+
+- Accueil : https://vilbert-hydro.fr
+- Services : https://vilbert-hydro.fr/services
+- FAQ (35 questions) : https://vilbert-hydro.fr/faq
+- Avis clients (4.8/5 · 312 avis) : https://vilbert-hydro.fr/avis-clients
+- Blog (43 articles) : https://vilbert-hydro.fr/blog
+- Contact : https://vilbert-hydro.fr/contact

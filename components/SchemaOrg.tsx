@@ -1,4 +1,39 @@
-﻿export default function SchemaOrg() {
+﻿const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://vilbert-hydro.fr/#website",
+  name: "Vilbert Hydro",
+  url: "https://vilbert-hydro.fr",
+  description:
+    "Débouchage, curage, vidange fosse septique, assainissement en Picardie. Agréé vidangeur. Urgences 24h/24.",
+  publisher: { "@id": "https://vilbert-hydro.fr/#organization" },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: { "@type": "EntryPoint", urlTemplate: "https://vilbert-hydro.fr/blog?q={search_term_string}" },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Services Vilbert Hydro",
+  description: "Ensemble des prestations d'assainissement Vilbert Hydro en Picardie",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Débouchage canalisation", url: "https://vilbert-hydro.fr/debouchage-canalisation" },
+    { "@type": "ListItem", position: 2, name: "Hydrocurage haute pression", url: "https://vilbert-hydro.fr/hydrocurage-haute-pression" },
+    { "@type": "ListItem", position: 3, name: "Inspection télévisée", url: "https://vilbert-hydro.fr/inspection-televisee" },
+    { "@type": "ListItem", position: 4, name: "Vidange fosse septique", url: "https://vilbert-hydro.fr/vidange-fosse-septique" },
+    { "@type": "ListItem", position: 5, name: "Dégazage cuve fioul", url: "https://vilbert-hydro.fr/degazage-cuve-fioul" },
+    { "@type": "ListItem", position: 6, name: "Balayage voirie", url: "https://vilbert-hydro.fr/balayage-voirie" },
+    { "@type": "ListItem", position: 7, name: "Nettoyage haute pression sol", url: "https://vilbert-hydro.fr/nettoyage-haute-pression-sol" },
+    { "@type": "ListItem", position: 8, name: "Séparateur hydrocarbures", url: "https://vilbert-hydro.fr/separateur-hydrocarbures" },
+    { "@type": "ListItem", position: 9, name: "Sous-produits animaux", url: "https://vilbert-hydro.fr/sous-produits-animaux" },
+    { "@type": "ListItem", position: 10, name: "Maintenance poste de relevage", url: "https://vilbert-hydro.fr/maintenance-poste-relevage" },
+  ],
+};
+
+export default function SchemaOrg() {
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -49,6 +84,10 @@
         priceRange: "€€",
         currenciesAccepted: "EUR",
         paymentAccepted: "Virement, Chèque, Carte bancaire",
+        speakable: {
+          "@type": "SpeakableSpecification",
+          cssSelector: ["h1", "h2", ".excerpt"],
+        },
         hasCredential: [
           {
             "@type": "EducationalOccupationalCredential",
@@ -198,9 +237,19 @@
   };
 
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+    </>
   );
 }

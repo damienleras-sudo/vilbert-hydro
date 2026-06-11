@@ -39,6 +39,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/assainissement-chantier-btp`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
     { url: `${BASE}/assainissement-collectivite`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
     { url: `${BASE}/assainissement-hotel-camping`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${BASE}/politique-confidentialite`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.2 },
+    { url: `${BASE}/conditions-generales`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.2 },
+    { url: `${BASE}/politique-cookies`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.2 },
   ];
 
   const VIDANGE_VILLES = ["amiens","abbeville","peronne","albert","montdidier","doullens","corbie","roye","ham","chaulnes","friville-escarbotin","arras","lens","saint-quentin","soissons","laon","compiegne","beauvais","noyon"];

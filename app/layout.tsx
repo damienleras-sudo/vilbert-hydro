@@ -62,6 +62,16 @@ export const metadata: Metadata = {
     "urgence débouchage 24h 7j/7",
     "Vilbert Hydro",
     "Groupe Vilbert",
+    "dégazage cuve fioul",
+    "balayage voirie Picardie",
+    "séparateur hydrocarbures",
+    "sous-produits animaux",
+    "nettoyage haute pression sol",
+    "assainissement particulier",
+    "assainissement collectivité",
+    "assainissement industrie",
+    "TrackDéchets",
+    "agrément ADR",
   ],
   openGraph: {
     title: "Vilbert Hydro | Débouchage, Curage & Assainissement — Picardie (80·60·02)",
@@ -88,6 +98,20 @@ export const metadata: Metadata = {
     // Coller ici le code Google Search Console (ex: "abc123xyz")
     // Obtenir sur : https://search.google.com/search-console → Ajouter une propriété → Balise HTML
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+  },
+  manifest: "/manifest.json",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  themeColor: "#1b4f8c",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
   },
 };
 

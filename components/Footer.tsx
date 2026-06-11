@@ -197,6 +197,9 @@ export default function Footer() {
           <p className="flex items-center gap-3 flex-wrap justify-center">
             <span>Agréé vidangeur · CATEC · Habilitation électrique · Picardie (80·60·02)</span>
             <Link href="/mentions-legales" className="hover:text-gray-300 transition-colors underline">Mentions légales</Link>
+            <Link href="/politique-confidentialite" className="hover:text-gray-300 transition-colors underline">Politique de confidentialité</Link>
+            <Link href="/conditions-generales" className="hover:text-gray-300 transition-colors underline">Conditions générales</Link>
+            <Link href="/politique-cookies" className="hover:text-gray-300 transition-colors underline">Politique cookies</Link>
           </p>
         </div>
       </div>

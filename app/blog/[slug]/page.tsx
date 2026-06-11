@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { blogPosts } from "@/lib/blog-posts";
@@ -18,12 +18,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.metaDescription,
+    authors: [{ name: post.author }],
     alternates: { canonical: `https://vilbert-hydro.fr/blog/${slug}` },
     openGraph: {
       title: post.title,
       description: post.metaDescription,
       type: "article",
       publishedTime: post.date,
+      authors: ["https://vilbert-hydro.fr/a-propos"],
     },
   };
 }
@@ -98,17 +100,55 @@ export default async function BlogPostPage({ params }: Props) {
 
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: post.title,
     description: post.metaDescription,
     datePublished: post.date,
-    author: { "@type": "Organization", name: "Vilbert Hydro" },
-    publisher: {
+    dateModified: post.date,
+    author: {
       "@type": "Organization",
       name: "Vilbert Hydro",
       url: "https://vilbert-hydro.fr",
     },
-    mainEntityOfPage: `https://vilbert-hydro.fr/blog/${post.slug}`,
+    publisher: {
+      "@type": "Organization",
+      name: "Vilbert Hydro",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://vilbert-hydro.fr/logo.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://vilbert-hydro.fr/blog/${post.slug}`,
+    },
+    url: `https://vilbert-hydro.fr/blog/${post.slug}`,
+    image: "https://vilbert-hydro.fr/opengraph-image",
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Accueil",
+        item: "https://vilbert-hydro.fr",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: "https://vilbert-hydro.fr/blog",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.title,
+        item: `https://vilbert-hydro.fr/blog/${post.slug}`,
+      },
+    ],
   };
 
   const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
@@ -119,25 +159,87 @@ export default async function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
       <section className="bg-[#1b4f8c] text-white py-12">
         <div className="max-w-4xl mx-auto px-4">
-          <Link href="/blog" className="text-blue-300 hover:text-white text-sm mb-4 inline-block">
-            ← Retour au blog
-          </Link>
+          {/* Fil d'Ariane HTML */}
+          <nav aria-label="Fil d'Ariane" className="mb-4">
+            <ol className="flex flex-wrap items-center gap-1 text-xs text-blue-200">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">
+                  Accueil
+                </Link>
+              </li>
+              <li aria-hidden="true" className="select-none">→</li>
+              <li>
+                <Link href="/blog" className="hover:text-white transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li aria-hidden="true" className="select-none">→</li>
+              <li>
+                <Link
+                  href={`/blog?categorie=${encodeURIComponent(post.category)}`}
+                  className="hover:text-white transition-colors"
+                >
+                  {post.category}
+                </Link>
+              </li>
+              <li aria-hidden="true" className="select-none">→</li>
+              <li className="text-white font-medium truncate max-w-[200px]" aria-current="page">
+                {post.title}
+              </li>
+            </ol>
+          </nav>
+
           <span className="block text-xs text-[#f5b800] font-bold uppercase tracking-wide mb-2">
             {post.category}
           </span>
-          <h1 className="text-3xl md:text-4xl font-black mb-3">{post.title}</h1>
-          <p className="text-blue-300 text-sm">{post.date} — Vilbert Hydro</p>
+          <h1
+            className="text-3xl md:text-4xl font-black mb-3"
+            itemProp="name"
+          >
+            {post.title}
+          </h1>
+          <p className="text-blue-300 text-sm">
+            <time itemProp="datePublished" dateTime={post.date}>
+              {post.date}
+            </time>
+            {" — "}
+            <span itemProp="author" itemScope itemType="https://schema.org/Organization">
+              <span itemProp="name">Vilbert Hydro</span>
+            </span>
+          </p>
         </div>
       </section>
 
       <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            <article className="lg:col-span-2 prose-sm max-w-none">
-              {renderMarkdown(post.content)}
+            <article
+              className="lg:col-span-2 prose-sm max-w-none"
+              itemScope
+              itemType="https://schema.org/BlogPosting"
+            >
+              <meta itemProp="headline" content={post.title} />
+              <meta itemProp="description" content={post.metaDescription} />
+              <meta itemProp="datePublished" content={post.date} />
+              <meta itemProp="dateModified" content={post.date} />
+              <meta itemProp="url" content={`https://vilbert-hydro.fr/blog/${post.slug}`} />
+              <div itemProp="author" itemScope itemType="https://schema.org/Organization">
+                <meta itemProp="name" content="Vilbert Hydro" />
+                <meta itemProp="url" content="https://vilbert-hydro.fr" />
+              </div>
+              <div itemProp="publisher" itemScope itemType="https://schema.org/Organization">
+                <meta itemProp="name" content="Vilbert Hydro" />
+              </div>
+              <div itemProp="articleBody">
+                {renderMarkdown(post.content)}
+              </div>
             </article>
             <aside className="space-y-6">
               <div className="bg-[#1b4f8c] rounded-xl p-6 text-white">

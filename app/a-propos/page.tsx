@@ -73,6 +73,33 @@ export default function AProposPage() {
           }),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "@id": "https://vilbert-hydro.fr/#organization",
+            name: "Vilbert Hydro",
+            legalName: "Groupe Vilbert — Division Hydro/Assainissement",
+            url: "https://vilbert-hydro.fr",
+            logo: "https://vilbert-hydro.fr/logo.png",
+            foundingDate: "1995",
+            description:
+              "Vilbert Hydro est la division assainissement du Groupe Vilbert, fondée en 1995, spécialisée en débouchage, curage, vidange fosse septique, dégazage et nettoyage industriel en Picardie.",
+            numberOfEmployees: { "@type": "QuantitativeValue", minValue: 10, maxValue: 50 },
+            areaServed: ["Somme", "Oise", "Aisne", "Pas-de-Calais"],
+            hasCredential: [
+              { "@type": "EducationalOccupationalCredential", name: "Agrément vidangeur préfectoral — Somme" },
+              { "@type": "EducationalOccupationalCredential", name: "Certification CATEC — Espaces confinés N1/N2" },
+              { "@type": "EducationalOccupationalCredential", name: "Agrément ADR — Transport matières dangereuses" },
+              { "@type": "EducationalOccupationalCredential", name: "Agrément sous-produits animaux catégories 2 et 3" },
+              { "@type": "EducationalOccupationalCredential", name: "TrackDéchets — Opérateur agréé traçabilité déchets" },
+            ],
+            parentOrganization: { "@type": "Organization", name: "Groupe Vilbert", url: "https://www.groupe-vilbert.com" },
+          }),
+        }}
+      />
 
       {/* HERO */}
       <section className="bg-[#1b4f8c] text-white py-16">
@@ -260,6 +287,91 @@ export default function AProposPage() {
                 <p className="text-gray-600 text-sm leading-relaxed">{g.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CERTIFICATIONS */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-black text-[#1b4f8c] mb-3">Nos certifications et agréments</h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto mb-4" />
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Vilbert Hydro intervient dans le cadre strict des réglementations en vigueur. Nos agréments et certifications garantissent la conformité de chaque intervention.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                icon: "🏅",
+                titre: "Agréé vidangeur préfectoral (Somme)",
+                desc: "Arrêté préfectoral du 7 septembre 2009. Autorisation officielle de vidange et transport des matières de vidange. Bordereau BSMD remis systématiquement.",
+              },
+              {
+                icon: "🛡️",
+                titre: "CATEC N1/N2",
+                desc: "Certificat d'Aptitude aux Travaux en Espaces Confinés. Habilitations N1 (opérateur) et N2 (surveillant) pour les interventions en réseaux, fosses et cuves.",
+              },
+              {
+                icon: "🚛",
+                titre: "Agrément ADR",
+                desc: "Agrément pour le transport de matières dangereuses (hydrocarbures). Conformité avec la réglementation internationale ADR relative au transport routier.",
+              },
+              {
+                icon: "🐾",
+                titre: "Sous-produits animaux cat. 2 & 3",
+                desc: "Agrément pour la collecte et le transport de sous-produits animaux de catégories 2 et 3, conformément au Règlement CE 1069/2009.",
+              },
+              {
+                icon: "📱",
+                titre: "TrackDéchets",
+                desc: "Opérateur agréé sur la plateforme nationale de traçabilité numérique des déchets dangereux, conformément à la loi AGEC (Anti-Gaspillage Économie Circulaire).",
+              },
+            ].map((cert) => (
+              <div
+                key={cert.titre}
+                className="rounded-2xl p-6 border border-[#c5d8f9]"
+                style={{ backgroundColor: "#e8f0fe" }}
+              >
+                <div className="text-4xl mb-3">{cert.icon}</div>
+                <h3 className="font-black text-[#1b4f8c] text-base mb-2">{cert.titre}</h3>
+                <p className="text-[#1b4f8c] text-sm leading-relaxed opacity-80">{cert.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* TIMELINE */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-black text-[#1b4f8c] mb-3">30 ans de confiance en Picardie</h2>
+            <div className="w-16 h-1 bg-[#f5b800] mx-auto" />
+          </div>
+          <div className="relative">
+            <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-[#c5d8f9]" aria-hidden="true" />
+            <ol className="space-y-8">
+              {[
+                { year: "1995", title: "Fondation de Vilbert Hydro", desc: "Création de la division assainissement au sein du Groupe Vilbert, implantée à Camon (Somme). Premiers équipements d'hydrocurage." },
+                { year: "2009", title: "Agrément vidangeur préfectoral", desc: "Obtention de l'agrément préfectoral de la Somme pour la vidange et le transport des matières de vidange (arrêté du 7 septembre 2009)." },
+                { year: "2015", title: "Certification CATEC N1/N2", desc: "Formation et habilitation de l'ensemble des techniciens aux travaux en espaces confinés. Renforcement de la sécurité sur les interventions en réseaux et fosses." },
+                { year: "2020", title: "Adoption TrackDéchets", desc: "Intégration de la plateforme nationale de traçabilité numérique des déchets dangereux, en anticipation des obligations de la loi AGEC." },
+                { year: "2022", title: "Agrément ADR", desc: "Obtention de l'agrément pour le transport de matières dangereuses (hydrocarbures), élargissant notre offre au dégazage de cuves fioul et séparateurs hydrocarbures." },
+                { year: "2025", title: "Nouveaux services & extension", desc: "Lancement des services balayage voirie, nettoyage haute pression sol et sous-produits animaux. Extension de la zone d'intervention au Pas-de-Calais et Seine-Maritime." },
+              ].map((item) => (
+                <li key={item.year} className="relative pl-16">
+                  <div className="absolute left-0 top-1 w-12 h-12 rounded-full bg-[#1b4f8c] flex items-center justify-center text-white font-black text-xs text-center leading-tight">
+                    {item.year}
+                  </div>
+                  <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100">
+                    <h3 className="font-black text-[#1b4f8c] text-base mb-1">{item.title}</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
           </div>
         </div>
       </section>
